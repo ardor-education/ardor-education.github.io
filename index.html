@@ -2,26 +2,25 @@
 <html lang="en">
   <head>
     <title>Ardor&reg; - Education</title>
-    <link rel="stylesheet" href="styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+              <script>
+                  $(function(){
+                      $("#header").load("header.html");
+                      $("#sideBar").load("sideBar.html");
+                      $("#footer").load("footer.html");
+                  });
+              </script>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   </head>
   <body>
     <div class="site">
 
       <!-- Header -->
+        <div id="header"></div>
 
-      <header class="group">
-        <div class="logo">
-
-        <img src="images/Ardor_Logo.png">
-        </div>
-        <nav>
-          <ul>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-          </ul>
-        </nav>
-      </header>
 
       <!-- Banner -->
 
@@ -41,56 +40,36 @@
           <div class="inner">
             <h3>Ardor Concept</h3>
             <p>
-                Ardor Education&reg;, is a software curriculum company that is revolutionizing the way students learn.
-                Ardor is a curriculum application that can be accessed on a
-                mobile devices.  We are building mathematics
-                curriculum that adapts to the skill level and pace of the learner, while providing an engaging experience.
+                Ardor is dedicated to helping people learn mathematics.
             </p>
+              <p>
+                Ardor Education, Inc. is a software education company building tools that leverage technology,
+                to increase student performance and improve teacher efficiency. At Ardor we believe that teachers should
+                focus on their passion of teaching students; not doing paper work, and students should be excited about learning.
+                With Ardor teaching tools and adaptive math curriculum we are transforming the classroom experience.
+            </p>
+
+
+              <p>
+                  Stay up to date. Be sure to follow us on <a href="https://www.facebook.com/ardoreducation" title="facebook" target="_blank"> Facebook</a>
+                  and <a href="https://plus.google.com/107402944082611471961" title="g+" target="_blank">Google+</a>.
+              </p>
+
+
+              <img src="images/MathDojo/chapter.gif" width="300" align="center">
           </div>
         </div>
 
+        <!-- Sidebar-->
+          <div id="sideBar"></div>
+
         <!-- Sidebar -->
 
-        <aside class="secondary sidebar">
-          <div class="inner sidebar-inner">
-            <h3>Resources</h3>
-            <ul>
-              <li><a href="mathDojo.html">Math Dojo</a></li>
-              <li><a href="merlin.html">Merlin</a></li>
-            </ul>
-          </div>
-            <div class="inner sidebar-inner">
-                <h3>Our Team</h3>
-                <ul>
-                    <li class="sidebar-inner-image">
-                        <a href="#" class="group sidebar-inner-matthew">
-                            <h4>Matthew Thornton</h4>
-                        </a>
-                    </li>
-                    <li class="sidebar-inner-image">
-                        <a href="#" class="group sidebar-inner-chris">
-                            <h4>Chris Trevino</h4>
-                        </a>
-                    </li>
-                    <li class="sidebar-inner-image">
-                        <a href="#" class="group sidebar-inner-isaac">
-                            <h4>Isaac Flemming</h4>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-        </aside>
       </section>
 
       <!-- Footer -->
+        <div id="footer"></div>
 
-      <footer>
-          <div class="social-icons">
-              <a class="fb-icon" href="https://www.facebook.com/ardoreducation" title="facebook" target="_blank"></a>
-              <a class="gp-icon" href="https://plus.google.com/107402944082611471961" title="g+" target="_blank"></a>
-          </div>
-      </footer>
 
     </div>
   </body>

@@ -26,12 +26,22 @@ strong { font-weight: bold; }
     float: left;
 }
 
+
 .fb-icon {
     background: url(images/FB-f-Logo__blue_29.png);
 }
 
 .gp-icon {
     background: url(images/g_plus_29.png);
+}
+
+/*-----------------
+ Carousel Text
+------------------*/
+.owl-carousel p {
+    margin-right: 4px;
+    margin-left: 4px;
+    text-align: center;
 }
 
 /* --------------------------------------------------------------------
@@ -57,6 +67,12 @@ img {
 .textWrap{
     float: right;
     margin: 10px;
+}
+
+/* Profile pics */
+.profile img{
+    align-self: baseline;
+    margin-left: 5em;
 }
 
 /* Typography */
@@ -260,6 +276,13 @@ nav ul li.active a {
     background: #eee url(images/img-isaac.jpeg) 5px no-repeat;
 }
 
+/* --- footer --- */
+.nav_last{
+    color: #869791;
+    font-family: "Helvetic Neue", Helvetica, Arial;
+    font-size: 4pt;
+    text-align: center;
+}
 
 
 /* --------------------------------------------------------------------

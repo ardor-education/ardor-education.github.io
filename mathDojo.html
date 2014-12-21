@@ -3,25 +3,30 @@
 <head>
     <title>Ardor&reg; - Education</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="owl_carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="owl_carousel/assets/owl.theme.default.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+            $("#sideBar").load("sideBar.html");
+            $("#footer").load("footer.html");
+        });
+
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
 </head>
 <body>
 <div class="site">
 
     <!-- Header -->
+    <div id="header"></div>
 
-    <header class="group">
-        <div class="logo">
-
-            <img src="images/Ardor_Logo.png">
-        </div>
-        <nav>
-            <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-            </ul>
-        </nav>
-    </header>
 
     <!-- Banner -->
 
@@ -37,37 +42,79 @@
     <section class="group main">
 
         <!-- Content -->
-
         <div class="primary content">
             <div class="inner">
-                <h3>Ardor&reg; Math Dojo</h3>
+                <h3>Ardor Math Dojo</h3>
                 <p>
-                    <img class='textWrap' src='images/mathDojo.png'>The Ardor&reg; Math Dojo is a mobile Algebra training application. Students will use MathDojo to work on small, randomly generated problems, that will ramp up in difficulty as the student becomes more proficient. The application will communicate with a remote web-server using a REST API to report on their progress. This progress data will be used to generate reports for interested stakeholders such as the students, parents, and educators.
-
+                    Ardor Algebra Dojo. Practice your math. Earn badges.  Created just for you.
+                    Ardor Adaptive Logic&#0169; creates customized problems for every skill level.
                 </p>
+
+                <!-- Picture Carousel -->
+                <div class="owl-carousel">
+                    <div>
+                            <img src="images/MathDojo/helpCard.gif">
+                            <p>Help Cards explain every concept step by step.</p>
+                    </div>
+                    <div>
+                        <img src="images/MathDojo/multiStep.gif">
+                        <p>
+                            Never run out of practice problems with Ardor Adaptive Logic&#0169;.
+                        </p>
+                    </div>
+                    <div>
+                            <img src="images/MathDojo/chapter.gif">
+                            <p> Track your progress. Practice what you want.</p>
+                    </div>
+                    <div>
+                        <img src="images/MathDojo/storyProblem.gif">
+                        <p> Rich story problems created using Ardor  Adaptive Logic&#0169;. </p>
+                    </div>
+                    <div>
+                        <img src="images/MathDojo/video.gif">
+                        <p> Videos help with step by step instructions.  </p>
+                    </div>
+                    <div>
+                        <img src="images/MathDojo/graph.gif">
+                        <p>
+                            Practice graphing coordinate points, linear equations, quadratics and more.
+                        </p>
+                    </div>
+                    <div>
+                            <img src="images/MathDojo/progressScreen.gif">
+                            <p>
+                                Detailed look at your progress. Every problem aligned to content standards.
+                            </p>
+                    </div>
+                    <div>
+                        <img src="images/MathDojo/table.gif">
+                        <p>
+                            Rich and diverse problem set with a library that continues to grow.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/MathDojo/helpCard_menuSelection.gif">
+                        <p> Need help? Ardor Math Dojo has a wide selection of help cards and videos.  </p>
+                    </div>
+
+
+
+                </div>
+
             </div>
         </div>
 
+        <!-- Sidebar-->
+        <div id="sideBar"></div>
+
         <!-- Sidebar -->
 
-        <aside class="secondary sidebar">
-            <div class="inner sidebar-inner">
-                <h3>Resources</h3>
-                <ul>
-                    <li><a href="mathDojo.html">Math Dojo</a></li>
-                    <li><a href="merlin.html">Merlin</a></li>
-                </ul>
-            </div>
-
-
-        </aside>
     </section>
 
-    <!-- Footer -->
 
-    <footer>
-        <!-- ... -->
-    </footer>
+    <script src="owl_carousel/owl.carousel.min.js"></script>
+    <div id="footer"></div>
+
 
 </div>
 </body>
