@@ -1,2 +1,2 @@
-ardor-education.com Public Website
+Ardor Education Website
 ============
