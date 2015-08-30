@@ -1,0 +1,150 @@
+# Site settings
+
+title: Ardor Education
+description: Ardor Education
+baseurl: ''
+url: https://www.ardoreducation.com
+
+frontPage:
+  title: Math. Made Simple.
+  summary: ''
+  intro: >
+    <strong>Mathematics education can be made better.</strong><br/>Mathematics education is stymied with oppressive
+    workloads and unfriendly tooling. It doesn't have to be this way. We believe that teachers should focus on their
+    passion of teaching, not doing paperwork.
+
+about:
+  title: Education is Transformative
+  summary: >
+    Mathematics education is stymied with oppressive workloads and unfriendly tooling. It doesn't have to be this way.
+    Teachers should focus on teaching, not paperwork. By making education better through technology, we can
+    <strong>make the world a better place.</strong>
+
+ardormath:
+  title: Ardor Math
+  summary: >
+    Practice your math. Earn badges. Created just for you. Ardor Adaptive Logic© creates customized problems for every
+    skill level.
+  features:
+    # Problem Generation Showcase
+    - title: Rich problem set that continues to grow.
+      image: /assets/images/ardormath/table.gif
+      showcase: generation
+    - title: Practice graphing coordinate points, linear equations, quadratics and more.
+      image: /assets/images/ardormath/graph.gif
+      showcase: generation
+    - title: Rich story problems created using Ardor Adaptive Logic®.
+      image: /assets/images/ardormath/storyproblem.gif
+      showcase: generation
+    - title: Never run out of practice problems with Ardor Adaptive Logic®.
+      image: /assets/images/ardormath/multistep.gif
+      showcase: generation
+
+    # Help Showcase
+    - title: Need help? Ardor Math has a wide selection of help cards and videos.
+      image: /assets/images/ardormath/helpcardmenu.gif
+      showcase: help
+    - title: Help Cards explain every concept step by step.
+      image: /assets/images/ardormath/helpcard.gif
+      showcase: help
+    - title: Videos help with step by step instructions.
+      image: /assets/images/ardormath/video.gif
+      showcase: help
+
+    # Tracking Showcase
+    - title: Track your progress. Practice what you want.
+      image: /assets/images/ardormath/chapter.gif
+      showcase: tracking
+    - title: Detailed look at your progress. Every problem aligned to content standards.
+      image: /assets/images/ardormath/progress.gif
+      showcase: tracking
+
+contactus:
+  title: Are You Ready?
+  summary: >
+    Whether you'd like to know more about our education products, you'd like to stay in the loop on our efforts, or you
+    just want to say hi, <strong>we'd love to hear from you!</strong>
+  educators: >
+    Do you want to be an advocate for improving math education? We’d love to talk to you; feel free to send us an email.
+    We’ll get back to you as soon as we can.
+  investors: >
+    Are you interested in investment opportunities with Ardor education? We'd love to hear from you.
+
+team:
+  title: Our Team
+  summary: Humans beings who are passionate about education and the power of technology to improve it.
+  profiles:
+    - name: Matt Thornton
+      title: Co-Founder, President & CEO
+      image: 'assets/images/profile/matthew.jpg'
+      summary: >
+        <p>
+        I have worked in Education for over 15 years teaching Mathematics, Science, and Technology. I established Ardor
+        Education, Inc. because I believe that great software in the hands of great teachers will create the top tier
+        education system that our children deserve. Mathematics should foster curiosity. Mathematics should be creative
+        as well as logical. This is why I do what I do. I want people to love Mathematics. I want people to love
+        learning.
+        </p>
+        <p>
+        I love to play jazz saxophone. It is a rewarding and creative experience. However, I have found that
+        software development is probably the most creative activity I have ever done. I firmly believe that the blend of
+        creative teaching with creatively designed software is the solution to our education dilemma. I want to create
+        a cultural revolution by creating generations of students who love Mathematics. I am very fortunate that I am
+        now able to pursue my blended passions of Mathematics, Software, and Education. I am excited to see the future
+        that the team here at Ardor will create.
+        </p>
+
+    - name: Chris Trevino
+      title: Co-Founder / Principal Engineer
+      image: 'assets/images/profile/chris.jpg'
+      summary: >
+        <p>
+        I have been a professional software developer for over a decade. I earned my M.S in Computer Science at
+        Washington State University (Go Cougs!), and my M.S. in Computer Science at Washington University in St. Louis.
+        </p>
+        <p>
+        I have made software with a variety of software environments and team structures. I've worked in companies
+        large and small, and projects ranging from F/A-18 Mission Control software to high-scale web services with
+        millions of transactions a day.
+        </p>
+        <p>
+        I love mathematics and the clarity it brings to understanding the world. Newton > Liebnitz. When I'm not making
+        software, I enjoy cycling, homebrewing, playing guitar, and board-gaming.
+        </p>
+
+    - name: Isaac Flemming
+      title: Senior Software Engineer / Social Director
+      image: 'assets/images/profile/isaac.jpg'
+      summary: >
+        <p>
+        Formally educated in Computer Science I have been an IT professional for over a decade. In this field I am
+        challenged daily to do things better and quicker and in order to do this I have to always be learning. That is
+        one of the things I love the most about what I do, the chance to find out new and interesting things every day.
+        </p>
+        <p>
+        As enjoyable as it is to learn new things though, I get the biggest reward out of helping others learn. Whether
+        it is working with my mom to teach my son about gardening or volunteering to teach high school kids programming.
+        Helping people learn new things and overcome difficulties is an extremely rewarding experience.
+        </p>
+        <p>
+        Now that I am working with Ardor Education I feel like I am able to teach and learn with the rest of the world.
+        I am very excited to be working on products that will help students learn and help teachers teach. Knowing I am
+        part of a group that will change the world, and help change education for the better is as rewarding as it gets.
+        </p>
+
+company:
+  name: Ardor Education
+
+analytics:
+  gaTrackingId: ''
+
+contact:
+  email: contact@ardoreducation.com
+  facebook: https://www.facebook.com/ardoreducation
+  linkedIn: https://www.linkedin.com/company/ardor-education
+  github: https://github.com/ardor-education
+  twitter: https://twitter.com/ardoreducation
+  googlePlus: https://plus.google.com/+Ardoreducation/
+
+# Build settings
+markdown: kramdown

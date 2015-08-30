@@ -1,0 +1,22 @@
+.ardormathimage {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.amathfeaturelist {
+  list-style: none;
+}
+
+.amathimage {
+  @include span-columns(4);
+}
+
+.feature {
+  @include outer-container;
+  padding-top: 200px;
+}
+
+.feature-left {
+  @include span-columns(8);
+  margin-top: 150px;
+}
