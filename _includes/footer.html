@@ -1,0 +1,27 @@
+<footer class="footer__nav">
+    <div class="container">
+        <ul>
+            <li><h3>About</h3></li>
+            <li><a href="{{ site.baseurl }}/">Vision</a></li>
+            <li><a href="{{ site.baseurl }}/team">The Team</a></li>
+        </ul>
+        <ul>
+            <li><h3>Contact</h3></li>
+            <li><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>
+        </ul>
+        <ul class="social">
+            <li><h3>Connect</h3></li>
+            <li><a href="{{ site.contact.facebook }}" class="facebook"><span>Facebook</span></a></li>
+            <li><a href="{{ site.contact.linkedIn }}" class="linkdin"><span>LinkedIn</span></a></li>
+            <li><a href="{{ site.contact.github }}" class="github"><span>GitHub</span></a></li>
+            <li><a href="{{ site.contact.twitter }}" class="twitter"><span>Twitter</span></a></li>
+            <li><a href="{{ site.contact.googlePlus }}" class="google-plus"><span>Google+</span></a></li>
+        </ul>
+    </div>
+    <div class="footer__disclaimer">
+        <div class="container">
+            <a href="{{ site.baseurl }}/" class="logo"> <img src="{{ site.baseurl }}/assets/images/logo/small.png" alt="{{ site.company.name }} Logo"></a>
+            <p>Copyright <span>{{ site.time | date: '%Y' }}.</span> All rights reserved.</p>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,208 @@
+// all heros start from somewhere...
+
+.hero {
+    $hero-background: $dark-gray;
+    $hero-color: white;
+
+    background: $hero-background;
+    color: $hero-color;
+    position: relative;
+
+    .hero__content {
+        color: $hero-color;
+        text-align: center;
+        padding: 25em 0;
+        margin: auto;
+        text-align: center;
+        position: relative;
+
+        // tablet view
+        @include media($tablet) {
+            padding: 15em 0;
+        }
+
+        // mobile view
+        @include media($mobile) {
+             padding: $mobile-padding-large;
+        }
+    }
+
+    .hero__content--short {
+        padding: 15em 0 12em;
+
+        .hero__title {
+            color: white;
+            font-size: 2em;
+
+            // mobile view
+            @include media($mobile) {
+                 font-size: $mobile-title-size;
+            }
+        }
+
+        // mobile view
+        @include media($mobile) {
+             padding: $mobile-padding-large;
+        }
+    }
+
+    .hero__title {
+        color: white;
+        font-size: 3.5em;
+        margin-bottom: 0.5em;
+
+        // tablet view
+        @include media($tablet) {
+            font-size: 2.2em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+             font-size: $mobile-title-size;
+        }
+    }
+
+    .hero__byline {
+        font-weight: 300;
+        font-size: 2em;
+        max-width: 25em;
+        margin: auto;
+        line-height: 1.4;
+
+        // tablet view
+        @include media($tablet) {
+            font-size: 1.5em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+             font-size: $mobile-byline-size;
+             font-weight: 400;
+             padding: 0 1em;
+        }
+    }
+
+     .hero__summary {
+        font-weight: 300;
+        font-size: 1.4em;
+        max-width: 38em;
+        margin: auto;
+        line-height: 1.7;
+
+        // mobile view
+        @include media($mobile) {
+             font-size: $mobile-byline-size;
+        }
+    }
+
+
+    // effects
+    &.hero--tint:before {
+      content: '';
+      display: block;
+      position: absolute;
+      background-color: rgba(0,0,0, 0.6);
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      // z-index: 1;
+    }
+
+    // homepage
+    &.hero--home {
+        $hero-image: '../assets/images/bg/home.png';
+        @include background(url($hero-image) no-repeat center center fixed);
+        background-color:  $hero-background;
+        background-position: top;
+        background-size: cover;
+    }
+
+     // about
+    &.hero--about {
+        $hero-image: '../assets/images/bg/about.png';
+        @include background(url($hero-image) no-repeat fixed);
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    // team
+    &.hero--team {
+        $hero-image: '../assets/images/bg/team.png';
+        @include background(url($hero-image) no-repeat fixed);
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    // contact
+    &.hero--contact {
+        $hero-image: '../assets/images/bg/contact.png';
+        @include background(url($hero-image) no-repeat fixed);
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    // ardormath
+    &.hero--ardormath {
+        $hero-image: '../assets/images/bg/ardormath.png';
+        @include background(url($hero-image) no-repeat fixed);
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &.hero--ardormath-showcase-generation {
+        $hero-image: '../assets/images/bg/amath-showcase-generation.png';
+        @include background(url($hero-image) no-repeat fixed);
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &.hero--ardormath-showcase-tracking {
+        $hero-image: '../assets/images/bg/amath-showcase-tracking.png';
+        @include background(url($hero-image) no-repeat fixed);
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &.hero--ardormath-showcase-help {
+        $hero-image: '../assets/images/bg/amath-showcase-help.png';
+        @include background(url($hero-image) no-repeat fixed);
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    // not found
+    &.hero--not-found {
+        a {
+            color: #fff;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        //TODO: generic inverse button
+        .button {
+            color: white;
+            text-decoration: none;
+            border-color: white;
+            margin-top: 4em;
+
+            &:hover {
+                background-color: white;
+                color: $dark-gray;
+            }
+        }
+    }
+}
+

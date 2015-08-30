@@ -1,0 +1,507 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - Intro
+
+.intro {
+    @include outer-container;
+    @include fill-parent();
+
+    padding: 8em 2em;
+
+    .intro__content {
+        @include span-columns(12);
+        @include clearfix;
+
+        text-align: center;
+
+        p {
+            font-size: $base-font-size + 0.2;
+            font-weight: 300;
+
+            @include media($mobile) {
+                font-size: $mobile-subtitle-size;
+
+                strong {
+                    display: none;
+                }
+            }
+        }
+        // tablet view
+        @include media($tablet) {
+            @include span-columns(8);
+
+            margin-bottom: 2em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+
+    // .intro - mobile view
+    @include media($mobile) {
+        padding: $mobile-padding;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Contact Us
+.convo {
+
+    $convo-background: #001234;
+    $convo-image: '../assets/images/bg-conversation.png';
+
+    @include background(url($convo-image) no-repeat center center scroll);
+
+    background-position: 0 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $teal;
+    color: white;
+    padding: 5em 0;
+    text-align: center;
+
+    .button {
+        color: white;
+        border-color: white;
+
+        &:hover {
+            background-color: white;
+            color: $teal;
+        }
+    }
+
+    .convo__content {
+        @include outer-container;
+
+        max-width: 50em;
+
+        > h2 {
+            color: white;
+            margin-bottom: 0.6em;
+
+             @include media($mobile) {
+                font-size: $mobile-title-size;
+            }
+        }
+
+        > p {
+            font-size: 1.3em;
+            margin-bottom: 1.5em;
+
+            @include media($mobile) {
+                font-size: $mobile-subtitle-size;
+            }
+        }
+    }
+    // .convo - mobile view
+    @include media($mobile) {
+        padding: $mobile-padding;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - About Us
+
+.about-container {
+    @include outer-container;
+    @include fill-parent();
+
+    padding: 8em 2em;
+
+    h3 {
+        color: $red;
+        font-weight: 600;
+        font-size: 0.85em;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-weight: 600;
+        margin-bottom: 0.6em;
+
+        &:first-of-type {
+            margin-top: 3em;
+        }
+    }
+
+    img {
+        margin: 1em 0 0 5em;
+    }
+
+    article:first-of-type {
+        @include span-columns(6);
+        @include clearfix;
+
+        padding-right: 2%;
+    }
+
+    article:last-of-type {
+        @include span-columns(6);
+    }
+
+    article:first-of-type, article:last-of-type {
+
+        // tablet view
+        @include media($tablet) {
+            @include span-columns(8);
+            // min-height: 16em;
+
+            img {
+                display: none;
+            }
+        }
+
+        // mobile view
+        @include media($mobile) {
+            @include span-columns(4);
+
+            img {
+                display: none;
+            }
+        }
+     }
+
+    &:first-of-type p {
+        margin-bottom: 3.5em;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+        @include media($mobile) {
+            margin-bottom: 2em;
+        }
+    }
+
+    @include media($mobile) {
+        padding: $mobile-padding;
+
+        h2 {
+            font-size: $mobile-title-size;
+            margin-bottom: 0.5em;
+        }
+
+        h4:first-of-type {
+            margin-top: 2em;
+        }
+
+    }
+
+}
+
+.about-inverse {
+    background-color: $dark-gray;
+    h2 {
+        color: #fff;
+        font-weight: 300;
+        font-size: 1.87em;
+        margin: 0;
+        text-align: center;
+        line-height: $base-line-height - 0.5;
+
+        @include media($mobile) {
+            font-size: $mobile-subtitle-size;
+        }
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Math Dojo
+
+.ardormath-intro {
+    @include outer-container;
+    @include fill-parent();
+    text-align: center;
+    padding: 8em 2em;
+
+    @include media($mobile) {
+        @include pad($mobile-padding);
+    }
+}
+
+.ardormath-showcase-step {
+    @include outer-container;
+    @include fill-parent();
+    text-align: center;
+    padding: 8em 2em;
+    @include media($mobile) {
+        @include pad($mobile-padding);
+    }
+}
+
+.ardormath-container {
+    @include outer-container;
+    @include fill-parent();
+    padding: 8em 2em;
+}
+
+.ardormath-inverse {
+    background-color: #f1f1f1;
+}
+
+.ardormath-msg {
+    @extend .ardormath-container;
+
+    article:first-of-type {
+        @include span-columns(7);
+        @include clearfix;
+    }
+
+    article:last-of-type {
+        @include span-columns(5);
+    }
+
+    img {
+        @include pad(0 0 0 6em);
+    }
+}
+
+.ardormath-software {
+    @extend .ardormath-container;
+    article:first-of-type {
+        @include span-columns(5);
+        @include clearfix;
+    }
+
+    article:last-of-type {
+        @include span-columns(7);
+    }
+}
+
+ @include media($mobile) {
+
+    h2 {
+        font-size: $mobile-title-size;
+    }
+
+    .ardormath-software, .ardormath-msg  {
+        @include pad($mobile-padding);
+
+        article:first-of-type, article:last-of-type {
+            @include span-columns(4);
+            @include clearfix;
+
+            float: none;
+        }
+
+        img {
+            display: none;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Software Development
+.software-container {
+    @include outer-container;
+    @include fill-parent();
+    margin-top: -5em;
+    margin-bottom: 6em;
+    z-index: 1;
+    position: relative;
+    padding: 0 4em;
+    background: #f1f1f1;
+}
+
+.software-intro {
+    background: #1f2022;
+    margin: 0 -4em 4em -4em;
+    padding: 3em 4em;
+    @include clearfix;
+
+    > article {
+        > h2 {
+            @include span-columns(3);
+            color: #fff;
+        }
+        > p {
+            @include span-columns(9);
+            color: #fff;
+            margin-bottom: 0;
+            padding-top: 0.6em;
+        }
+    }
+}
+
+.software-section {
+    @include clearfix;
+    margin-top: 2em;
+    min-height: 14em;
+
+    > article:first-of-type {
+        @include span-columns(7);
+
+        > h4 {
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+    }
+
+    > article:last-of-type {
+        @include span-columns(5);
+
+        img {
+            margin-left: 4em;
+        }
+    }
+}
+
+.software-outro {
+    margin: 4em -4em 0;
+    padding: 5em 8em;
+    background: #124094;
+    color: #fff;
+    > article > p {
+        font-size: 1.4em;
+        line-height: 2;
+        text-align: center;
+    }
+}
+
+// Mobile
+@include media($mobile) {
+    .software-container {
+        @include pad(0 $mobile-padding);
+        margin: 0;
+    }
+    .software-intro {
+        @include pad($mobile-padding);
+        margin: 0 -2em 4em -2em;
+         > article > h2, > article > p {
+            @include span-columns(4);
+            margin-bottom: 0.5em;
+        }
+    }
+    .software-section {
+        > article:first-of-type, > article:last-of-type {
+            @include span-columns(4);
+            float: none;
+
+            img {
+                margin: 0;
+            }
+
+            > h4 {
+                font-size: $mobile-title-size;
+            }
+        }
+    }
+    .software-outro {
+        @include pad($mobile-padding);
+        margin: 4em -2em 0;
+
+        > article > p {
+            font-size: $mobile-subtitle-size;
+        }
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Contact
+
+.contact-container {
+    @include outer-container;
+    @include fill-parent();
+    padding: 8em 2em;
+
+    @include media($mobile) {
+        @include pad($mobile-padding);
+    }
+}
+
+.mail-link {
+    > .mail-icon {
+        width: 35px;
+        height: 35px;
+        border: 2px solid $blue;
+        border-radius: 100px;
+        float: left;
+        text-align: center;
+    }
+    > a {
+        margin-left: 0.8em;
+    }
+}
+
+.contact-information {
+    @include clearfix;
+    margin: 0 0 5em 0;
+
+    a {
+        font-weight: 600;
+    }
+
+    > div:first-of-type {
+        @include span-columns(6);
+    }
+
+    > div:last-of-type {
+        @include span-columns(6);
+    }
+
+     @include media($mobile) {
+        margin-bottom: 1em;
+
+        > div:first-of-type, > div:last-of-type {
+            @include span-columns(4);
+
+            margin-bottom: 1em;
+        }
+    }
+
+}
+
+.teamprofiles {
+    > h3 {
+        color: $red;
+        font-weight: 600;
+        font-size: 0.85em;
+        text-transform: uppercase;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Global
+
+// TODO: FIND A HOME FOR THESE STYLES
+
+.inverse-band {
+    background-color: #f1f1f1;
+
+    > section {
+        @include outer-container;
+        @include fill-parent();
+        padding: 8em 2em;
+    }
+}
+
+.terms {
+    ul {
+        margin: 0;
+        padding:0;
+        li {
+            list-style-type: none;
+
+            &:nth-child(4) {
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+// Badges
+.badge {
+  background: $light-gray;
+  color: $medium-gray;
+  font-size: $base-font-size - 0.3;
+  font-weight: 800;
+  padding: 1px 8px;
+  border-radius: 15px;
+  border: 2px solid $light-gray;
+}
+
+.badge--outline {
+    background: transparent;
+    color: $blue;
+    border: 2px solid $blue;
+}

@@ -1,0 +1,28 @@
+.ardormathimage {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.amathfeaturelist {
+  list-style: none;
+}
+
+.amathimage {
+  max-height: 600px;
+  margin-left: 70%;
+}
+
+.feature {
+  display: inline;
+  div {
+    display: inline;
+  }
+}
+
+.feature-left {
+  float: left;
+  position: relative;
+  top: 250px;
+  margin-left: 10%;
+  width: 60%;
+}
