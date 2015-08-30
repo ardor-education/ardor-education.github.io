@@ -8,21 +8,15 @@
 }
 
 .amathimage {
-  max-height: 600px;
-  margin-left: 70%;
+  @include span-columns(4);
 }
 
 .feature {
-  display: inline;
-  div {
-    display: inline;
-  }
+  @include outer-container;
+  padding-top: 200px;
 }
 
 .feature-left {
-  float: left;
-  position: relative;
-  top: 250px;
-  margin-left: 10%;
-  width: 60%;
+  @include span-columns(8);
+  margin-top: 150px;
 }
