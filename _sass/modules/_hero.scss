@@ -23,7 +23,7 @@
 
         // mobile view
         @include media($mobile) {
-             padding: $mobile-padding-large;
+            padding: $mobile-padding-large;
         }
     }
 
@@ -36,13 +36,13 @@
 
             // mobile view
             @include media($mobile) {
-                 font-size: $mobile-title-size;
+                font-size: $mobile-title-size;
             }
         }
 
         // mobile view
         @include media($mobile) {
-             padding: $mobile-padding-large;
+            padding: $mobile-padding-large;
         }
     }
 
@@ -58,7 +58,7 @@
 
         // mobile view
         @include media($mobile) {
-             font-size: $mobile-title-size;
+            font-size: $mobile-title-size;
         }
     }
 
@@ -76,13 +76,13 @@
 
         // mobile view
         @include media($mobile) {
-             font-size: $mobile-byline-size;
-             font-weight: 400;
-             padding: 0 1em;
+            font-size: $mobile-byline-size;
+            font-weight: 400;
+            padding: 0 1em;
         }
     }
 
-     .hero__summary {
+    .hero__summary {
         font-weight: 300;
         font-size: 1.4em;
         max-width: 38em;
@@ -91,23 +91,23 @@
 
         // mobile view
         @include media($mobile) {
-             font-size: $mobile-byline-size;
+            font-size: $mobile-byline-size;
         }
     }
 
 
     // effects
     &.hero--tint:before {
-      content: '';
-      display: block;
-      position: absolute;
-      background-color: rgba(0,0,0, 0.6);
-      width: 100%;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      // z-index: 1;
+        content: '';
+        display: block;
+        position: absolute;
+        background-color: rgba(0,0,0, 0.6);
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        // z-index: 1;
     }
 
     // homepage
@@ -119,7 +119,7 @@
         background-size: cover;
     }
 
-     // about
+    // about
     &.hero--about {
         $hero-image: '../assets/images/bg/about.png';
         @include background(url($hero-image) no-repeat fixed);

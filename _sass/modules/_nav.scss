@@ -2,12 +2,16 @@
     $dark-gray: #333 !default;
     $navigation-padding: 1em;
     $navigation-background: transparent;
-    $navigation-background-showing: rgba(23, 23, 23, 0.9);
+    //$navigation-background-showing: rgba(23, 23, 23, 0.9);
+    $navigation-background-showing: rgba(253, 253, 253, 0.9);
     $navigation-color: white;
+    $navigation-color-showing: black;
     $navigation-color-hover: transparentize(white, 0.3);
+    $navigation-color-hover-showing: transparentize(black, 0.3);
     $navigation-height: 60px;
     $navigation-showing-height: 60px;
     $navigation-active-link-color: transparentize(white, 0.5);
+    $navigation-active-link-color-showing: transparentize(black, 0.5);
 
     @include transition(all 0.3s ease-in-out);
 
@@ -97,11 +101,9 @@
         font-weight: 700;
         font-size: 0.85em;
         text-decoration: none;
+        text-decoration-color: #0E6A99;
         text-transform: uppercase;
 
-        &:focus, &:hover {
-            color: $navigation-color-hover;
-        }
 
         // mobile view
         @include media($mobile) {
@@ -114,6 +116,7 @@
         background: $navigation-background-showing;
         min-height: $navigation-showing-height;
 
+
         .logo {
             @include transition(all 0.3s ease-in-out);
              line-height: $navigation-showing-height;
@@ -124,23 +127,35 @@
             min-height: $navigation-showing-height;
         }
 
+
         .nav__link {
             line-height: $navigation-showing-height;
+            a {
+                color: $navigation-active-link-color-showing;
+            }
+
         }
         .nav__link--active {
             padding-bottom: 0;
+            a {
+                color: $navigation-active-link-color-showing;
+                &:focus, &:hover {
+                    color: $navigation-color-hover-showing;
+                }
+            }
         }
     }
 
     .nav__toggle-menu {
         display: none;
         margin-top: 14px;
-        background: none;
+        background: $navigation-active-link-color;
         border: none;
         float: right;
+        color: $navigation-active-link-color-showing;
 
         &:hover {
-            background: rgba(255,255,255,.1);
+           background: $navigation-active-link-color;
         }
     }
 
@@ -188,7 +203,7 @@
         .nav__menu {
             padding-top: $navigation-showing-height;
             opacity: 0;
-            background: rgba(0,0,0,.9);
+            background: #333333;
             position: fixed;
             top: 0;
             left: 100%;
