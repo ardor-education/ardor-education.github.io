@@ -136,7 +136,7 @@ company:
   name: Ardor Education
 
 analytics:
-  gaTrackingId: ''
+  gaTrackingId: 'UA-53477428-3'
 
 contact:
   email: contact@ardoreducation.com
