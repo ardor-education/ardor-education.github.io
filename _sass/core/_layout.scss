@@ -14,3 +14,13 @@
     @include outer-container;
     margin-top: 4em;
 }
+
+
+.teamprofiles{
+    padding: 0 2em 0 2em;
+    p{
+        line-height: 2;
+        margin: 0;
+        padding: 0 0 1em;
+    }
+}
