@@ -40,7 +40,7 @@ ardormath:
       image: /assets/images/ardormath/iPad/multipleDevice_algebra.png
       showcase: generation
     - title: Rich problem set that continues to grow.
-      image: /assets/images/ardormath/iPad/chapter_selection.png
+      image: /assets/images/ardormath/iPad/cylinder.png
       showcase: generation
 
     # Help Showcase
@@ -49,6 +49,9 @@ ardormath:
       showcase: help
     - title: Help Cards explain every concept step by step.
       image: /assets/images/ardormath/iPad/multipleDevice_helpCard_example.png
+      showcase: help
+    - title: Level up at your pace with carefully crafted problems.
+      image: /assets/images/ardormath/iPad/transversal.png
       showcase: help
     - title: Videos help with step by step instructions.
       image: /assets/images/ardormath/video.gif
@@ -63,6 +66,9 @@ ardormath:
       showcase: tracking
     - title: Detailed look at your progress. Every problem aligned to content standards.
       image: /assets/images/ardormath/progress.gif
+      showcase: tracking
+    - title: A better way to practice. Ardor Math.
+      image: /assets/images/ardormath/iPad/chapter_selection.png
       showcase: tracking
 
 contactus:
