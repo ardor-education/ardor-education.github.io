@@ -59,6 +59,41 @@ ardormath:
       image: /assets/images/ardormath/progress.gif
       showcase: tracking
 
+tshirts:
+  title: Math Swag
+  summary: >
+    Express your passion for mathematics. These t-shirts were designed by the Ardor Team for the Ardor Team. But
+    because we believe in sharing below are links to a few of our designs.
+  shirt:
+    - name: I Heart Math
+      image: 'assets/images/shirt/heartMath.png'
+      link: http://www.zazzle.com/i_heart_math_t_shirt-235197116857262575
+      summary: >
+        We heart math and we know you do too. See our entire store here:
+        <a href='http://www.zazzle.com/ardor_education/products'>http://www.zazzle.com/ardor_education/</a>.
+    - name: Tau Unit Circle
+      image: 'assets/images/shirt/tauCircle.png'
+      link: http://www.zazzle.com/unit_circle_tau_t_shirt-235881672852860965
+      summary: >
+        Yin and yang  with tau complement trigonometry by providing greater clarity. Think about it? Why is a
+         whole circle two pi; should it be just one pi?  In ancient times, Tau was used as a symbol for life, wear this
+         shirt and breath new life into the unit circle. See our entire store here:
+         <a href='http://www.zazzle.com/ardor_education/products'>http://www.zazzle.com/ardor_education/</a>.
+    - name: fibonacci
+      image: 'assets/images/shirt/fib.png'
+      link: http://www.zazzle.com/fibonacci_t_shirt-235847830291730384
+      summary: >
+        The Fibonacci sequence is named after Italian mathematician Fibonacci is as easy as , 1, 1, 2, 3, 5, 8, 13,
+        21, 34, 55, 89, 144, 233, 377, 610, 987... See our entire store here:
+         <a href='http://www.zazzle.com/ardor_education/products'>http://www.zazzle.com/ardor_education/</a>.
+    - name: I'm sec C and I Know It!
+      image: 'assets/images/shirt/secC.png'
+      link: http://www.zazzle.com/im_sec_c_and_i_know_it_pink_t_shirt-235926205389083031
+      summary: >
+        Don't be Sorry For Party Rocking this math swag. You got passion for math. And you ain't afraid to show it.
+        You're <strong>sec C</strong> and you know it! See our entire store here:
+          <a href='http://www.zazzle.com/ardor_education/products'>http://www.zazzle.com/ardor_education/</a>.
+
 contactus:
   title: Are You Ready?
   summary: >
