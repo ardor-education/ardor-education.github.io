@@ -79,7 +79,7 @@ tshirts:
   shirt:
     - name: I Heart Math
       image: 'assets/images/shirt/heartMath.png'
-      link: http://www.zazzle.com/i_heart_math_t_shirt-235197116857262575
+      link: http://www.zazzle.com/i_heart_math_graph_tshirt-235999445056117558
       summary: >
         We heart math and we know you do too. See our entire store here:
         <a href='http://www.zazzle.com/ardor_education/products'>http://www.zazzle.com/ardor_education/</a>.
@@ -93,14 +93,14 @@ tshirts:
          <a href='http://www.zazzle.com/ardor_education/products'>http://www.zazzle.com/ardor_education/</a>.
     - name: fibonacci
       image: 'assets/images/shirt/fib.png'
-      link: http://www.zazzle.com/fibonacci_t_shirt-235847830291730384
+      link: http://www.zazzle.com/fibonacci_dark_tshirt-235436483249486834
       summary: >
         The Fibonacci sequence is named after Italian mathematician Fibonacci is as easy as , 1, 1, 2, 3, 5, 8, 13,
         21, 34, 55, 89, 144, 233, 377, 610, 987... See our entire store here:
          <a href='http://www.zazzle.com/ardor_education/products'>http://www.zazzle.com/ardor_education/</a>.
     - name: I'm sec C and I Know It!
       image: 'assets/images/shirt/secC.png'
-      link: http://www.zazzle.com/im_sec_c_and_i_know_it_pink_t_shirt-235926205389083031
+      link: http://www.zazzle.com/im_sec_c_and_i_know_it_t_shirt-235039480659246988
       summary: >
         Don't be Sorry For Party Rocking this math swag. You got passion for math. And you ain't afraid to show it.
         You're <strong>sec C</strong> and you know it! See our entire store here:
