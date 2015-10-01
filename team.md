@@ -11,7 +11,7 @@ permalink: /team/
 </article>
 
 <section class="team-intro">
-    <article>
+    <article class="type-system-sans">
         <h3>{{ site.team.intro.title }}</h3>
         <p>{{ site.team.intro.content }}</p>
     </article>
