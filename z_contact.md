@@ -43,8 +43,8 @@ byline: Help us change the world
               <a href="{{ site.support.zendesk }}" class="button button--outline">Support Site</a>
               <a href="mailto:{{ site.support.email }}" class="button button--outline">Email</a>
         </div>
+        <a name="newsletter"></a>
 </section>
-<a name="newsletter"></a>
 <section class="contact-container">
     <article class="type-system-sans">
         <!-- Begin MailChimp Signup Form -->
