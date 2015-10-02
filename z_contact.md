@@ -35,6 +35,18 @@ byline: Help us change the world
         </div>
       </div>
     </article>
+</section>
+<section id="help" class="convo" >
+        <div class="convo__content">
+              <h2>Need Help?</h2>
+              <p>{{ site.contactus.support }} </p>
+              <a href="{{ site.support.zendesk }}" class="button button--outline">Support Site</a>
+              <a href="mailto:{{ site.support.email }}" class="button button--outline">Email</a>
+
+        </div>
+</section>
+
+<section class="contact-container">
     <article class="type-system-sans">
         <!-- Begin MailChimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
@@ -42,7 +54,7 @@ byline: Help us change the world
             <form action="//ArdorEducation.us11.list-manage.com/subscribe/post?u=e0d8362a03edb98f9391ddcd5&amp;id=72d2723bcf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
                     <div class="form-style">
-                         <h3>Subscribe to our mailing list</h3>
+                    <h3>Subscribe to our mailing list</h3>
                         <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
                         </label>
                         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
@@ -64,6 +76,4 @@ byline: Help us change the world
         </div>
         <!--End mc_embed_signup-->
     </article>
-
-
 </section>

@@ -114,6 +114,8 @@ contactus:
   educators: >
     Do you want to be an advocate for improving math education? We’d love to talk to you; feel free to send us an email.
     We’ll get back to you as soon as we can.
+  support: >
+    We are sorry you are having trouble with Ardor Math. Please let us know how we can help you.
   investors: >
     Are you interested in investment opportunities with Ardor education? We'd love to hear from you.
 
@@ -192,6 +194,10 @@ contact:
   github: https://github.com/ardor-education
   twitter: https://twitter.com/ardoreducation
   googlePlus: https://plus.google.com/+Ardoreducation/
+
+support:
+  email: support@ardor.zendesk.com
+  zendesk: https://ardor.zendesk.com
 
 # Build settings
 markdown: kramdown
