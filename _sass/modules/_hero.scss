@@ -1,8 +1,8 @@
 // all heros start from somewhere...
 
 .hero {
-    $hero-background: $dark-gray;
-    $hero-color: white;
+    $hero-background: white; //$dark-gray;
+    $hero-color: white; // This is the title subtext.
 
     background: $hero-background;
     color: $hero-color;
@@ -11,7 +11,7 @@
     .hero__content {
         color: $hero-color;
         text-align: center;
-        padding: 25em 0;
+        padding: 5em 0;
         margin: auto;
         text-align: center;
         position: relative;
@@ -31,8 +31,17 @@
         padding: 15em 0 12em;
 
         .hero__title {
-            color: white;
-            font-size: 2em;
+            color: black;
+            font-size: 2.8em;
+            padding: 1em;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: white;
+            text-shadow:
+                    3px 3px 0 #000,
+                    -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
 
             // mobile view
             @include media($mobile) {
@@ -47,13 +56,22 @@
     }
 
     .hero__title {
-        color: white;
-        font-size: 3.5em;
+        color: black;
+        font-size: 2.2em;
         margin-bottom: 0.5em;
+        padding: 1em;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: white;
+        text-shadow:
+                3px 3px 0 white,
+                -1px -1px 0 white,
+                1px -1px 0 white,
+                -1px 1px 0 white,
+                1px 1px 0 white;
 
         // tablet view
         @include media($tablet) {
-            font-size: 2.2em;
+            font-size: 1.2em;
         }
 
         // mobile view
