@@ -215,7 +215,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    &.hero--ardormath-showcase-tracking {
+    &.hero--ardormath-showcase-help {
         $hero-image: '../assets/images/bg/amath-showcase-student.png';
         @include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
@@ -223,7 +223,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    &.hero--ardormath-showcase-help {
+    &.hero--ardormath-showcase-tracking {
         $hero-image: '../assets/images/bg/amath-showcase-help.png';
         @include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
@@ -231,6 +231,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
 
     // not found
     &.hero--not-found {
