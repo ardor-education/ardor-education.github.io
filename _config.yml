@@ -27,47 +27,60 @@ ardormath:
     skill level.
   features:
     # Problem Generation Showcase
-    - title: Practice math on your device.
-      image: /assets/images/ardormath/iPad/multipleDevice_tables.png
+    - title: Differentiation is Possible
+      image: /assets/images/ardormath/Leveled-Differentiation.png
+      summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       showcase: generation
     - title: Practice graphing coordinate points, linear equations, quadratics and more.
+      summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       image: /assets/images/ardormath/iPad/quadratic_graph.png
       showcase: generation
     - title: Rich story problems created using Ardor Adaptive Logic®.
+      summary:
       image: /assets/images/ardormath/iPad/price_quantity_handwriting.png
       showcase: generation
     - title: Never run out of practice problems with Ardor Adaptive Logic®.
+      summary:
       image: /assets/images/ardormath/iPad/multipleDevice_algebra.png
       showcase: generation
     - title: Rich problem set that continues to grow.
+      summary:
       image: /assets/images/ardormath/iPad/cylinder.png
       showcase: generation
 
     # Help Showcase
     - title: Need help? Ardor Math has a wide selection of help cards and videos.
+      summary:
       image: /assets/images/ardormath/iPad/helpCard_menu.png
       showcase: help
     - title: Help Cards explain every concept step by step.
+      summary:
       image: /assets/images/ardormath/iPad/multipleDevice_helpCard_example.png
       showcase: help
     - title: Level up at your pace with carefully crafted problems.
+      summary:
       image: /assets/images/ardormath/iPad/transversal.png
       showcase: help
     - title: Videos help with step by step instructions.
+      summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       image: /assets/images/ardormath/video.gif
       showcase: help
 
     # Tracking Showcase
     - title: Track your progress. Practice what you want.
+      summary:
       image: /assets/images/ardormath/chapter.gif
       showcase: tracking
     - title: Unlock badges. Master concepts.
+      summary:
       image: /assets/images/ardormath/iPad/multipleDevice_badges.png
       showcase: tracking
     - title: Detailed look at your progress. Every problem aligned to content standards.
+      summary:
       image: /assets/images/ardormath/progress.gif
       showcase: tracking
     - title: A better way to practice. Ardor Math.
+      summary:
       image: /assets/images/ardormath/iPad/chapter_selection.png
       showcase: tracking
 

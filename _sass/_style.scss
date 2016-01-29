@@ -210,7 +210,7 @@
 .ardormath-intro {
     @include outer-container;
     @include fill-parent();
-    text-align: center;
+    text-align: right;
     padding: 8em 2em;
 
     @include media($mobile) {
@@ -221,7 +221,7 @@
 .ardormath-showcase-step {
     @include outer-container;
     @include fill-parent();
-    text-align: center;
+    text-align: right;
     padding: 8em 2em;
     @include media($mobile) {
         @include pad($mobile-padding);

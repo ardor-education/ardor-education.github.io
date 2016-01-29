@@ -11,7 +11,7 @@
     .hero__content {
         color: $hero-color;
         text-align: center;
-        padding: 5em 0;
+        padding: 25em 0;
         margin: auto;
         text-align: center;
         position: relative;
@@ -45,10 +45,32 @@
         @include media($mobile) {
             padding: $mobile-padding-large;
         }
-        .hero__text {
+        .hero__feature__title {
             color: black;
             font-size: 2.8em;
-            padding: 1em;
+            //padding: 1em;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: white;
+            text-shadow:
+                    3px 3px 0 #000,
+                    -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+
+            // mobile view
+            @include media($mobile) {
+                font-size: $mobile-title-size;
+            }
+        }
+
+        // mobile view
+        @include media($mobile) {
+            padding: $mobile-padding-large;
+        }
+        .hero__text {
+            color: black;
+            font-size: 1.8em;
             -webkit-text-stroke-width: 0.5px;
             -webkit-text-stroke-color: white;
             text-shadow:
@@ -71,9 +93,9 @@
     }
     .hero__text {
         color: black;
-        font-size: 2.2em;
+        font-size: 1.5em;
         margin-bottom: 0.5em;
-        padding: 1em;
+        //padding: 1em;
         -webkit-text-stroke-width: 0.5px;
         -webkit-text-stroke-color: white;
         text-shadow:
@@ -93,6 +115,32 @@
             font-size: $mobile-title-size;
         }
     }
+
+    .hero__feature__title {
+        color: black;
+        font-size: 2.2em;
+        margin-bottom: 0.5em;
+        //padding: 1em;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: white;
+        text-shadow:
+                3px 3px 0 white,
+                -1px -1px 0 white,
+                1px -1px 0 white,
+                -1px 1px 0 white,
+                1px 1px 0 white;
+
+        // tablet view
+        @include media($tablet) {
+            font-size: 1.2em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            font-size: $mobile-title-size;
+        }
+    }
+
 
     .hero__title {
         color: white;
