@@ -29,15 +29,15 @@ ardormath:
     # Problem Generation Showcase
     - title: Differentiation is Possible
       image: /assets/images/ardormath/Leveled-Differentiation.png
-      summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      summary: Carefully Crafted Problems increase in difficulty only after a student has shown that they are proficient with prerequisite concepts.
       showcase: generation
-    - title: Practice graphing coordinate points, linear equations, quadratics and more.
-      summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      image: /assets/images/ardormath/iPad/quadratic_graph.png
+    - title: Practice
+      summary:  Never run out of math practice with Ardor Auto-Differentiated Adaptive Logic.©
+      image: /assets/images/ardormath/iPad/Procedurally_Generated_Practice.png
       showcase: generation
-    - title: Rich story problems created using Ardor Adaptive Logic®.
-      summary:
-      image: /assets/images/ardormath/iPad/price_quantity_handwriting.png
+    - title: Teacher View
+      summary: The Ardor Cloud tells the teacher in real time what each student needs to work on.
+      image: /assets/images/ardormath/Teacher-View.png
       showcase: generation
     - title: Never run out of practice problems with Ardor Adaptive Logic®.
       summary:
