@@ -65,7 +65,7 @@ ardormath:
     # Tracking Showcase
     - title: Ardor Math.
       summary: A better way to practice.
-      image: /assets/images/ardormath/iPad/chapter_selection.png
+      image: /assets/images/ardormath/iPad/Chapter-Selection.png
       showcase: tracking
 
 tshirts:
