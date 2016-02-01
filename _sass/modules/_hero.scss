@@ -252,38 +252,36 @@
     &.hero--ardormath {
         $hero-image: '../assets/images/bg/ardormath.png';
         @include background(url($hero-image) no-repeat fixed);
-        background-size: 100%;
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
     }
     &.hero--ardormath-showcase-generation {
-        $hero-image: '../assets/images/bg/amath-showcase-teacher.png';
-        @include background(url($hero-image) no-repeat fixed);
+        //$hero-image: '../assets/images/bg/amath-showcase-teacher.png';
+        //@include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
+        //background-position: top;
+        //background-repeat: no-repeat;
+        //background-size: cover;
     }
     &.hero--ardormath-showcase-help {
-        $hero-image: '../assets/images/bg/amath-showcase-student.png';
-        @include calc(width, "100%");
-        @include background(url($hero-image) no-repeat fixed);
+        //$hero-image: '../assets/images/bg/amath-showcase-student.png';
+       // @include calc(width, "100%");
+       // @include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
+       // background-position: top;
+       // background-repeat: no-repeat;
+       // background-size: cover;
     }
     &.hero--ardormath-showcase-tracking {
-        $hero-image: '../assets/images/bg/amath-showcase-help.png';
-        @include calc(width, "100%");
-        @include background(url($hero-image) no-repeat fixed);
+        //$hero-image: '../assets/images/bg/amath-showcase-help.png';
+        //@include calc(width, "100%");
+        //@include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
+        //background-position: top;
+        //background-repeat: no-repeat;
+        //background-size: cover;
     }
-
 
     // not found
     &.hero--not-found {
