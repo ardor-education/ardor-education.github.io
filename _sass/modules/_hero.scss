@@ -211,7 +211,7 @@
     &.hero--home {
         $hero-image: '../assets/images/bg/home.png';
         @include background(url($hero-image) no-repeat center center fixed);
-        background-size: 100%;
+        max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
     }
@@ -220,7 +220,7 @@
     &.hero--about {
         $hero-image: '../assets/images/bg/about.png';
         @include background(url($hero-image) no-repeat center center fixed);
-        background-size: 100%;
+        max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
@@ -230,7 +230,7 @@
     &.hero--team {
         $hero-image: '../assets/images/bg/team.png';
         @include background(url($hero-image) no-repeat center center fixed);
-        background-size: 100%;
+        max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
@@ -241,7 +241,7 @@
     &.hero--contact {
         $hero-image: '../assets/images/bg/contact.png';
         @include background(url($hero-image) no-repeat center center fixed);
-        background-size: 100%;
+        max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
@@ -251,7 +251,7 @@
     &.hero--ardormath {
         $hero-image: '../assets/images/bg/ardormath.png';
         @include background(url($hero-image) no-repeat fixed);
-        width: 100%;
+        max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
@@ -260,6 +260,7 @@
         $hero-image: '../assets/images/bg/amath-showcase-teacher.png';
         @include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
+        max-width: 100%;
         background-position: top;
         background-repeat: no-repeat;
         //background-size: cover;
