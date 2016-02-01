@@ -1,8 +1,8 @@
 // all heros start from somewhere...
 
 .hero {
-    $hero-background: $dark-gray;
-    $hero-color: white;
+    $hero-background: white; //$dark-gray;
+    $hero-color: white; // This is the title subtext.
 
     background: $hero-background;
     color: $hero-color;
@@ -32,7 +32,53 @@
 
         .hero__title {
             color: white;
-            font-size: 2em;
+            font-size: 2.8em;
+            padding: 1em;
+
+            // mobile view
+            @include media($mobile) {
+                font-size: $mobile-title-size;
+            }
+        }
+
+        // mobile view
+        @include media($mobile) {
+            padding: $mobile-padding-large;
+        }
+        .hero__feature__title {
+            color: black;
+            font-size: 2.8em;
+            //padding: 1em;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: white;
+            text-shadow:
+                    3px 3px 0 #000,
+                    -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+
+            // mobile view
+            @include media($mobile) {
+                font-size: $mobile-title-size;
+            }
+        }
+
+        // mobile view
+        @include media($mobile) {
+            padding: $mobile-padding-large;
+        }
+        .hero__text {
+            color: black;
+            font-size: 1.8em;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: white;
+            text-shadow:
+                    3px 3px 0 #000,
+                    -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
 
             // mobile view
             @include media($mobile) {
@@ -45,15 +91,66 @@
             padding: $mobile-padding-large;
         }
     }
-
-    .hero__title {
-        color: white;
-        font-size: 3.5em;
+    .hero__text {
+        color: black;
+        font-size: 1.5em;
         margin-bottom: 0.5em;
+        //padding: 1em;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: white;
+        text-shadow:
+                3px 3px 0 white,
+                -1px -1px 0 white,
+                1px -1px 0 white,
+                -1px 1px 0 white,
+                1px 1px 0 white;
 
         // tablet view
         @include media($tablet) {
-            font-size: 2.2em;
+            font-size: 1.2em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            font-size: $mobile-title-size;
+        }
+    }
+
+    .hero__feature__title {
+        color: black;
+        font-size: 2.2em;
+        margin-bottom: 0.5em;
+        //padding: 1em;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: white;
+        text-shadow:
+                3px 3px 0 white,
+                -1px -1px 0 white,
+                1px -1px 0 white,
+                -1px 1px 0 white,
+                1px 1px 0 white;
+
+        // tablet view
+        @include media($tablet) {
+            font-size: 1.2em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            font-size: $mobile-title-size;
+        }
+    }
+
+
+    .hero__title {
+        color: white;
+        font-size: 2.2em;
+        margin-bottom: 0.5em;
+        padding: 1em;
+
+        // tablet view
+        @include media($tablet) {
+            font-size: 1.2em;
         }
 
         // mobile view
@@ -159,15 +256,7 @@
         background-size: cover;
     }
     &.hero--ardormath-showcase-generation {
-        $hero-image: '../assets/images/bg/amath-showcase-generation.png';
-        @include background(url($hero-image) no-repeat fixed);
-        background-color:  $hero-background;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    &.hero--ardormath-showcase-tracking {
-        $hero-image: '../assets/images/bg/amath-showcase-tracking.png';
+        $hero-image: '../assets/images/bg/amath-showcase-teacher.png';
         @include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
         background-position: top;
@@ -175,6 +264,14 @@
         background-size: cover;
     }
     &.hero--ardormath-showcase-help {
+        $hero-image: '../assets/images/bg/amath-showcase-student.png';
+        @include background(url($hero-image) no-repeat fixed);
+        background-color:  $hero-background;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &.hero--ardormath-showcase-tracking {
         $hero-image: '../assets/images/bg/amath-showcase-help.png';
         @include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
@@ -182,6 +279,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
 
     // not found
     &.hero--not-found {

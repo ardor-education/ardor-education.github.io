@@ -15,10 +15,10 @@ permalink: /ardormath/
       <article class="hero hero--ardormath-showcase-{{feature.showcase}}">
         <section class="feature">
           <div class="feature-left">
-            <h2 class="hero__title">{{feature.title}}</h2>
-          </div>
-          <div>
-            <img class="amathimage" src="{{ site.baseurl }}{{feature.image}}" />
+            <h2 class="hero__feature__title">{{feature.title}}</h2>
+            <p class="hero__text">{{feature.summary}}
+            <img class="ardormathimage" src="{{ site.baseurl }}{{feature.image}}" />
+            </p>
           </div>
         </section>
       </article>

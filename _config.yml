@@ -26,49 +26,46 @@ ardormath:
     Practice your math. Earn badges. Created just for you. Ardor Adaptive Logic© creates customized problems for every
     skill level.
   features:
-    # Problem Generation Showcase
-    - title: Practice math on your device.
-      image: /assets/images/ardormath/iPad/multipleDevice_tables.png
+    # Teacher Showcase
+    - title: Differentiation is Possible
+      image: /assets/images/ardormath/Leveled-Differentiation.png
+      summary: Carefully Crafted Problems increase in difficulty only after a student has shown that they are proficient with prerequisite concepts.
       showcase: generation
-    - title: Practice graphing coordinate points, linear equations, quadratics and more.
-      image: /assets/images/ardormath/iPad/quadratic_graph.png
+    - title: Practice
+      summary:  Never run out of math practice with Ardor Auto-Differentiated Adaptive Logic.©
+      image: /assets/images/ardormath/iPad/Procedurally_Generated_Practice.png
       showcase: generation
-    - title: Rich story problems created using Ardor Adaptive Logic®.
-      image: /assets/images/ardormath/iPad/price_quantity_handwriting.png
+    - title: Teacher View
+      summary: Less grading. Ardor Math reports every student level for every problem in real-time.
+      image: /assets/images/ardormath/Teacher-View.png
       showcase: generation
-    - title: Never run out of practice problems with Ardor Adaptive Logic®.
-      image: /assets/images/ardormath/iPad/multipleDevice_algebra.png
-      showcase: generation
-    - title: Rich problem set that continues to grow.
-      image: /assets/images/ardormath/iPad/cylinder.png
+    - title: Never Run out of Practice
+      summary: Rich problem sets that continue to grow. Problems aligned to the Common Core State Standards.
+      image: /assets/images/ardormath/iPad/Rich-Problem-Sets.png
       showcase: generation
 
-    # Help Showcase
-    - title: Need help? Ardor Math has a wide selection of help cards and videos.
-      image: /assets/images/ardormath/iPad/helpCard_menu.png
+    # Student Showcase
+    - title: Unlock Badges.
+      summary: Earn points, badges, and track progress. Builds motivation and resiliency.
+      image: /assets/images/ardormath/iPad/Badges.png
       showcase: help
-    - title: Help Cards explain every concept step by step.
-      image: /assets/images/ardormath/iPad/multipleDevice_helpCard_example.png
+    - title: Video Learning
+      summary: Absent Students? Videos make math lessons easy to follow and understand.
+      image: /assets/images/ardormath/iPad/Video-Learning.png
       showcase: help
-    - title: Level up at your pace with carefully crafted problems.
-      image: /assets/images/ardormath/iPad/transversal.png
+    - title: Help Cards
+      summary: For students who prefer written examples there is a help card for each problem type.
+      image: /assets/images/ardormath/iPad/Help-Cards.png
       showcase: help
-    - title: Videos help with step by step instructions.
-      image: /assets/images/ardormath/video.gif
+    - title: Math on any Device
+      summary: Students practice when it is best for them.  Waiting for the bus.  Between afterschool activities.  No lost assignments.
+      image: /assets/images/ardormath/iPad/Multiple-Devices.png
       showcase: help
 
     # Tracking Showcase
-    - title: Track your progress. Practice what you want.
-      image: /assets/images/ardormath/chapter.gif
-      showcase: tracking
-    - title: Unlock badges. Master concepts.
-      image: /assets/images/ardormath/iPad/multipleDevice_badges.png
-      showcase: tracking
-    - title: Detailed look at your progress. Every problem aligned to content standards.
-      image: /assets/images/ardormath/progress.gif
-      showcase: tracking
-    - title: A better way to practice. Ardor Math.
-      image: /assets/images/ardormath/iPad/chapter_selection.png
+    - title: Ardor Math.
+      summary: A better way to practice.
+      image: /assets/images/ardormath/iPad/Chapter-Selection.png
       showcase: tracking
 
 tshirts:
@@ -117,7 +114,9 @@ contactus:
   support: >
     We are sorry you are having trouble with Ardor Math. Please let us know how we can help you.
   investors: >
-    Are you interested in investment opportunities with Ardor education? We'd love to hear from you.
+    Are you interested in investment opportunities with Ardor education? We'd love to hear from you. Visit our
+    <a href="https://gust.com/companies/ardor-education-inc">Gust page</a>
+    to read our business plan and learn more about us.
 
 team:
   title: Our Team
