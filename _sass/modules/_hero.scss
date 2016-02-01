@@ -214,7 +214,8 @@
         max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
-        background-size: cover;
+        background-repeat: no-repeat;
+        //background-size: cover;
     }
 
     // about
@@ -225,7 +226,7 @@
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-        background-size: cover;
+        //background-size: cover;
     }
 
     // team
@@ -236,7 +237,7 @@
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-        background-size: cover;
+        //background-size: cover;
 
     }
 
@@ -248,7 +249,7 @@
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-        background-size: cover;
+        //background-size: cover;
     }
 
     // ardormath
@@ -257,10 +258,9 @@
         @include background(url($hero-image) no-repeat fixed);
         max-width: 100%;
         background-color:  $hero-background;
-        max-width: 100%;
         background-position: top;
         background-repeat: no-repeat;
-        background-size: cover;
+       // background-size: cover;
     }
     &.hero--ardormath-showcase-generation {
         $hero-image: '../assets/images/bg/amath-showcase-teacher.png';
