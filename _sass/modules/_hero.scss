@@ -267,7 +267,7 @@
     // homepage
     &.hero--home {
         $hero-image: '../assets/images/bg/home.png';
-        @include background(url($hero-image) no-repeat center center fixed);
+        @include background(url($hero-image) no-repeat center center scroll);
         max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
@@ -278,7 +278,7 @@
     // about
     &.hero--about {
         $hero-image: '../assets/images/bg/about.jpg';
-        @include background(url($hero-image) no-repeat center center fixed);
+        @include background(url($hero-image) no-repeat center center scroll);
         max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
@@ -289,7 +289,7 @@
     // team
     &.hero--team {
         $hero-image: '../assets/images/bg/team.png';
-        @include background(url($hero-image) no-repeat center center fixed);
+        @include background(url($hero-image) no-repeat center center scroll);
         max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
@@ -301,7 +301,7 @@
     // contact
     &.hero--contact {
         $hero-image: '../assets/images/bg/contact.png';
-        @include background(url($hero-image) no-repeat center center fixed);
+        @include background(url($hero-image) no-repeat center center scroll);
         max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
@@ -312,7 +312,7 @@
     // ardormath
     &.hero--ardormath {
         $hero-image: '../assets/images/bg/ardormath.png';
-        @include background(url($hero-image) no-repeat fixed);
+        @include background(url($hero-image) no-repeat scroll);
         max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
@@ -321,7 +321,7 @@
     }
     &.hero--ardormath-showcase-generation {
         $hero-image: '../assets/images/bg/amath-showcase-teacher.png';
-        @include background(url($hero-image) no-repeat fixed);
+        @include background(url($hero-image) no-repeat scroll);
         background-color:  $hero-background;
         max-width: 100%;
         background-position: top;
@@ -330,7 +330,7 @@
     }
     &.hero--ardormath-showcase-help {
         $hero-image: '../assets/images/bg/amath-showcase-student.png';
-        @include background(url($hero-image) no-repeat fixed);
+        @include background(url($hero-image) no-repeat scroll);
         background-color:  $hero-background;
         max-width: 100%;
         background-position: top;
@@ -339,7 +339,7 @@
     }
     &.hero--ardormath-showcase-tracking {
         $hero-image: '../assets/images/bg/amath-showcase-help.png';
-        @include background(url($hero-image) no-repeat fixed);
+        @include background(url($hero-image) no-repeat scroll);
         background-color:  $hero-background;
         max-width: 100%;
         background-position: top;
