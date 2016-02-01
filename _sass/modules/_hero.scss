@@ -210,54 +210,52 @@
     // homepage
     &.hero--home {
         $hero-image: '../assets/images/bg/home.png';
-        @include calc(width, "100%");
         @include background(url($hero-image) no-repeat center center fixed);
+        background-size: 100%;
+        max-width: 1200px;
         background-color:  $hero-background;
         background-position: top;
-        background-size: cover;
     }
 
     // about
     &.hero--about {
         $hero-image: '../assets/images/bg/about.png';
-        @include calc(width, "100%");
-        @include background(url($hero-image) no-repeat fixed);
+        @include background(url($hero-image) no-repeat center center fixed);
+        background-size: 100%;
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-        background-size: cover;
     }
 
     // team
     &.hero--team {
         $hero-image: '../assets/images/bg/team.png';
-        @include calc(width, "100%");
-        @include background(url($hero-image) no-repeat fixed);
+        @include background(url($hero-image) no-repeat center center fixed);
+        background-size: 100%;
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-        background-size: cover;
+
     }
 
     // contact
     &.hero--contact {
         $hero-image: '../assets/images/bg/contact.png';
-        @include background(url($hero-image) no-repeat fixed);
+        @include background(url($hero-image) no-repeat center center fixed);
+        background-size: 100%;
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-        background-size: cover;
     }
 
     // ardormath
     &.hero--ardormath {
         $hero-image: '../assets/images/bg/ardormath.png';
-        @include calc(width, "100%");
         @include background(url($hero-image) no-repeat fixed);
+        background-size: 100%;
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-        background-size: cover;
     }
     &.hero--ardormath-showcase-generation {
         $hero-image: '../assets/images/bg/amath-showcase-teacher.png';
