@@ -26,7 +26,7 @@ ardormath:
     Practice your math. Earn badges. Created just for you. Ardor Adaptive Logic© creates customized problems for every
     skill level.
   features:
-    # Problem Generation Showcase
+    # Teacher Showcase
     - title: Differentiation is Possible
       image: /assets/images/ardormath/Leveled-Differentiation.png
       summary: Carefully Crafted Problems increase in difficulty only after a student has shown that they are proficient with prerequisite concepts.
@@ -36,24 +36,20 @@ ardormath:
       image: /assets/images/ardormath/iPad/Procedurally_Generated_Practice.png
       showcase: generation
     - title: Teacher View
-      summary: The Ardor Cloud tells the teacher in real time what each student needs to work on.
+      summary: Less grading. Ardor Math reports every student level for every problem in real-time.
       image: /assets/images/ardormath/Teacher-View.png
       showcase: generation
-    - title: Never run out of practice problems with Ardor Adaptive Logic®.
-      summary:
-      image: /assets/images/ardormath/iPad/multipleDevice_algebra.png
-      showcase: generation
-    - title: Rich problem set that continues to grow.
-      summary:
-      image: /assets/images/ardormath/iPad/cylinder.png
+    - title: Never Run out of Practice
+      summary: Rich problem sets that continue to grow. Problems aligned to the Common Core State Standards.
+      image: /assets/images/ardormath/iPad/Rich-Problem-Sets.png
       showcase: generation
 
-    # Help Showcase
-    - title: Need help? Ardor Math has a wide selection of help cards and videos.
-      summary:
-      image: /assets/images/ardormath/iPad/helpCard_menu.png
+    # Student Showcase
+    - title: Math on Your Device
+      summary: Practice when it is works for you.  Waiting for the bus.  Between afterschool activities.  Anytime access on your device.
+      image: /assets/images/ardormath/iPad/Multiple-Devices.png
       showcase: help
-    - title: Help Cards explain every concept step by step.
+    - title: Need help? Ardor Math has a wide selection of help cards and videos.
       summary:
       image: /assets/images/ardormath/iPad/multipleDevice_helpCard_example.png
       showcase: help
