@@ -45,38 +45,26 @@ ardormath:
       showcase: generation
 
     # Student Showcase
-    - title: Math on Your Device
-      summary: Practice when it is works for you.  Waiting for the bus.  Between afterschool activities.  Anytime access on your device.
+    - title: Math on any Device
+      summary: Students practice when it is best for them.  Waiting for the bus.  Between afterschool activities.  No lost assignments.
       image: /assets/images/ardormath/iPad/Multiple-Devices.png
       showcase: help
-    - title: Need help? Ardor Math has a wide selection of help cards and videos.
-      summary:
-      image: /assets/images/ardormath/iPad/multipleDevice_helpCard_example.png
+    - title: Unlock Badges.
+      summary: Earn points, badges, and track progress. Builds motivation and resiliency.
+      image: /assets/images/ardormath/iPad/Badges.png
       showcase: help
-    - title: Level up at your pace with carefully crafted problems.
-      summary:
-      image: /assets/images/ardormath/iPad/transversal.png
+    - title: Video Learning
+      summary: Absent Students? Videos make math lessons easy to follow and understand.
+      image: /assets/images/ardormath/iPad/Video-Learning.png
       showcase: help
-    - title: Videos help with step by step instructions.
-      summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      image: /assets/images/ardormath/video.gif
+    - title: Help Cards
+      summary: For students who prefer written examples there is a help card for each problem type.
+      image: /assets/images/ardormath/iPad/Help-Cards.png
       showcase: help
 
     # Tracking Showcase
-    - title: Track your progress. Practice what you want.
-      summary:
-      image: /assets/images/ardormath/chapter.gif
-      showcase: tracking
-    - title: Unlock badges. Master concepts.
-      summary:
-      image: /assets/images/ardormath/iPad/multipleDevice_badges.png
-      showcase: tracking
-    - title: Detailed look at your progress. Every problem aligned to content standards.
-      summary:
-      image: /assets/images/ardormath/progress.gif
-      showcase: tracking
-    - title: A better way to practice. Ardor Math.
-      summary:
+    - title: Ardor Math.
+      summary: A better way to practice.
       image: /assets/images/ardormath/iPad/chapter_selection.png
       showcase: tracking
 
