@@ -45,10 +45,6 @@ ardormath:
       showcase: generation
 
     # Student Showcase
-    - title: Math on any Device
-      summary: Students practice when it is best for them.  Waiting for the bus.  Between afterschool activities.  No lost assignments.
-      image: /assets/images/ardormath/iPad/Multiple-Devices.png
-      showcase: help
     - title: Unlock Badges.
       summary: Earn points, badges, and track progress. Builds motivation and resiliency.
       image: /assets/images/ardormath/iPad/Badges.png
@@ -60,6 +56,10 @@ ardormath:
     - title: Help Cards
       summary: For students who prefer written examples there is a help card for each problem type.
       image: /assets/images/ardormath/iPad/Help-Cards.png
+      showcase: help
+    - title: Math on any Device
+      summary: Students practice when it is best for them.  Waiting for the bus.  Between afterschool activities.  No lost assignments.
+      image: /assets/images/ardormath/iPad/Multiple-Devices.png
       showcase: help
 
     # Tracking Showcase
