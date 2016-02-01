@@ -210,6 +210,7 @@
     // homepage
     &.hero--home {
         $hero-image: '../assets/images/bg/home.png';
+        @include calc(width, "100%");
         @include background(url($hero-image) no-repeat center center fixed);
         background-color:  $hero-background;
         background-position: top;
@@ -219,6 +220,7 @@
     // about
     &.hero--about {
         $hero-image: '../assets/images/bg/about.png';
+        @include calc(width, "100%");
         @include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
         background-position: top;
@@ -229,6 +231,7 @@
     // team
     &.hero--team {
         $hero-image: '../assets/images/bg/team.png';
+        @include calc(width, "100%");
         @include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
         background-position: top;
@@ -249,6 +252,7 @@
     // ardormath
     &.hero--ardormath {
         $hero-image: '../assets/images/bg/ardormath.png';
+        @include calc(width, "100%");
         @include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
         background-position: top;
@@ -265,6 +269,7 @@
     }
     &.hero--ardormath-showcase-help {
         $hero-image: '../assets/images/bg/amath-showcase-student.png';
+        @include calc(width, "100%");
         @include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
         background-position: top;
@@ -273,6 +278,7 @@
     }
     &.hero--ardormath-showcase-tracking {
         $hero-image: '../assets/images/bg/amath-showcase-help.png';
+        @include calc(width, "100%");
         @include background(url($hero-image) no-repeat fixed);
         background-color:  $hero-background;
         background-position: top;
