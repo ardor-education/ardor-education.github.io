@@ -18,7 +18,8 @@
 
 .feature {
   @include outer-container;
-  padding-top: 20em;
+  // Padding removed for no image.
+  //padding-top: 0em;
 
 }
 
