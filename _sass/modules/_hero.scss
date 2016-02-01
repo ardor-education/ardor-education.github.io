@@ -40,6 +40,24 @@
                 font-size: $mobile-title-size;
             }
         }
+        .hero__title_transformative {
+            color: white;
+            font-size: 2.8em;
+            padding: 1em;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: black;
+            text-shadow:
+                    3px 3px 0 black,
+                    -1px -1px 0 black,
+                    1px -1px 0 black,
+                    -1px 1px 0 black,
+                    1px 1px 0 black;
+
+            // mobile view
+            @include media($mobile) {
+                font-size: $mobile-title-size;
+            }
+        }
 
         // mobile view
         @include media($mobile) {
@@ -158,6 +176,30 @@
             font-size: $mobile-title-size;
         }
     }
+    .hero__title_transformative {
+        color: white;
+        font-size: 2.2em;
+        margin-bottom: 0.5em;
+        padding: 1em;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+        text-shadow:
+                3px 3px 0 black,
+                -1px -1px 0 black,
+                1px -1px 0 black,
+                -1px 1px 0 black,
+                1px 1px 0 black;
+
+        // tablet view
+        @include media($tablet) {
+            font-size: 1.2em;
+        }
+
+        // mobile view
+        @include media($mobile) {
+            font-size: $mobile-title-size;
+        }
+    }
 
     .hero__byline {
         font-weight: 300;
@@ -191,6 +233,21 @@
             font-size: $mobile-byline-size;
         }
     }
+    .hero__summary_transformative {
+        font-weight: 300;
+        font-size: 1.4em;
+        font-weight: bold;
+        max-width: 38em;
+        margin: auto;
+        line-height: 1.7;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+
+        // mobile view
+        @include media($mobile) {
+            font-size: $mobile-byline-size;
+        }
+    }
 
 
     // effects
@@ -215,18 +272,18 @@
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-        //background-size: cover;
+        background-size: cover;
     }
 
     // about
     &.hero--about {
-        $hero-image: '../assets/images/bg/about.png';
+        $hero-image: '../assets/images/bg/about.jpg';
         @include background(url($hero-image) no-repeat center center fixed);
         max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-        //background-size: cover;
+        background-size: cover;
     }
 
     // team
@@ -237,7 +294,7 @@
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-        //background-size: cover;
+        background-size: cover;
 
     }
 
@@ -249,7 +306,7 @@
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-        //background-size: cover;
+        background-size: cover;
     }
 
     // ardormath
@@ -260,7 +317,7 @@
         background-color:  $hero-background;
         background-position: top;
         background-repeat: no-repeat;
-       // background-size: cover;
+        background-size: cover;
     }
     &.hero--ardormath-showcase-generation {
         $hero-image: '../assets/images/bg/amath-showcase-teacher.png';
