@@ -8,9 +8,9 @@ url: https://www.ardoreducation.com
 frontPage:
   title: Math. Made Simple.
   summary: >
-    <a class="summary-link" href="./ardormath#differentiation">Differentiation is Possible.</a>
-    <a class="summary-link" href="./ardormath#practice">NeverRun out of Practice</a>.
-    <a class="summary-link" href="./ardormath#grading">Less Grading. More Teaching</a>.
+    <a class="summary-link" href="./ardormath#differentiation"> Differentiation is Possible. </a>
+    <a class="summary-link" href="./ardormath#practice"> NeverRun out of Practice. </a>
+    <a class="summary-link" href="./ardormath#grading"> Less Grading. More Teaching. </a>
   intro: >
     <strong>Mathematics education can be made better.</strong><br/>Mathematics education is stymied with oppressive
     workloads and unfriendly tooling. It doesn't have to be this way. We believe that teachers should focus on their
@@ -26,12 +26,12 @@ about:
 ardormath:
   title: Ardor Math
   summary: >
-    <a class="summary-link" href="#video">Videos.</a>
-    <a class="summary-link" href="#help-cards" >Help Cards.</a>
-    <a class="summary-link" href="#badges">Earn Badges and Points.</a>
-    <a class="summary-link" href="#grading">Real-Time Feedback.</a>
-    <a class="summary-link" href="#your_device">Created just for you. </a>
-    <a class="summary-link" href="#differentiation">Customized practice for every
+    <a class="summary-link" href="#video">Videos. </a>
+    <a class="summary-link" href="#help-cards" > Help Cards.</a>
+    <a class="summary-link" href="#badges"> Earn Badges and Points. </a>
+    <a class="summary-link" href="#grading"> Real-Time Feedback. </a>
+    <a class="summary-link" href="#your_device"> Created just for you. </a>
+    <a class="summary-link" href="#differentiation"> Customized practice for every
     skill level.</a>
   features:
     # Teacher Showcase
