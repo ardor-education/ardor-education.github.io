@@ -7,7 +7,10 @@ url: https://www.ardoreducation.com
 
 frontPage:
   title: Math. Made Simple.
-  summary: ''
+  summary: >
+    <a class="summary-link" href="./ardormath#differentiation">Differentiation is Possible.</a>
+    <a class="summary-link" href="./ardormath#practice">NeverRun out of Practice</a>.
+    <a class="summary-link" href="./ardormath#grading">Less Grading. More Teaching</a>.
   intro: >
     <strong>Mathematics education can be made better.</strong><br/>Mathematics education is stymied with oppressive
     workloads and unfriendly tooling. It doesn't have to be this way. We believe that teachers should focus on their
@@ -23,48 +26,78 @@ about:
 ardormath:
   title: Ardor Math
   summary: >
-    Practice your math. Earn badges. Created just for you. Ardor Adaptive Logic© creates customized problems for every
-    skill level.
+    <a class="summary-link" href="#video">Learn your way.</a>
+    <a class="summary-link" href="#badges">Earn badges.</a>
+    <a class="summary-link" href="#your_device">Created just for you. </a>
+    <a class="summary-link" href="#differentiation">Ardor Adaptive Logic© creates customized problems for every
+    skill level.</a>
   features:
     # Teacher Showcase
     - title: Differentiation is Possible
+      name: differentiation
       image: /assets/images/ardormath/Leveled-Differentiation.png
-      summary: Carefully Crafted Problems increase in difficulty only after a student has shown that they are proficient with prerequisite concepts.
+      summary: >
+        Carefully Crafted Problems increase in difficulty only after a student has shown that they are proficient with prerequisite concepts.
+      nextLink: practice
       showcase: generation
     - title: Practice
-      summary:  Never run out of math practice with Ardor Auto-Differentiated Adaptive Logic.©
+      name: practice
+      summary: >
+        Never run out of math practice with Ardor Auto-Differentiated Adaptive Logic.©
       image: /assets/images/ardormath/iPad/Procedurally_Generated_Practice.png
+      nextLink: grading
       showcase: generation
     - title: Teacher View
-      summary: Less grading. Ardor Math reports every student level for every problem in real-time.
+      name: grading
+      nextLink: rich
+      summary: >
+        Less grading. Ardor Math reports every student level for every problem in real-time.
       image: /assets/images/ardormath/Teacher-View.png
       showcase: generation
     - title: Never Run out of Practice
-      summary: Rich problem sets that continue to grow. Problems aligned to the Common Core State Standards.
+      name: rich
+      nextLink: badges
+      summary: >
+        Rich problem sets that continue to grow. Problems aligned to the Common Core State Standards.
       image: /assets/images/ardormath/iPad/Rich-Problem-Sets.png
       showcase: generation
 
     # Student Showcase
     - title: Unlock Badges.
-      summary: Earn points, badges, and track progress. Builds motivation and resiliency.
+      name: badges
+      nextLink: video
+      summary: >
+        Earn points, badges, and track progress. Motivating.
       image: /assets/images/ardormath/iPad/Badges.png
       showcase: help
     - title: Video Learning
-      summary: Absent Students? Videos make math lessons easy to follow and understand.
+      name: video
+      nextLink: help-cards
+      summary: >
+        Absent? Videos make math lessons easy to follow and understand.
       image: /assets/images/ardormath/iPad/Video-Learning.png
       showcase: help
     - title: Help Cards
-      summary: For students who prefer written examples there is a help card for each problem type.
+      name: help-cards
+      nextLink: your_device
+      summary: >
+        For those who prefer written examples there is a help card for each problem type.
       image: /assets/images/ardormath/iPad/Help-Cards.png
       showcase: help
-    - title: Math on any Device
-      summary: Students practice when it is best for them.  Waiting for the bus.  Between afterschool activities.  No lost assignments.
-      image: /assets/images/ardormath/iPad/Multiple-Devices.png
+    - title: Math on any Device.
+      name: your_device
+      nextLink: chapter
+      summary: >
+        Students practice when it is best for them.  Waiting for the bus.  Between afterschool activities.  No lost assignments.
+      image: /assets/images/ardormath/iPad/Multiple-Devices_alt.png
       showcase: help
 
     # Tracking Showcase
     - title: Ardor Math.
-      summary: A better way to practice.
+      name: chapter
+      nextLink: top
+      summary: >
+        A better way to practice.
       image: /assets/images/ardormath/iPad/Chapter-Selection.png
       showcase: tracking
 
