@@ -26,8 +26,10 @@ about:
 ardormath:
   title: Ardor Math
   summary: >
-    <a class="summary-link" href="#video">Learn your way.</a>
-    <a class="summary-link" href="#badges">Earn badges.</a>
+    <a class="summary-link" href="#video">Videos.</a>
+    <a class="summary-link" href="#help-cards" >Help Cards.</a>
+    <a class="summary-link" href="#badges">Earn Badges and Points.</a>
+    <a class="summary-link" href="#grading">Real-Time Feedback.</a>
     <a class="summary-link" href="#your_device">Created just for you. </a>
     <a class="summary-link" href="#differentiation">Ardor Adaptive Logic© creates customized problems for every
     skill level.</a>
