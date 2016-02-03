@@ -43,3 +43,18 @@ button, .button {
         color: #fff;
     }
 }
+.app-store-badge{
+    padding-top: 2em;
+    width: 270px;
+    // tablet view
+    @include media($tablet) {
+        padding-top: 1.5em;
+        width: 135px;
+    }
+
+    // mobile view
+    @include media($mobile) {
+        padding-top: 1em;
+        width: 67.5px;
+    }
+}

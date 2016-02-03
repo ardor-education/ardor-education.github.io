@@ -226,5 +226,20 @@
     }
 }
 
+.arrow{
+    width: 50px;
+    padding-top: 1em;
+    padding-right: 0.5em;
+    text-align: center;
 
+    // tablet view
+    @include media($tablet) {
+        width: 40px;
+    }
 
+    // mobile view
+    @include media($mobile) {
+        padding: $mobile-padding-large;
+        width: 30px;
+    }
+}
