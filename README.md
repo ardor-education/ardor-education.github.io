@@ -9,4 +9,4 @@ Start Jekyll server/watcher
 jekyll serve -w
 ```
 
-View live site at `http://localhost:4000/www.ardoreducation.com/`
+View live site at `http://localhost:4000`
