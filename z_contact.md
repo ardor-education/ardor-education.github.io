@@ -5,24 +5,10 @@ permalink: /contact/
 byline: Help us change the world
 ---
 
-<article class="hero hero--contact">
-    <div class="hero__content hero__content--short">
-        <h2 class="hero__title">{{ site.contactus.title }}</h2>
-        <p class="hero__summary">{{ site.contactus.summary }}</p>    
-    </div>
-</article>
 
 <section class="contact-container">
-    <article class="contact-information">
-        <div>
-            <h3>Educators</h3>
-            <p> {{ site.contactus.educators }} </p>
-        </div>
-        <div>
-            <h3>Investors</h3>
-            <p> {{ site.contactus.investors }} </p>
-        </div>
-    </article>
+
+    <!-- contact us email link -->
     <article class="type-system-sans">
       <div class="contact-information">
         <div class="mail-link">
@@ -34,18 +20,20 @@ byline: Help us change the world
             <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
         </div>
       </div>
+
+    <!-- text  and investor link -->
     </article>
-</section>
-<section id="help" class="convo" >
-        <div class="convo__content">
-              <h2>Need Help?</h2>
-              <p>{{ site.contactus.support }} </p>
-              <a href="{{ site.support.zendesk }}" class="button button--outline">Support Site</a>
-              <a href="mailto:{{ site.support.email }}" class="button button--outline">Email</a>
+    <article class="contact-information">
+        <div>
+            <h3>Educators</h3>
+            <p> {{ site.contactus.educators }} </p>
         </div>
-        <a name="newsletter"></a>
-</section>
-<section class="contact-container">
+        <div>
+            <h3>Investors</h3>
+            <p> {{ site.contactus.investors }} </p>
+        </div>
+    </article>
+
     <article class="type-system-sans">
         <!-- Begin MailChimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
@@ -75,4 +63,14 @@ byline: Help us change the world
         </div>
         <!--End mc_embed_signup-->
     </article>
+</section>
+
+<section id="help" class="convo" >
+        <div class="convo__content">
+              <h2>Need Help?</h2>
+              <p>{{ site.contactus.support }} </p>
+              <a href="{{ site.support.zendesk }}" class="button button--outline">Support Site</a>
+              <a href="mailto:{{ site.support.email }}" class="button button--outline">Email</a>
+        </div>
+        <a name="newsletter"></a>
 </section>
