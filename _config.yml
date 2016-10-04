@@ -23,129 +23,11 @@ about:
     Teachers should focus on teaching, not paperwork. By making education better through technology, we can
     make the world a better place.
 
-ardormath:
-  title: Ardor Math
-  summary: >
-    <a class="summary-link" href="#video">Videos. </a>
-    <a class="summary-link" href="#help-cards" > Help Cards.</a>
-    <a class="summary-link" href="#badges"> Earn Badges and Points. </a>
-    <a class="summary-link" href="#grading"> Real-Time Feedback. </a>
-    <a class="summary-link" href="#your_device"> Created just for you. </a>
-    <a class="summary-link" href="#differentiation"> Customized practice for every
-    skill level.</a>
-  features:
-    # Teacher Showcase
-    - title: Differentiation is Possible
-      name: differentiation
-      image: /assets/images/ardormath/Leveled-Differentiation.png
-      summary: >
-        Carefully Crafted Problems increase in difficulty only after a student has shown that they are proficient with prerequisite concepts.
-      nextLink: practice
-      showcase: generation
-    - title: Practice
-      name: practice
-      summary: >
-        Never run out of math practice with Ardor Auto-Differentiated Adaptive Logic.©
-      image: /assets/images/ardormath/iPad/Procedurally_Generated_Practice.png
-      nextLink: grading
-      showcase: generation
-    - title: Teacher View
-      name: grading
-      nextLink: rich
-      summary: >
-        Less grading. Ardor Math reports every student level for every problem in real-time.
-      image: /assets/images/ardormath/Teacher-View.png
-      showcase: generation
-    - title: Never Run out of Practice
-      name: rich
-      nextLink: badges
-      summary: >
-        Rich problem sets that continue to grow. Problems aligned to the Common Core State Standards.
-      image: /assets/images/ardormath/iPad/Rich-Problem-Sets.png
-      showcase: generation
-
-    # Student Showcase
-    - title: Unlock Badges.
-      name: badges
-      nextLink: video
-      summary: >
-        Earn points, badges, and track progress. Motivating.
-      image: /assets/images/ardormath/iPad/Badges.png
-      showcase: help
-    - title: Video Learning
-      name: video
-      nextLink: help-cards
-      summary: >
-        Absent? Videos make math lessons easy to follow and understand.
-      image: /assets/images/ardormath/iPad/Video-Learning.png
-      showcase: help
-    - title: Help Cards
-      name: help-cards
-      nextLink: your_device
-      summary: >
-        For those who prefer written examples there is a help card for each problem type.
-      image: /assets/images/ardormath/iPad/Help-Cards.png
-      showcase: help
-    - title: Math on any Device.
-      name: your_device
-      nextLink: chapter
-      summary: >
-        Students practice when it is best for them.  Waiting for the bus.  Between afterschool activities.  No lost assignments.
-      image: /assets/images/ardormath/iPad/Multiple-Devices_alt.png
-      showcase: help
-
-    # Tracking Showcase
-    - title: Ardor Math.
-      name: chapter
-      nextLink: top
-      summary: >
-        A better way to practice.
-      image: /assets/images/ardormath/iPad/Chapter-Selection.png
-      showcase: tracking
-
-tshirts:
-  title: Math Swag
-  summary: >
-    Express your passion for mathematics. These t-shirts were designed by the Ardor Team for the Ardor Team. But
-    because we believe in sharing below are links to a few of our designs.
-  shirt:
-    - name: I Heart Math
-      image: 'assets/images/shirt/heartMath.png'
-      link: http://www.zazzle.com/i_heart_math_graph_tshirt-235999445056117558
-      summary: >
-        We heart math and we know you do too. See our entire store here:
-        <a href='http://www.zazzle.com/ardor_education/products'>http://www.zazzle.com/ardor_education/</a>.
-    - name: Tau Unit Circle
-      image: 'assets/images/shirt/tauCircle.png'
-      link: http://www.zazzle.com/unit_circle_tau_t_shirt-235881672852860965
-      summary: >
-        Yin and yang  with tau complement trigonometry by providing greater clarity. Think about it? Why is a
-         whole circle two pi; should it be just one pi?  In ancient times, Tau was used as a symbol for life, wear this
-         shirt and breath new life into the unit circle. See our entire store here:
-         <a href='http://www.zazzle.com/ardor_education/products'>http://www.zazzle.com/ardor_education/</a>.
-    - name: fibonacci
-      image: 'assets/images/shirt/fib.png'
-      link: http://www.zazzle.com/fibonacci_dark_tshirt-235436483249486834
-      summary: >
-        The Fibonacci sequence is named after Italian mathematician Fibonacci is as easy as , 1, 1, 2, 3, 5, 8, 13,
-        21, 34, 55, 89, 144, 233, 377, 610, 987... See our entire store here:
-         <a href='http://www.zazzle.com/ardor_education/products'>http://www.zazzle.com/ardor_education/</a>.
-    - name: I'm sec C and I Know It!
-      image: 'assets/images/shirt/secC.png'
-      link: http://www.zazzle.com/im_sec_c_and_i_know_it_t_shirt-235039480659246988
-      summary: >
-        Don't be Sorry For Party Rocking this math swag. You got passion for math. And you ain't afraid to show it.
-        You're <strong>sec C</strong> and you know it! See our entire store here:
-          <a href='http://www.zazzle.com/ardor_education/products'>http://www.zazzle.com/ardor_education/</a>.
-
 contactus:
-  title: Are You Ready?
-  summary: >
-    Whether you'd like to know more about our education products, you'd like to stay in the loop on our efforts, or you
-    just want to say hi, <strong>we'd love to hear from you!</strong>
   educators: >
-    Do you want to be an advocate for improving math education? We’d love to talk to you; feel free to send us an email.
-    We’ll get back to you as soon as we can.
+    Do you want to be an advocate for improving math education? We’d love to talk to you. Please send us an <a href="mailto:contact@ardoreducation.com">email</a>
+    so we can begin the conversation.
+
   support: >
     We are sorry you are having trouble with Ardor Math. Please let us know how we can help you.
   investors: >
@@ -170,11 +52,9 @@ team:
         </p>
         <p>
         I love to play jazz saxophone. It is a rewarding and creative experience. However, I have found that
-        software development is probably the most creative activity I have ever done. I firmly believe that the blend of
-        creative teaching with creatively designed software is the solution to our education dilemma. I want to create
+        software development is probably the most creative activity I have ever done.  I want to create
         a cultural revolution by creating generations of students who love Mathematics. I am very fortunate that I am
-        now able to pursue my blended passions of Mathematics, Software, and Education. I am excited to see the future
-        that the team here at Ardor will create.
+        able to pursue my blended passions of Mathematics, Software, and Education.
         </p>
 
     - name: Chris Trevino
