@@ -1,8 +1,8 @@
 // all heros start from somewhere...
 
 .hero {
-    $hero-background: white; //$dark-gray;
-    $hero-color: white; // This is the title subtext.
+    $hero-background: #e9e9e9; //#e6f0f4; //$dark-gray;
+    $hero-color: white; // #333333; // This is the title subtext.
 
     background: $hero-background;
     color: $hero-color;
@@ -272,8 +272,8 @@
 
     // homepage
     &.hero--home {
-        $hero-image: '../assets/images/bg/home-landing-page.png';
-        @include background(url($hero-image) no-repeat center center scroll);
+        // $hero-image: '../assets/images/bg/home-landing-page.png';
+        // @include background(url($hero-image) no-repeat center center scroll);
         max-width: 100%;
         background-color:  $hero-background;
         background-position: top;

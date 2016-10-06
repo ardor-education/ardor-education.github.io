@@ -6,22 +6,13 @@ baseurl: ''
 url: https://www.ardoreducation.com
 
 frontPage:
-  title: Math. Made Simple.
-  summary: >
-    <a class="summary-link" href="./ardormath#differentiation"> Differentiation is Possible. </a>
-    <a class="summary-link" href="./ardormath#practice"> NeverRun out of Practice. </a>
-    <a class="summary-link" href="./ardormath#grading"> Less Grading. More Teaching. </a>
-  intro: >
-    <strong>Mathematics education can be made better.</strong><br/>Mathematics education is stymied with oppressive
-    workloads and unfriendly tooling. It doesn't have to be this way. We believe that teachers should focus on their
-    passion of teaching, not doing paperwork.
+  title:
+  summary:
+  intro:
 
 about:
-  title: Education is Transformative
-  summary: >
-    Mathematics education is stymied with oppressive workloads and unfriendly tooling. It doesn't have to be this way.
-    Teachers should focus on teaching, not paperwork. By making education better through technology, we can
-    make the world a better place.
+  title:
+  summary:
 
 contactus:
   educators: >
