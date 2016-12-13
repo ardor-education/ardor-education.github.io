@@ -100,6 +100,116 @@
         padding: $mobile-padding;
     }
 }
+// - - - - - - - - - - - - - - - - - - -
+// - - Explanar
+.explanar {
+
+    $convo-background: $blue;
+    background-position: 0 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $blue;
+    color: white;
+    padding: 5em 0;
+    text-align: left;
+
+    .button {
+        color: white;
+        border-color: white;
+
+        &:hover {
+            background-color: white;
+            color: $blue;
+        }
+    }
+
+    .explanar__content {
+        @include outer-container;
+
+        max-width: 50em;
+
+        > h2 {
+            color: white;
+            margin-bottom: 0.6em;
+
+             @include media($mobile) {
+                font-size: $mobile-title-size;
+            }
+        }
+
+        > p {
+            font-size: 1.3em;
+            margin-bottom: 1.5em;
+
+            @include media($mobile) {
+                font-size: $mobile-subtitle-size;
+            }
+        }
+        > a .link {
+            color: $dark-gray;
+
+            @include media($mobile) {
+                font-size: $mobile-subtitle-size;
+            }
+        }
+    }
+    // .convo - mobile view
+    @include media($mobile) {
+        padding: $mobile-padding;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Explanar Continued
+.explanar2 {
+
+    $convo-background: $dark-gray;
+    background-position: 0 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $dark-gray;
+    color: white;
+    padding: 5em 0;
+    text-align: right;
+
+    .button {
+        color: white;
+        border-color: white;
+
+        &:hover {
+            background-color: white;
+            color: $blue;
+        }
+    }
+
+    .explanar__content2 {
+        @include outer-container;
+
+        max-width: 50em;
+
+        > h2 {
+            color: white;
+            margin-bottom: 0.6em;
+
+             @include media($mobile) {
+                font-size: $mobile-title-size;
+            }
+        }
+
+        > p {
+            font-size: 1.3em;
+            margin-bottom: 1.5em;
+
+            @include media($mobile) {
+                font-size: $mobile-subtitle-size;
+            }
+        }
+    }
+    // .convo - mobile view
+    @include media($mobile) {
+        padding: $mobile-padding;
+    }
+}
 
 // - - - - - - - - - - - - - - - - - - -
 // - - About Us
