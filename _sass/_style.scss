@@ -102,7 +102,7 @@
 }
 // - - - - - - - - - - - - - - - - - - -
 // - - Explanar
-.explanar {
+.explainer {
 
     $convo-background: $blue;
     background-position: 0 35%;
@@ -123,7 +123,7 @@
         }
     }
 
-    .explanar__content {
+    .explainer__content {
         @include outer-container;
 
         max-width: 50em;
@@ -161,7 +161,7 @@
 
 // - - - - - - - - - - - - - - - - - - -
 // - - Explanar Continued
-.explanar2 {
+.explainer2 {
 
     $convo-background: $dark-gray;
     background-position: 0 35%;
@@ -182,7 +182,7 @@
         }
     }
 
-    .explanar__content2 {
+    .explainer__content2 {
         @include outer-container;
 
         max-width: 50em;
