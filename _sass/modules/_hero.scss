@@ -297,8 +297,9 @@
 
     // team
     &.hero--team {
-        $hero-image: '../assets/images/bg/team.png';
+        $hero-image: '../assets/images/bg/HawthorneBridge-Pano.jpg';
         @include background(url($hero-image) no-repeat center center scroll);
+        overflow: hidden;
         max-width: 100%;
         background-color:  $hero-background;
         background-position: top;
