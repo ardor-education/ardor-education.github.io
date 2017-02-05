@@ -1,0 +1,25 @@
+# Amazon 3 id and secret are stored in an environment variable to prevent
+# publication.
+s3_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+s3_secret: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+s3_bucket: <%= ENV['S3_BUCKET'] %>
+
+# Cloudfront CDN
+cloudfront_distribution_id: <%= ENV['CLOUDFRONT_DISTRIBUTION_ID'] %>
+cloudfront_invalidate_root: true
+
+# Concurrency level for uploads. Decrease if errors are occurring.
+concurrency_level: 5
+
+## gzip active and file extensions
+gzip: true
+gzip:
+  - .html
+  - .css
+  - .md
+  - .js
+
+max_age:
+  "assets/*": 6000
+  "styles/*": 300
+  "*": 300
