@@ -3,6 +3,7 @@
 s3_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
 s3_secret: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
 s3_bucket: <%= ENV['S3_BUCKET'] %>
+s3_endpoint: <%= ENV['AWS_REGION'] %>
 
 # Cloudfront CDN
 cloudfront_distribution_id: <%= ENV['CLOUDFRONT_DISTRIBUTION_ID'] %>
