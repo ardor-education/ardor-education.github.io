@@ -4,7 +4,7 @@ title: Ardor Education
 description: Ardor Education
 baseurl: ''
 url: https://www.ardoreducation.com
-
+exclude: [vendor]
 frontPage:
   title:
   summary:
