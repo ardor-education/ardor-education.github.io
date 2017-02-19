@@ -63,11 +63,7 @@
         z-index: 9999;
     }
 
-
     // Nav items
-    .non-link{
-        padding: 0.1em;
-    }
     .nav__link {
         @include transition(all 0.3s ease-in-out);
 
