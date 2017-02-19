@@ -23,21 +23,90 @@
 
 }
 
-.feature-left {
-  @include span-columns(10);
-  margin-top: 10em;
-  margin-left: 2em;
-  margin-right: 2em;
+// Title landing page elemements
+#title-area {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-.landing-image {
-  //max-height: 200px;
-  //max-width: 200px;
-  padding-top: 4em;
-  padding-left: 2em;
-  float: left;
-  width: 35%;
+#first-title-area {
+  padding: auto;
+  width: 60%;
   height: auto;
-  display:block;
+  margin-top: 10px;
+  min-width: 500px;
+}
+
+#second-title-area {
+  padding: 5px;
+  width: 30%;
+  height: auto;
+  min-width: 200px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+#sub-title-area {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+#sub-area {
+  padding: auto;
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  min-width: 400px;
+}
+
+.price {
+    font-size: 1.2em;
+    margin-bottom: 0em;
+}
+
+.sign-up{
+    align-items: center;
+}
+
+.courses-available{
+    margin: 0px;
+}
+
+.title-image {
+  margin-top: 5em;
+  margin-bottom: 1.5em;
+  width: 100%;
+  max-width: 600px;
+  z-index: 100;
+}
+.phone-image {
+  align-self: center;
+  width: 100%;
+  min-width: 300px;
+  max-height: 600px;
   z-index: 100;
 }
