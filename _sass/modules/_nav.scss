@@ -65,14 +65,17 @@
 
 
     // Nav items
-
+    .non-link{
+        padding: 0.1em;
+    }
     .nav__link {
         @include transition(all 0.3s ease-in-out);
 
         display: inline;
         line-height: $navigation-height;
         overflow: hidden;
-        margin-left: 2.5em;
+        margin-left: 1.25em;
+        margin-right: 1.25em;
         text-align: right;
         text-decoration: none;
         width: auto;
