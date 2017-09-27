@@ -8,14 +8,20 @@
     text-align: center;
 }
 
-.features-content {
+.features-images {
+    display: block;
     float: left;
-    width: 592px;
-    margin: 4.3em 0 0 0;
+    width: 690px; // TODO media-query this size is macbook + iPHone
+}
+
+.features-text {
+    display: block;
+    float: right;
+    width: 900px;
+    margin: 3em 0 0 0;
 }
 
 // Devices and screens.
-
 .device {
     float: left;
     position: relative;
@@ -30,9 +36,9 @@ img {
 }
 
 .screen {
-  position: absolute;
-  overflow: hidden;
-  z-index: 2;
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
 }
 
 .device.screen img {
@@ -48,9 +54,9 @@ img {
 }
 
 .device.macbook {
-  z-index: 1;
-  width: 825px;  // TODO media-query for smaller screens
-  margin: 0 -425px 0 -100px; //TODO media-query will need to change the -100px position for smaller screens
+    z-index: 1;
+    width: 825px;  // TODO media-query for smaller screens
+    margin: 0 -425px 0 -100px; //TODO media-query will need to change the -100px position for smaller screens
 }
 
 .device.macbook .screen {
@@ -67,8 +73,40 @@ img {
 }
 
 .device.iphone .screen {
-    left: 19px; // TODO media-query for smaller screens
-    top: 51px; // TODO media-query for smaller screens
-    width: 175px; // TODO media-query for smaller screens
-    height: 311px; // TODO media-query for smaller screens
+  left: 19px; // TODO media-query for smaller screens
+  top: 51px; // TODO media-query for smaller screens
+  width: 175px; // TODO media-query for smaller screens
+  height: 311px; // TODO media-query for smaller screens
+}
+
+// Text Featueres
+
+.features-text ul li {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 2.5em 0 0 0;
+}
+
+.features-text ul li a {
+  display: block;
+  position: relative;
+  padding-left: 3.8em;
+  outline: 0;
+  text-decoration: none;
+}
+
+.features-text ul li a h3 {
+  font-size: 1.4em;
+  line-height: 1.2em;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0px;  // NOTE: I don't know where this margin is comming from?
+}
+
+.features-text ul li a p {
+  font-size: 1em;
+  line-height: 1.4em;
+  font-weight: normal;
+  margin: 0px;  // NOTE: I don't know where this margin is comming from?
 }
