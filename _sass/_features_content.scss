@@ -2,10 +2,12 @@
     padding: 4.5em 0 3.4em 0;
     display: inline-block;
     width: 100%; // TODO media-query to over-ride
+    background-color: #3498DB;
 }
 
 .wrapper-content h2 {
     text-align: center;
+    color: #ECF0F1;
 }
 
 .features-images {
@@ -79,8 +81,32 @@ img {
   height: 311px; // TODO media-query for smaller screens
 }
 
-// Text Featueres
+#iphone-image {
+    width:200px;
+    height:200px;
+    border: thin black solid;
+}
 
+
+/* Show | Hide Images */
+.hidden {
+  display: none;
+}
+
+#toggle-default:hover ~ .features-images .device.iphone .screen #iphone-default {
+    display: block;
+}
+
+#toggle-badges:hover ~ .features-images .device.iphone .screen #iphone-badges {
+    display: block;
+}
+
+#toggle-help:hover ~ .features-images .device.iphone .screen #iphone-default {
+    display: block;
+}
+
+
+// Text Featueres
 .features-text ul li {
     display: block;
     list-style: none;
@@ -96,6 +122,14 @@ img {
   text-decoration: none;
 }
 
+.feature {
+   color: #0E6A99;
+}
+.feature:hover p, .feature:hover h3 {
+    color: #ECF0F1;
+}
+
+
 .features-text ul li a h3 {
   font-size: 1.4em;
   line-height: 1.2em;
@@ -109,4 +143,9 @@ img {
   line-height: 1.4em;
   font-weight: normal;
   margin: 0px;  // NOTE: I don't know where this margin is comming from?
+}
+
+.feature-icon {
+  float: left;
+  margin: 0 5px 0 0;
 }
