@@ -11,16 +11,11 @@
 }
 
 .features-images {
+    position: relative;
+    top: -160px; // TODO This feels like a hack. Better way to position?
     display: block;
     float: left;
     width: 690px; // TODO media-query this size is macbook + iPHone
-}
-
-.features-text {
-    display: block;
-    float: right;
-    width: 900px;
-    margin: 3em 0 0 0;
 }
 
 // Devices and screens.
@@ -101,51 +96,48 @@ img {
     display: block;
 }
 
-#toggle-help:hover ~ .features-images .device.iphone .screen #iphone-default {
+#toggle-help:hover ~ .features-images .device.iphone .screen #iphone-help {
     display: block;
 }
-
 
 // Text Featueres
-.features-text ul li {
+.features-text {
+    position: relative;
     display: block;
-    list-style: none;
+    float: right;
+    width: 900px;
     padding: 0;
-    margin: 2.5em 0 0 0;
 }
 
-.features-text ul li a {
-  display: block;
-  position: relative;
-  padding-left: 3.8em;
-  outline: 0;
-  text-decoration: none;
-}
-
-.feature {
-   color: #0E6A99;
-}
-.feature:hover p, .feature:hover h3 {
-    color: #ECF0F1;
-}
-
-
-.features-text ul li a h3 {
-  font-size: 1.4em;
-  line-height: 1.2em;
+.features-text h3 {
+  color: #0E6A99;
+  font-size: 1.2em;
+  line-height: 1.4em;
   font-weight: normal;
   text-transform: uppercase;
   margin: 0px;  // NOTE: I don't know where this margin is comming from?
 }
 
-.features-text ul li a p {
+.features-text p {
+  color: #0E6A99;
   font-size: 1em;
-  line-height: 1.4em;
+  line-height: 1em;
   font-weight: normal;
   margin: 0px;  // NOTE: I don't know where this margin is comming from?
 }
 
 .feature-icon {
-  float: left;
-  margin: 0 5px 0 0;
+  position: relative;
+  left: -28px;
+  top: 33px;
+}
+
+.features-text:hover p{
+    color: #ECF0F1;
+}
+.features-text:hover  .feature-icon{
+    fill: #ECF0F1;
+}
+.features-text:hover h3 {
+    color: black;
 }
