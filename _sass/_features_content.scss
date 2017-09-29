@@ -10,15 +10,15 @@
     color: #ECF0F1;
 }
 
+// Devices and screens.
 .features-images {
     position: relative;
-    top: -160px; // TODO This feels like a hack. Better way to position?
+    top: -400px; // NOTE This is a work-arround-due to the limitations with CSS selector. Text can't be in a flex-box.
     display: block;
     float: left;
     width: 690px; // TODO media-query this size is macbook + iPHone
 }
 
-// Devices and screens.
 .device {
     float: left;
     position: relative;
@@ -87,17 +87,50 @@ img {
 .hidden {
   display: none;
 }
-
-#toggle-default:hover ~ .features-images .device.iphone .screen #iphone-default {
+// Personalized
+#toggle-personalized:hover ~ .features-images .device.iphone .screen #iphone-linear {
     display: block;
 }
-
+// Badges
 #toggle-badges:hover ~ .features-images .device.iphone .screen #iphone-badges {
     display: block;
 }
-
+// Help
 #toggle-help:hover ~ .features-images .device.iphone .screen #iphone-help {
     display: block;
+}
+// Common Core Standards
+#toggle-standards:hover ~ .features-images .device.iphone .screen #iphone-standards {
+    display: block;
+}
+#toggle-standards:hover ~ .features-images .device.macbook .screen #macbook-standards {
+    display: block;
+}
+// Reports
+#toggle-reports:hover ~ .features-images .device.macbook .screen #macbook-reports {
+    display: block;
+}
+#toggle-reports:hover ~ .features-images .device.iphone .screen #iphone-reports {
+    display: block;
+}
+// More Math:  Courses
+#toggle-more-math:hover ~ .features-images .device.iphone .screen #iphone-more-math {
+    display: block;
+}
+#toggle-more-math:hover ~ .features-images .device.macbook .screen #macbook-more-math {
+    display: block;
+}
+
+// Fade effect
+.fade {
+     opacity: 0.8;
+     transition: opacity .25s ease-in;
+     -moz-transition: opacity .25s ease-in;
+     -webkit-transition: opacity .25s ease-in;
+}
+
+.fade:hover {
+    opacity: 1;
 }
 
 // Text Featueres
@@ -112,7 +145,7 @@ img {
 .features-text h3 {
   color: #0E6A99;
   font-size: 1.2em;
-  line-height: 1.4em;
+  line-height: 1.2em;
   font-weight: normal;
   text-transform: uppercase;
   margin: 0px;  // NOTE: I don't know where this margin is comming from?
@@ -120,10 +153,11 @@ img {
 
 .features-text p {
   color: #0E6A99;
-  font-size: 1em;
-  line-height: 1em;
+  font-size: 0.8em;
+  line-height: 1.2em;
   font-weight: normal;
   margin: 0px;  // NOTE: I don't know where this margin is comming from?
+  max-width: 500px;
 }
 
 .feature-icon {
@@ -132,10 +166,11 @@ img {
   top: 33px;
 }
 
-.features-text:hover p{
+// Hover Effects
+.features-text:hover p {
     color: #ECF0F1;
 }
-.features-text:hover  .feature-icon{
+.features-text:hover svg {
     fill: #ECF0F1;
 }
 .features-text:hover h3 {
