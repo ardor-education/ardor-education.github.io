@@ -12,11 +12,7 @@
 
 // Text Featueres
 .features-text {
-    position: relative;
-    display: block;
-    float: right;
-    width: 900px;
-    padding: 0;
+    z-index: 9;
 }
 
 .features-text h3 {

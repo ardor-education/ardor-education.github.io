@@ -1,31 +1,105 @@
-$breakpoints: (small: 320px, medium: 768px, large: 1024px);
+$breakpoints: (small: 320px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
 
+@include media(">real-big") {
+    .wrapper-content {
+        max-height: 800px;
+    }
+    .features-text {
+        position: relative;
+        top: 0px;
+        left: 790px;
+        width: 500px;
+    }
+    .features-images {
+        top: -550px;
+    }
+}
 
+@include media(">big", "<=real-big") {
+    .wrapper-content {
+        max-height: 800px;
+    }
+    .features-images {
+        top: -550px;
+        width: 480px;
+    }
+    .features-text {
+        position: relative;
+        top: 0px;
+        left: 560px;
+        width: 400px;
+    }
+    .device.macbook {
+        width: 528px;
+        margin: 0 -425px 0 -50px;
+    }
+
+    .device.macbook .screen {
+        left: 63.36px;
+        top: 28px;
+        width: 398.72px;
+        height: 254.72px;
+    }
+    .device.iphone {
+        margin: 50px 0 0 175px;
+    }
+}
+
+@include media(">large", "<=big") {
+    .features-images {
+        top: -290px;
+    }
+    .features-text {
+        position: relative;
+        top: 540px;
+        left: 0px;
+        float: left;
+        width: 500px; // 2x must be smaller than big 1198px;
+        padding: 0 0 0 50px;
+    }
+    .device.macbook {
+        margin: 0 -425px 0 -90px;
+    }
+    .device.iphone {
+        margin: 90px 0 0 77px;
+    }
+}
 
 @include media(">medium", "<=large") {
     .features-images {
-        top: -540px;
+        top: -580px;
     }
     .features-text {
-        top: 530px;
+        position: relative;
+        top: 520px;
+        left: 0px;
         float: left;
-        width: 600px;
-        padding: 0 0 0 50px;
+        width: 540px; // x2 must be larger than "large" screen size. IE: 1024px;
+        padding: 0 10px 0 50px;
     }
-
+    .device.macbook {
+        margin: 0 -425px 0 0;
+    }
+    .device.iphone {
+        margin: 90px 0 0 75px;
+    }
 }
-@include media("<medium") {
-    .features-text {
-        top: 530px;
-        float: left;
-        width: 400px;
-        padding: 0 0 0 50px;
-    }
+@include media("<=medium") {
     .features-images {
         top: -640px;
     }
-    .device.macbook {
-        margin: 0 -425px 0 -400px;
+    .features-text {
+        position: relative;
+        top: 520px;
+        left: 0px;
+        float: left;
+        width: 400px;
+        padding: 0 10px 0 50px;
     }
-
+    .device.macbook {
+        margin: 0 -425px 0 -100px;
+    }
+    .device.iphone {
+        margin: 90px 0 0 -115px;
+    }
 }

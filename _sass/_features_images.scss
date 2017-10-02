@@ -4,7 +4,7 @@
     top: -400px; // NOTE This is a work-arround-due to the limitations with CSS selector. Text can't be in a flex-box.
     display: block;
     float: left;
-    width: 690px; // TODO media-query this size is macbook + iPHone
+    width: 690px;
 }
 
 .device {
@@ -40,28 +40,28 @@ img {
 
 .device.macbook {
     z-index: 1;
-    width: 825px;  // TODO media-query for smaller screens
-    margin: 0 -425px 0 -100px; //TODO media-query will need to change the -100px position for smaller screens
+    width: 825px;
+    margin: 0 -425px 0 -100px;
 }
 
 .device.macbook .screen {
-   left: 99px; // TODO media-query for smaller screens
-   top: 28px; // TODO media-query for smaller screens
-   width: 623px; //TODO media-query for smaller screens
-   height: 389px; // TODO media-queryfor smaller screens
+   left: 99px;
+   top: 28px;
+   width: 623px;
+   height: 389px;
 }
 
 .device.iphone {
-  z-index: 2;
-  width: 212px; // TODO media-query for smaller screens
-  margin: 90px 0 0 178px;
+    z-index: 2;
+    width: 212px;
+    margin: 90px 0 0 178px;
 }
 
 .device.iphone .screen {
-  left: 19px; // TODO media-query for smaller screens
-  top: 51px; // TODO media-query for smaller screens
-  width: 175px; // TODO media-query for smaller screens
-  height: 311px; // TODO media-query for smaller screens
+    left: 19px;
+    top: 51px;
+    width: 175px;
+    height: 311px;
 }
 
 #iphone-image {
