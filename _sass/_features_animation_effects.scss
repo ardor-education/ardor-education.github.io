@@ -1,7 +1,25 @@
+
+// Fade effect
+.fade {
+     opacity: 0.8;
+     transition: opacity .25s ease-in;
+     -moz-transition: opacity .25s ease-in;
+     -webkit-transition: opacity .25s ease-in;
+}
+
+.fade:hover {
+    opacity: 1;
+}
+
+/**
+  *  Toggle the device screen images when hovering over text.
+*/
+
 /* Show | Hide Images */
 .hidden {
   display: none;
 }
+
 // Personalized
 #toggle-personalized:hover ~ .features-images .device.iphone .screen #iphone-linear {
     display: block;
@@ -36,19 +54,9 @@
     display: block;
 }
 
-// Fade effect
-.fade {
-     opacity: 0.8;
-     transition: opacity .25s ease-in;
-     -moz-transition: opacity .25s ease-in;
-     -webkit-transition: opacity .25s ease-in;
-}
-
-.fade:hover {
-    opacity: 1;
-}
-
-// Hover Effects
+/**
+  * Hover Effects For Text and SVGs
+*/
 .features-text:hover p {
     color: #ECF0F1;
 }
