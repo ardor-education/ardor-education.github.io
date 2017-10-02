@@ -3,7 +3,15 @@ $breakpoints: (small: 320px, medium: 768px, large: 1024px);
 
 
 @include media(">medium", "<=large") {
-
+    .features-images {
+        top: -540px;
+    }
+    .features-text {
+        top: 530px;
+        float: left;
+        width: 600px;
+        padding: 0 0 0 50px;
+    }
 
 }
 @include media("<medium") {
