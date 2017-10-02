@@ -1,0 +1,66 @@
+/* Show | Hide Images */
+.hidden {
+  display: none;
+}
+// Personalized
+#toggle-personalized:hover ~ .features-images .device.iphone .screen #iphone-linear {
+    display: block;
+}
+// Badges
+#toggle-badges:hover ~ .features-images .device.iphone .screen #iphone-badges {
+    display: block;
+}
+// Help
+#toggle-help:hover ~ .features-images .device.iphone .screen #iphone-help {
+    display: block;
+}
+// Common Core Standards
+#toggle-standards:hover ~ .features-images .device.iphone .screen #iphone-standards {
+    display: block;
+}
+#toggle-standards:hover ~ .features-images .device.macbook .screen #macbook-standards {
+    display: block;
+}
+// Reports
+#toggle-reports:hover ~ .features-images .device.macbook .screen #macbook-reports {
+    display: block;
+}
+#toggle-reports:hover ~ .features-images .device.iphone .screen #iphone-reports {
+    display: block;
+}
+// More Math:  Courses
+#toggle-more-math:hover ~ .features-images .device.iphone .screen #iphone-more-math {
+    display: block;
+}
+#toggle-more-math:hover ~ .features-images .device.macbook .screen #macbook-more-math {
+    display: block;
+}
+
+// Fade effect
+.fade {
+     opacity: 0.8;
+     transition: opacity .25s ease-in;
+     -moz-transition: opacity .25s ease-in;
+     -webkit-transition: opacity .25s ease-in;
+}
+
+.fade:hover {
+    opacity: 1;
+}
+
+// Hover Effects
+.features-text:hover p {
+    color: #ECF0F1;
+}
+.features-text:hover svg {
+    fill: #ECF0F1;
+}
+.features-text:hover svg .badge-circle {
+    stroke: #ECF0F1;
+}
+.features-text:hover svg .badge-star {
+    fill: #ECF0F1;
+}
+.features-text:hover h3 {
+    color: black;
+}
