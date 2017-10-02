@@ -1,0 +1,23 @@
+$breakpoints: (small: 320px, medium: 768px, large: 1024px);
+
+
+
+@include media(">medium", "<=large") {
+
+
+}
+@include media("<medium") {
+    .features-text {
+        top: 530px;
+        float: left;
+        width: 400px;
+        padding: 0 0 0 50px;
+    }
+    .features-images {
+        top: -640px;
+    }
+    .device.macbook {
+        margin: 0 -425px 0 -400px;
+    }
+
+}
