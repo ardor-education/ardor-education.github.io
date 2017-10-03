@@ -1,0 +1,71 @@
+// Devices and screens.
+.features-images {
+    position: relative;
+    top: -400px; // NOTE This is a work-arround-due to the limitations with CSS selector. Text can't be in a flex-box.
+    display: block;
+    float: left;
+    width: 690px;
+}
+
+.device {
+    float: left;
+    position: relative;
+}
+
+.device>img {
+    width: 100%;
+}
+
+img {
+    vertical-align: top;
+}
+
+.screen {
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.device.screen img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity .3s ease-out;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+}
+
+.device.macbook {
+    z-index: 1;
+    width: 825px;
+    margin: 0 -425px 0 -100px;
+}
+
+.device.macbook .screen {
+   left: 99px;
+   top: 28px;
+   width: 623px;
+   height: 389px;
+}
+
+.device.iphone {
+    z-index: 2;
+    width: 212px;
+    margin: 90px 0 0 178px;
+}
+
+.device.iphone .screen {
+    left: 19px;
+    top: 51px;
+    width: 175px;
+    height: 311px;
+}
+
+#iphone-image {
+    width:200px;
+    height:200px;
+    border: thin black solid;
+}

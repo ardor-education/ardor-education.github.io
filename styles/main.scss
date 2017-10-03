@@ -38,6 +38,11 @@
 // site & page-specifc
 
 @import "_style.scss";
+@import "_include-media.scss";
+@import "_features_content.scss";
+@import "_features_images.scss";
+@import "_features_animation_effects.scss";
+@import "_features_media_queries.scss";
 
 // ========================
 // Inbox
