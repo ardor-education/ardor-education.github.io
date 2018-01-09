@@ -1,5 +1,30 @@
 $breakpoints: (small: 320px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
 
+// TODO make these variables global
+$macbook-width: 825;
+$macbook-screen-width: 623;
+$macbook-screen-height: 389;
+$macbook-pos-top: 28;
+$macbook-pos-left: 99;
+
+$iphone-width: 212;
+$iphone-screen-width: 175;
+$iphone-screen-height: 311;
+$iphone-pos-top: 51;
+$iphone-pos-left: 19;
+
+@mixin scale-width($width, $percent) {
+  width: ($width * $percent) + px;
+}
+@mixin scale-height($height, $percent) {
+  height: ($height * $percent) + px;
+}
+
+@mixin align-pos($top, $left, $percent) {
+  top: ($top * $percent) + px;
+  left: ($left * $percent) + px;
+}
+
 @include media(">real-big") {
     .wrapper-content {
         max-height: 800px;
@@ -84,22 +109,45 @@ $breakpoints: (small: 320px, medium: 768px, large: 1024px, big: 1198px, real-big
         margin: 90px 0 0 75px;
     }
 }
+
+// TODO where should these variables go?
+$small-percent: 0.6;
+$small-iphone-percent: 0.8;
+
+// TODO can I use @content to reuse media-query code blocks?
 @include media("<=medium") {
+    .wrapper-content {
+      overflow-y: scroll;
+      max-height: 800px;
+    }
     .features-images {
         top: -640px;
     }
     .features-text {
         position: relative;
-        top: 520px;
+        top: 380px;
         left: 0px;
         float: left;
         width: 400px;
         padding: 0 10px 0 50px;
     }
     .device.macbook {
-        margin: 0 -425px 0 -100px;
+      margin: 0 -425px 0 -100px;
+      @include scale-width($macbook-width, $small-percent);
+    }
+    .device.macbook .screen {
+      @include scale-width($macbook-screen-width, $small-percent);
+      @include scale-height($macbook-screen-height, $small-percent);
+      @include align-pos($macbook-pos-top, $macbook-pos-left, $small-percent);
     }
     .device.iphone {
-        margin: 90px 0 0 -115px;
+        margin: 40px 0 0 115px;
+        @include scale-width($iphone-width, $small-iphone-percent);
     }
+    .device.iphone .screen {
+      @include scale-width($iphone-screen-width, $small-iphone-percent);
+      @include scale-height($iphone-screen-height, $small-iphone-percent);
+      @include align-pos($iphone-pos-top, $iphone-pos-left, $small-iphone-percent);
+    }
+
 }
