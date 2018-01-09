@@ -57,18 +57,18 @@
 /**
   * Hover Effects For Text and SVGs
 */
-.features-text:hover p {
+.features-text:hover p, .features-text:active p {
     color: #ECF0F1;
 }
-.features-text:hover svg {
+.features-text:hover svg, .features-text:active svg {
     fill: #ECF0F1;
 }
-.features-text:hover svg .badge-circle {
+.features-text:hover svg .badge-circle, .features-text:active svg .badge-circle {
     stroke: #ECF0F1;
 }
-.features-text:hover svg .badge-star {
+.features-text:hover svg .badge-star, .features-text:active svg .badge-star {
     fill: #ECF0F1;
 }
-.features-text:hover h3 {
+.features-text:hover h3, .features-text:active h3 {
     color: black;
 }
