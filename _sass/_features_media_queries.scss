@@ -1,6 +1,6 @@
-$breakpoints: (small: 320px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
+$breakpoints: (small: 480px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
 
-// TODO make these variables global
+// NOTE: should these variables be global for all features style pages?
 $macbook-width: 825;
 $macbook-screen-width: 623;
 $macbook-screen-height: 389;
@@ -36,7 +36,7 @@ $iphone-pos-left: 19;
         width: 500px;
     }
     .features-images {
-        top: -550px;
+        top: -490px;
     }
 }
 
@@ -45,7 +45,7 @@ $iphone-pos-left: 19;
         max-height: 800px;
     }
     .features-images {
-        top: -550px;
+        top: -480px;
         width: 480px;
     }
     .features-text {
@@ -61,7 +61,7 @@ $iphone-pos-left: 19;
 
     .device.macbook .screen {
         left: 63.36px;
-        top: 28px;
+        top: 20px;
         width: 398.72px;
         height: 254.72px;
     }
@@ -90,9 +90,18 @@ $iphone-pos-left: 19;
     }
 }
 
-@include media(">medium", "<=large") {
+@include media(">small", "<=large") {
+    // NOTE these are lead page styles.
+    // TODO move to another stylesheet reflective of this page.
+    #first-title-area {
+      width: 100%;
+    }
+    #second-title-area {
+      width: 100%;
+    }
     .features-images {
-        top: -580px;
+        top: -510px;
+        overflow: hidden;
     }
     .features-text {
         position: relative;
@@ -115,13 +124,20 @@ $small-percent: 0.6;
 $small-iphone-percent: 0.8;
 
 // TODO can I use @content to reuse media-query code blocks?
-@include media("<=medium") {
-    .wrapper-content {
-      overflow-y: scroll;
-      max-height: 800px;
+@include media("<=small") {
+    // NOTE these are lead page styles.
+    // TODO move to another stylesheet reflective of this page.
+    #first-title-area {
+      width: 100%;
     }
-    .features-images {
-        top: -640px;
+    #second-title-area {
+      width: 100%;
+    }
+    // Features Styels
+    .wrapper-content {
+      padding: 2.5em 0 3.4em 0;
+      overflow-y: hidden;
+      height: 800px;
     }
     .features-text {
         position: relative;
@@ -130,10 +146,25 @@ $small-iphone-percent: 0.8;
         float: left;
         width: 400px;
         padding: 0 10px 0 50px;
+        line-height: 1em;
+    }
+
+    .feature-icon {
+      position: relative;
+      top: 23px;
+    }
+
+    .features-images {
+      position: absolute;
+      top: 1000px; // NOTE This is a work-arround-due to the limitations with CSS selector. Text can't be in a flex-box.
+      display: block;
+      float: left;
+      width: 690px;
     }
     .device.macbook {
       margin: 0 -425px 0 -100px;
       @include scale-width($macbook-width, $small-percent);
+      overflow: hidden;
     }
     .device.macbook .screen {
       @include scale-width($macbook-screen-width, $small-percent);
@@ -141,13 +172,60 @@ $small-iphone-percent: 0.8;
       @include align-pos($macbook-pos-top, $macbook-pos-left, $small-percent);
     }
     .device.iphone {
-        margin: 40px 0 0 115px;
-        @include scale-width($iphone-width, $small-iphone-percent);
+      margin: 40px 0 0 115px;
+      @include scale-width($iphone-width, $small-iphone-percent);
     }
     .device.iphone .screen {
       @include scale-width($iphone-screen-width, $small-iphone-percent);
       @include scale-height($iphone-screen-height, $small-iphone-percent);
       @include align-pos($iphone-pos-top, $iphone-pos-left, $small-iphone-percent);
+    }
+
+    // Position Features Text over the images.
+    #toggle-reports, #toggle-badges, #toggle-help, #toggle-standards, #toggle-more-math{
+      position: relative;
+    }
+    #personalized-text,
+    #badges-text,
+    #help-text,
+    #standards-text,
+    #reports-text,
+    #more-math-text {
+      position: absolute;
+      left: 0px;
+      z-index: 10;
+    }
+
+    // NOTE: Text display adjusted by 45px for each line.
+    // Might want to rethink this. Perhaps not have order position relative?
+    #personalized-text  {
+      top: -156px;
+    }
+    #badges-text {
+      top: -201px;
+    }
+    #help-text {
+      top: -246px;
+    }
+    #standards-text {
+      top: -291px;
+    }
+    #reports-text {
+      top: -336px;
+    }
+    #more-math-text {
+      top: -381px;
+    }
+
+    .features-text:hover p, .features-text:active p {
+        font-size: 1.2em;
+        color: black;
+        width: 100%;
+        padding: 15px;
+        background-color: rgba(236, 240, 241, 0.8);
+    }
+    .features-text p {
+      color: rgba(0,0,0, 0);
     }
 
 }
