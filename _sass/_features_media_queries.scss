@@ -1,4 +1,29 @@
-$breakpoints: (small: 320px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
+$breakpoints: (small: 480px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
+
+// NOTE: should these variables be global for all features style pages?
+$macbook-width: 825;
+$macbook-screen-width: 623;
+$macbook-screen-height: 389;
+$macbook-pos-top: 28;
+$macbook-pos-left: 99;
+
+$iphone-width: 212;
+$iphone-screen-width: 175;
+$iphone-screen-height: 311;
+$iphone-pos-top: 51;
+$iphone-pos-left: 19;
+
+@mixin scale-width($width, $percent) {
+  width: ($width * $percent) + px;
+}
+@mixin scale-height($height, $percent) {
+  height: ($height * $percent) + px;
+}
+
+@mixin align-pos($top, $left, $percent) {
+  top: ($top * $percent) + px;
+  left: ($left * $percent) + px;
+}
 
 @include media(">real-big") {
     .wrapper-content {
@@ -11,7 +36,7 @@ $breakpoints: (small: 320px, medium: 768px, large: 1024px, big: 1198px, real-big
         width: 500px;
     }
     .features-images {
-        top: -550px;
+        top: -490px;
     }
 }
 
@@ -20,7 +45,7 @@ $breakpoints: (small: 320px, medium: 768px, large: 1024px, big: 1198px, real-big
         max-height: 800px;
     }
     .features-images {
-        top: -550px;
+        top: -480px;
         width: 480px;
     }
     .features-text {
@@ -36,7 +61,7 @@ $breakpoints: (small: 320px, medium: 768px, large: 1024px, big: 1198px, real-big
 
     .device.macbook .screen {
         left: 63.36px;
-        top: 28px;
+        top: 20px;
         width: 398.72px;
         height: 254.72px;
     }
@@ -65,41 +90,241 @@ $breakpoints: (small: 320px, medium: 768px, large: 1024px, big: 1198px, real-big
     }
 }
 
-@include media(">medium", "<=large") {
+// Scalar variables for images
+$medium-percent: 0.7;
+$medium-iphone-percent: 0.9;
+@include media(">small", "<=large") {  //TODO change this to medium.
+    // NOTE these are lead page styles.
+    // TODO move to another stylesheet reflective of this page.
+    #first-title-area {
+      width: 100%;
+    }
+    #second-title-area {
+      width: 100%;
+    }
+    .phone-image, .title-image {
+      width: 450px;
+    }
+    // Features
+    .wrapper-content {
+      padding: 2.5em 0 3.4em 0;
+      overflow-y: hidden;
+      height: 660px;
+    }
     .features-images {
-        top: -580px;
+      position: relative;
+      top: -330px;
+      width: 690px;
     }
     .features-text {
         position: relative;
-        top: 520px;
-        left: 0px;
-        float: left;
-        width: 540px; // x2 must be larger than "large" screen size. IE: 1024px;
-        padding: 0 10px 0 50px;
+        top: -28px;
+        left: 580px;
+        // Force text into a column
+        display: block;
+         &::before {
+           content: attr(data-text);
+           padding: 1px 8px;
+         }
+      }
+
+    .feature-icon {
+      position: relative;
+      left: -58px;
+      top: 30px;
     }
+
     .device.macbook {
-        margin: 0 -425px 0 0;
+      margin: 0 -425px 0 -100;
+      @include scale-width($macbook-width, $medium-percent);
+      overflow: hidden;
+    }
+    .device.macbook .screen {
+      @include scale-width($macbook-screen-width, $medium-percent);
+      @include scale-height($macbook-screen-height, $medium-percent);
+      @include align-pos($macbook-pos-top, $macbook-pos-left, $medium-percent);
     }
     .device.iphone {
-        margin: 90px 0 0 75px;
+      margin: 0px;
+      position: relative;
+      top: 10px;
+      left: 220px;
+      @include scale-width($iphone-width, $medium-iphone-percent);
+    }
+    .device.iphone .screen {
+      @include scale-width($iphone-screen-width, $medium-iphone-percent);
+      @include scale-height($iphone-screen-height, $medium-iphone-percent);
+      @include align-pos($iphone-pos-top, $iphone-pos-left, $medium-iphone-percent);
+    }
+    // Position Features Text over the images.
+    #personalized-text,
+    #badges-text,
+    #help-text,
+    #standards-text,
+    #reports-text,
+    #more-math-text {
+      position: absolute;
+      left: -580px;
+      z-index: 10;
+      width: 100%;
+    }
+
+    // NOTE: Text display adjusted by 55px for each line.
+    // Might want to rethink this. Perhaps not have order position relative?
+    #personalized-text  {
+      top: 420px;
+    }
+    #badges-text {
+      top: 365px;
+    }
+    #help-text {
+      top: 310px;
+    }
+    #standards-text {
+      top: 255px;
+    }
+    #reports-text {
+      top: 200px;
+    }
+    #more-math-text {
+      top: 145px;
+    }
+
+    .features-text:hover p, .features-text:active p {
+        font-size: 1.2em;
+        color: black;
+        width: 100%;
+        padding: 15px;
+        // background-color: rgba(236, 240, 241, 0.8);
+        border-width: 1px;
+        border-color: #2C3E50;
+    }
+    .features-text p {
+      color: rgba(0,0,0, 0);
     }
 }
-@include media("<=medium") {
-    .features-images {
-        top: -640px;
+
+// Scalar Variables for images
+$small-percent: 0.6;
+$small-iphone-percent: 0.8;
+
+// TODO can I use @content to reuse media-query code blocks?
+@include media("<=small") {
+    // NOTE these are lead page styles.
+    // TODO move to another stylesheet reflective of this page.
+    #first-title-area {
+      width: 100%;
+    }
+    #second-title-area {
+      width: 100%;
+    }
+    .phone-image, .title-image {
+      width: 380px;
+    }
+    // Features Styels
+    .wrapper-content {
+      padding: 2.5em 0 3.4em 0;
+      overflow-y: hidden;
+      height: 800px;
+    }
+    // NOTE: this is hacky. Hiding the title on small screens
+    // The title color matches the background color.
+    .wrapper-content h2 {
+      color:  #3498DB;
     }
     .features-text {
         position: relative;
-        top: 520px;
+        top: 380px;
         left: 0px;
         float: left;
         width: 400px;
         padding: 0 10px 0 50px;
+        line-height: 1em;
+    }
+
+    .feature-icon {
+      position: relative;
+      top: 23px;
+    }
+
+    .features-images {
+      position: absolute;
+      top: 1000px; // NOTE This is a work-arround-due to the limitations with CSS selector. Text can't be in a flex-box.
+      display: block;
+      float: left;
+      width: 690px;
     }
     .device.macbook {
-        margin: 0 -425px 0 -100px;
+      margin: 0 -425px 0 -100px;
+      @include scale-width($macbook-width, $small-percent);
+      overflow: hidden;
+    }
+    .device.macbook .screen {
+      @include scale-width($macbook-screen-width, $small-percent);
+      @include scale-height($macbook-screen-height, $small-percent);
+      @include align-pos($macbook-pos-top, $macbook-pos-left, $small-percent);
     }
     .device.iphone {
-        margin: 90px 0 0 -115px;
+      margin: 40px 0 0 115px;
+      @include scale-width($iphone-width, $small-iphone-percent);
     }
+    .device.iphone .screen {
+      @include scale-width($iphone-screen-width, $small-iphone-percent);
+      @include scale-height($iphone-screen-height, $small-iphone-percent);
+      @include align-pos($iphone-pos-top, $iphone-pos-left, $small-iphone-percent);
+    }
+
+    // Position Features Text over the images.
+    #toggle-reports, #toggle-badges, #toggle-help, #toggle-standards, #toggle-more-math{
+      position: relative;
+    }
+    #personalized-text,
+    #badges-text,
+    #help-text,
+    #standards-text,
+    #reports-text,
+    #more-math-text {
+      position: absolute;
+      left: 0px;
+      z-index: 10;
+    }
+
+    // NOTE: Text display adjusted by 45px for each line.
+    // Might want to rethink this. Perhaps not have order position relative?
+    #personalized-text  {
+      top: -156px;
+    }
+    #badges-text {
+      top: -201px;
+    }
+    #help-text {
+      top: -246px;
+    }
+    #standards-text {
+      top: -291px;
+    }
+    #reports-text {
+      top: -336px;
+    }
+    #more-math-text {
+      top: -381px;
+    }
+
+    .features-text:hover p, .features-text:active p {
+        font-size: 1.2em;
+        color: black;
+        width: 100%;
+        padding: 15px;
+        background-color: rgba(236, 240, 241, 0.8);
+    }
+    .features-text p {
+      color: rgba(0,0,0, 0);
+    }
+
+    // TODO move this to another stylesheet
+    // when the videos are moved from the main page.
+    iframe {
+      width: 80%;
+    }
+
 }
