@@ -676,3 +676,10 @@
     color: $blue;
     border: 2px solid #0E6A99;
 }
+
+// videos
+// TODO fix aspect ratio to fix small screens.
+iframe {
+  max-width: "560";
+  height: "315";
+}
