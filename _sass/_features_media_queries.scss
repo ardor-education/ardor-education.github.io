@@ -321,4 +321,10 @@ $small-iphone-percent: 0.8;
       color: rgba(0,0,0, 0);
     }
 
+    // TODO move this to another stylesheet
+    // when the videos are moved from the main page.
+    iframe {
+      width: 80%;
+    }
+
 }
