@@ -90,7 +90,12 @@ $iphone-pos-left: 19;
     }
 }
 
-@include media(">small", "<=large") {
+// TODO create large.
+
+// Scalar variables for images
+$medium-percent: 0.7;
+$medium-iphone-percent: 0.9;
+@include media(">small", "<=large") {  //TODO change this to medium.
     // NOTE these are lead page styles.
     // TODO move to another stylesheet reflective of this page.
     #first-title-area {
@@ -99,27 +104,122 @@ $iphone-pos-left: 19;
     #second-title-area {
       width: 100%;
     }
+    .phone-image, .title-image {
+      width: 450px;
+    }
+    // Features
+    // Features Styels
+    .wrapper-content {
+      padding: 2.5em 0 3.4em 0;
+      overflow-y: hidden;
+      height: 800px;
+    }
     .features-images {
-        top: -510px;
-        overflow: hidden;
+      position: relative;
+      top: -330px;
+
+      width: 690px;
     }
     .features-text {
         position: relative;
-        top: 520px;
-        left: 0px;
-        float: left;
-        width: 540px; // x2 must be larger than "large" screen size. IE: 1024px;
-        padding: 0 10px 0 50px;
+        top: -28px;
+        left: 580px;
+        // Force text into a column
+        display: block;
+         &::before {
+           content: attr(data-text);
+           padding: 1px 8px;
+         }
+      }
+
+    .feature-icon {
+      position: relative;
+      left: -58px;
+      top: 30px;
     }
+
     .device.macbook {
-        margin: 0 -425px 0 0;
+      margin: 0 -425px 0 -100;
+      @include scale-width($macbook-width, $medium-percent);
+      overflow: hidden;
+    }
+    .device.macbook .screen {
+      @include scale-width($macbook-screen-width, $medium-percent);
+      @include scale-height($macbook-screen-height, $medium-percent);
+      @include align-pos($macbook-pos-top, $macbook-pos-left, $medium-percent);
     }
     .device.iphone {
-        margin: 90px 0 0 75px;
+      margin: 0px;
+      position: relative;
+      top: 10px;
+      left: 220px;
+      @include scale-width($iphone-width, $medium-iphone-percent);
+    }
+    .device.iphone .screen {
+      @include scale-width($iphone-screen-width, $medium-iphone-percent);
+      @include scale-height($iphone-screen-height, $medium-iphone-percent);
+      @include align-pos($iphone-pos-top, $iphone-pos-left, $medium-iphone-percent);
+    }
+    // Position Features Text over the images.
+    #personalized-text,
+    #badges-text,
+    #help-text,
+    #standards-text,
+    #reports-text,
+    #more-math-text {
+      position: absolute;
+      z-index: 10;
+    }
+
+    // NOTE: Text display adjusted by 45px for each line.
+    // Might want to rethink this. Perhaps not have order position relative?
+    #personalized-text  {
+      top: -300px;
+      left: 500px;
+      width: 280px;
+    }
+    #badges-text {
+      top: -281px;
+      left: -500px;
+      width: 280px;
+    }
+    #help-text {
+      top: -326px;
+      left: 0px;
+      width: 280px;
+    }
+    #standards-text {
+      top: -321px;
+      left: -151px;
+      width: 280px;
+    }
+    #reports-text {
+      top: -266px;
+      left: -20px;
+      width: 280px;
+
+    }
+    #more-math-text {
+      top: -191px;
+      left: -242px;
+      width: 600px;
+    }
+
+    .features-text:hover p, .features-text:active p {
+        font-size: 1.2em;
+        color: black;
+        width: 100%;
+        padding: 15px;
+        background-color: rgba(236, 240, 241, 0.8);
+        border-width: 1px;
+        border-color: #2C3E50;
+    }
+    .features-text p {
+      color: rgba(0,0,0, 0);
     }
 }
 
-// TODO where should these variables go?
+// Scalar Variables for images
 $small-percent: 0.6;
 $small-iphone-percent: 0.8;
 
@@ -133,11 +233,19 @@ $small-iphone-percent: 0.8;
     #second-title-area {
       width: 100%;
     }
+    .phone-image, .title-image {
+      width: 380px;
+    }
     // Features Styels
     .wrapper-content {
       padding: 2.5em 0 3.4em 0;
       overflow-y: hidden;
       height: 800px;
+    }
+    // NOTE: this is hacky. Hiding the title on small screens
+    // The title color matches the background color.
+    .wrapper-content h2 {
+      color:  #3498DB;
     }
     .features-text {
         position: relative;

@@ -30,6 +30,7 @@
 
     .logo {
         max-width: 100px;
+        height: 60px;
         @include transition(all 0.3s ease-in-out);
 
         float: left;
