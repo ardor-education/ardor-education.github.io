@@ -1,5 +1,4 @@
 # Site settings
-
 title: Ardor Education
 description: Ardor Education
 baseurl: ''
@@ -25,6 +24,22 @@ contactus:
     Are you interested in investment opportunities with Ardor Education? We'd love to hear from you.
     <a href="https://gust.com/companies/ardor-education-inc">Visit Gust</a>
     to read our business plan and learn more about us.
+
+
+curriculum:
+  title: curriculum
+  grade7:
+    - title: Number Line
+      standards: 7.NS.A.1 | 7.NS.A.1.A
+      image: './../assets/images/curriculum/grade7/number-line.png'
+      description: >
+        <p>
+          Students will learn ...<br>
+          to use number lines for addition and subtraction.  Find distances between quantities. Combine opposite quantities to make 0.
+          Combine quantities to make negatives. Add and subtract positive and negative integers. Use absolute value to find distances.
+        </p>
+
+
 
 team:
   title:

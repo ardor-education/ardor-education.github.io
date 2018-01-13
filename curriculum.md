@@ -22,10 +22,18 @@ permalink: /curriculum/
 
     <section class="tabs" id="content1">
     <!-- Grade 7 -->
-
-
-
-
+      {% for grade7 in site.curriculum.grade7 %}
+        <div class="concepts">
+          <div class="prod-image">
+            <img src="{{ site.baseurl }}/{{grade7.image}}"/>
+          </div>
+          <div class="prod-description">
+            <h2>{{grade7.title}}</h2>
+            <span class="standard-id">{{grade7.standards}}</span>
+            <p>{{grade7.description}}</p>
+          </div>
+        </div>
+      {% endfor %}
     </section>
 
     <section id="content2">
@@ -44,8 +52,10 @@ permalink: /curriculum/
 
   </main>
 </article>
+
+<!-- Download the app  -->
 <article class="hero">
-    <!--  -->
+
     <div class="hero__content">
       <h3>Download the Free Ardor Math App!</h3>
       <div id="sub-area">

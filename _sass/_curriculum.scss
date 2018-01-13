@@ -1,0 +1,32 @@
+.c-iphone {
+  width: 200px;
+  padding: 2em;
+  align: left;
+}
+
+.concepts {
+  display: flex; /* or inline-flex */
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70em;
+}
+
+.prod-image {
+  min-width: 200px;
+  padding: 2em;
+}
+
+.prod-description p {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.prod-title {
+  margin: 0;
+}
+
+.standard-id {
+  color: #2C3E50;
+  font-size: 0.8em;
+}
