@@ -23,10 +23,18 @@ permalink: /curriculum/
     <section class="tabs" id="content1">
 
     <!-- Grade 7 -->
+
+
+
       {% for grade7 in site.curriculum.grade7 %}
         <div class="concepts">
           <div class="prod-image">
-            <img src="{{ site.baseurl }}/{{grade7.image}}"/>
+            <div class="device iphone">
+                <img src="./../assets/images/product_features/iphone.png">
+                <div class="screen" >
+                  <img src="{{ site.baseurl }}/{{grade7.image}}"/>
+                </div>
+            </div>
           </div>
           <div class="prod-description">
             <h2 class="prod-title">{{grade7.title}}</h2>
@@ -48,7 +56,12 @@ permalink: /curriculum/
     {% for grade8 in site.curriculum.grade8 %}
       <div class="concepts">
         <div class="prod-image">
-          <img src="{{ site.baseurl }}/{{grade8.image}}"/>
+          <div class="device iphone">
+              <img src="./../assets/images/product_features/iphone.png">
+              <div class="screen" >
+                <img src="{{ site.baseurl }}/{{grade8.image}}"/>
+              </div>
+          </div>
         </div>
         <div class="prod-description">
           <h2 class="prod-title">{{grade8.title}}</h2>
@@ -70,7 +83,12 @@ permalink: /curriculum/
     {% for algebra in site.curriculum.algebra %}
       <div class="concepts">
         <div class="prod-image">
-          <img src="{{ site.baseurl }}/{{algebra.image}}"/>
+          <div class="device iphone">
+              <img src="./../assets/images/product_features/iphone.png">
+              <div class="screen" >
+                <img src="{{ site.baseurl }}/{{algebra.image}}"/>
+              </div>
+          </div>
         </div>
         <div class="prod-description">
           <h2 class="prod-title">{{algebra.title}}</h2>
@@ -92,7 +110,12 @@ permalink: /curriculum/
     {% for geometry in site.curriculum.geometry %}
       <div class="concepts">
         <div class="prod-image">
-          <img src="{{ site.baseurl }}/{{geometry.image}}"/>
+          <div class="device iphone">
+              <img src="./../assets/images/product_features/iphone.png">
+              <div class="screen" >
+                <img src="{{ site.baseurl }}/{{geometry.image}}"/>
+              </div>
+          </div>
         </div>
         <div class="prod-description">
           <h2 class="prod-title">{{geometry.title}}</h2>

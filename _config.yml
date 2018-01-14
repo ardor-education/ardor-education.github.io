@@ -50,7 +50,7 @@ curriculum:
   grade7:
     - title: Number Line
       standards: 7.NS.A.1 | 7.NS.A.1.A | 7.NSA.A.1.C
-      image: './../assets/images/curriculum/grade7/number-line.png'
+      image: './../assets/images/curriculum/grade7/number-line.jpeg'
       description: >
         to use number lines for addition and subtraction.  Find distances between quantities. Combine opposite quantities to make 0.
         Combine quantities to make negatives. Add and subtract positive and negative integers. Use absolute value to find distances.
@@ -58,29 +58,63 @@ curriculum:
 
     - title: Rational Numbers
       standards: 7.NS.A.1 | 7.NS.A.1.B
-      image: './../assets/images/curriculum/grade7/integers.png'
+      image: './../assets/images/curriculum/grade7/integers.jpeg'
       description: >
         to multiply and divide positive and negative rational numbers.
         Use the order of operations to simplfy expressions that include both
         positive and negative integers.
 
+    - title: Expressions
+      standards: 7.EE.A.1
+      image: './../assets/images/curriculum/grade7/expressions.jpeg'
+      description: >
+        apply properties of operations to add, subtract, factor and expand linear expresssions. Evaulate expressions by replacing variables.
+        Simplify expressions, combine like terms, distribute and write sums as a product of two factors.
+
     - title: One Variable Equations
       standards: 7.EE.A.1
-      image: './../assets/images/curriculum/grade7/one-variable-equations.png'
+      image: './../assets/images/curriculum/grade7/one-variable-equations.jpeg'
       description: >
         to solve one step and two step one variable equations.
         Model equations using tiles.
         Use tiles to solve equations. Solve equations to find missing angles in triangles
-        and parallelograms. Write and solve equations for real-life problems.
+        and parallelograms. Use distributive property to solve equations. Write and solve equations for real-life problems.
+
+    - title: Area and Perimeter
+      standards: 7.G.B.6
+      image: './../assets/images/curriculum/grade7/area.png'
+      description: >
+        to solve problems involving area and perimeter of rectangles, triangles, quadralaterals, and mixed shapes.
+        Solve for missing sides area and perimeter.
+
+    - title: Volume and Surface Area
+      standards: 7.G.B.6
+      image: './../assets/images/curriculum/grade7/pyramid.jpeg'
+      description: >
+        to solve problems involving volume and surface area of pyramids, prisms, cubes and mixed three dimensional objects.
+
+    - title: Fractions and Decimals
+      standards: 7.NS.2.D
+      image: './../assets/images/curriculum/grade7/fraction.jpeg'
+      description: >
+        to convert fractions to a decimals using long divsion. Understand when a decimal number
+        terminates, repeats, or is irrational.
+
+    - title: Percents
+      standards: 7.RP.A.3
+      image: './../assets/images/curriculum/grade7/percent.jpeg'
+      description: >
+        to solve percent problems. Problems involving part, whole or percents of numbers.
+        Percent of increase and decrese. Simple interest, tax, discounts and percent of error.
 
   grade8:
     - title: One Variable Equations
       standards: 8.EE.C.7 | 8.EE.C.7.A |  8.EE.C.7.B
-      image: './../assets/images/curriculum/grade7/one-variable-equations.png'
+      image: './../assets/images/curriculum/grade7/one-variable-equations.jpeg'
       description: >
         to solve one step, two stpe and multiple step one variable equations. Identify
         equations with one solution, infinietely many solutions, or no solutions.
-        Use algebra tiles to solve equations. Write and solve equations for real-life problems.
+        Use algebra tiles to solve equations. Use distributive property to solve equations. Write and solve equations for real-life problems.
 
     - title: Volume
       standards: 8.G.C.9
@@ -92,12 +126,12 @@ curriculum:
   algebra:
     - title: One Variable Equations
       standards: HSA.SSE.A.1.A | HSA.REI.A.2
-      image: './../assets/images/curriculum/grade7/one-variable-equations.png'
+      image: './../assets/images/curriculum/grade7/one-variable-equations.jpeg'
       description: >
         to solve one step, two stpe and multiple step one variable equations. Identify
         equations with one solution, infinietely many solutions, or no solutions.
         Use tiles to model and interpret parts of an equation.
-        Use algebra tiles to solve equations. Write and solve equations for real-life problems.
+        Use algebra tiles to solve equations.  Use distributive property to solve equations. Write and solve equations for real-life problems.
 
   geometry:
     - title: Volume
