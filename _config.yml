@@ -112,8 +112,8 @@ curriculum:
       standards: 8.EE.C.7 | 8.EE.C.7.A |  8.EE.C.7.B
       image: './../assets/images/curriculum/grade7/one-variable-equations.jpeg'
       description: >
-        to solve one step, two stpe and multiple step one variable equations. Identify
-        equations with one solution, infinietely many solutions, or no solutions.
+        to solve one step, two step and multiple step one variable equations. Identify
+        equations with one solution, infinitely many solutions, or no solutions.
         Use algebra tiles to solve equations. Use distributive property to solve equations. Write and solve equations for real-life problems.
 
     - title: Angles
@@ -193,10 +193,86 @@ curriculum:
       standards: HSA.SSE.A.1.A | HSA.REI.A.2
       image: './../assets/images/curriculum/grade7/one-variable-equations.jpeg'
       description: >
-        to solve one step, two stpe and multiple step one variable equations. Identify
-        equations with one solution, infinietely many solutions, or no solutions.
+        to solve one step, two step and multiple step one variable equations. Identify
+        equations with one solution, infinitely many solutions, or no solutions.
         Use tiles to model and interpret parts of an equation.
         Use algebra tiles to solve equations.  Use distributive property to solve equations. Write and solve equations for real-life problems.
+
+    - title: Variables and Functions
+      standards: HSA.SSE.A.1
+      image: './../assets/images/curriculum/algebra/expressions.png'
+      description: >
+        to replace variables with values to simplify expressions. Use function notation.
+
+    - title: Slope Tables and Graphs
+      standards: HSA.CED.A.2
+      image: './../assets/images/curriculum/grade8/slope.jpeg'
+      description: >
+        to determine the rate of change from graphs and tables. Identify the slope
+        from graphs and tables as part of a linear model.
+
+    - title: Slopes From Points
+      standards: HSA.CED.A.2
+      image: './../assets/images/curriculum/grade8/bamboo.jpeg'
+      description: >
+        to construct linear models. Use graphs and tables to make predictions.
+        Solve real-world problems that compare the rate of change between two quantities.
+
+    - title: Linear Equations
+      standards: HSA.CED.A.2
+      image: './../assets/images/curriculum/grade8/linear-equations.jpeg'
+      description: >
+        to write linear equations given points or table of values. Indentify slope,
+        y-intercepts. Change between standard and y-intercept forms.
+
+    - title: Linear Grahps
+      standards: HSA.CED.A.2
+      image: './../assets/images/curriculum/grade8/linear-graph.jpeg'
+      description: >
+        to write linear equations that describe graphs. Write equations that fit
+        points. Identify points that create a linear relationship.
+
+    - title: Linear Systems Substitution
+      standards: HSA.REI.C.6
+      image: './../assets/images/curriculum/grade8/substitution.jpeg'
+      description: >
+        to solve linear systems algebraicly using the substitution method. Estimate solutions
+        using graphs. Solve real-world problems modeled using linear systems.
+
+    - title: Linear Systems
+      standards: HSA.REI.C.6
+      image: './../assets/images/curriculum/algebra/elimination.jpeg'
+      description: >
+        to solve linear systems algebraicly using the a variety of methods including
+        substitution, elimination by addition and subtraction and elimination using multiplication.
+        Solve real-world problems modeled using linear systems.
+
+    - title: Polynomials
+      standards: HSA.SSE.B.3 | HSA.SSE.B.3.A
+      image: './../assets/images/curriculum/algebra/factor.jpeg'
+      description: >
+        to factor quadratic expressions. Product equivalent forms of quadratic expressions.
+        Multiply binomial and trinomial expressions.
+
+    - title: Quadratics
+      standards: HSA.REI.B.4.B
+      image: './../assets/images/curriculum/algebra/solve-quadratic-square-root.jpeg'
+      description: >
+        to solve quadratic equations by taking the squre root. Solve quadratics by factoring and complete the square methods.
+
+    - title: Quadratic Graphs
+      standards: HSA.APR.B.3 | HSA.REI.B.4.B
+      image: './../assets/images/curriculum/algebra/axis.jpeg'
+      description: >
+        to identify and solve for the axis of symmetry, vertex, and x-intercepts from a quadratic equation and graph.
+        Model quadratics using standard form, factored form and vertex form.
+
+    - title: Quadratic Formula and Methods
+      standards: HSA.APR.B.3 | HSA.REI.B.4.B
+      image: './../assets/images/curriculum/algebra/quadratic-word-problem.jpeg'
+      description: >
+        to use the quadratic formula and complete the square methods to solve quadratics.
+        Solve real-world problems. Solve for vertex, axis of symmetrty and x-intercepts.
 
   geometry:
     - title: Volume
