@@ -1,9 +1,13 @@
 #!/bin/bash
+echo Using Travis Branch $TRAVIS_BRANCH
+
 if [[ $TRAVIS_BRANCH == 'master' ]] ; then
+    echo 'Build and publish for staging'    
     bundle exec rake stage
 elif [[ $TRAVIS_BRANCH == 'live' ]] ; then
+    echo 'Build and publish for production'    
     bundle exec rake publish
 else
-    echo 'Invalid branch! You can only publish from master and live'
-    exit 1
+    echo 'Building site, not on a publishing branch'
+    bundle exec rake build
 fi
