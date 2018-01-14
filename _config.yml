@@ -4,7 +4,8 @@ title: Ardor Education
 description: Ardor Education
 baseurl: ''
 url: https://www.ardoreducation.com
-
+plugins:
+  - jekyll-compress-images
 exclude:
   - vendor
   - buildspec.yml
