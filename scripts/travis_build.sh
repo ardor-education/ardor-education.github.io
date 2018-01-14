@@ -1,5 +1,5 @@
 #!/bin/bash
-echo Using Travis Branch $TRAVIS_BRANCH
+echo Using Travis Branch $BRANCH
 
 if [[ $BRANCH == 'master' ]] ; then
     echo 'Build and publish for staging'    
