@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-gem 'jekyll', '~> 2.5.3'
-gem "compass", "~> 1.0.3"
-gem "s3_website", "~> 2.3.1"
-gem "rake", "~> 10"
-gem "sass", "~> 3.4.16"
+gem 'jekyll', '~> 3.7'
+gem 'compass', '~> 1.0', '>= 1.0.3'
+gem 's3_website', '~> 3.4'
+gem 'rake', '~> 12.3'
+gem 'sass', '~> 3', '< 3.5'
