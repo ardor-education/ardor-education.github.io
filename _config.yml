@@ -13,19 +13,6 @@ about:
   title:
   summary:
 
-contactus:
-  educators: >
-    Do you want to be an advocate for improving math education? We’d love to talk to you. Please send us an <a href="mailto:contact@ardoreducation.com">email</a>
-    so we can begin the conversation.
-
-  support: >
-    Please let us know how we can help you.
-  investors: >
-    Are you interested in investment opportunities with Ardor Education? We'd love to hear from you.
-    <a href="https://gust.com/companies/ardor-education-inc">Visit Gust</a>
-    to read our business plan and learn more about us.
-
-
 curriculum:
   title: curriculum
   links: >
@@ -381,6 +368,23 @@ team:
         I am very excited to be working on products that will help students learn and help teachers teach. Knowing I am
         part of a group that will change the world, and help change education for the better is as rewarding as it gets.
         </p>
+
+contactus:
+  title: Are You Ready?
+  summary: >
+    Whether you'd like to know more about our education products, you'd like to stay in the loop on our efforts, or you
+    just want to say hi, <strong>we'd love to hear from you!</strong>
+
+  educators: >
+    Do you want to be an advocate for improving math education? We’d love to talk to you. Please send us an <a href="mailto:contact@ardoreducation.com">email</a>
+    so we can begin the conversation.
+
+  support: >
+    Please let us know how we can help you.
+  investors: >
+    Are you interested in investment opportunities with Ardor Education? We'd love to hear from you.
+    <a href="https://gust.com/companies/ardor-education-inc">Visit Gust</a>
+    to read our business plan and learn more about us.
 
 company:
   name: Ardor Education
