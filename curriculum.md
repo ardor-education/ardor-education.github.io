@@ -21,11 +21,7 @@ permalink: /curriculum/
     <label for="tab4">Geometry</label>
 
     <section class="tabs" id="content1">
-
     <!-- Grade 7 -->
-
-
-
       {% for grade7 in site.curriculum.grade7 %}
         <div class="concepts">
           <div class="prod-image">
@@ -51,7 +47,7 @@ permalink: /curriculum/
       {% endfor %}
     </section>
 
-    <section id="content2">
+    <section  class="tabs" id="content2">
     <!-- Grade 8 -->
     {% for grade8 in site.curriculum.grade8 %}
       <div class="concepts">
@@ -78,7 +74,7 @@ permalink: /curriculum/
     {% endfor %}
     </section>
 
-    <section  class="tabs" id="content3">
+    <section class="tabs" id="content3">
     <!-- Algebra 1 -->
     {% for algebra in site.curriculum.algebra %}
       <div class="concepts">
@@ -140,6 +136,9 @@ permalink: /curriculum/
 
     <div class="hero__content">
       <h3>Download the Free Ardor Math App!</h3>
+      <p>
+        The problems shown above are only a sample. Download the free app to see what Ardor has to offer. 
+      </p>
       <div id="sub-area">
           <div class="badge-area">
               <a href="https://itunes.apple.com/us/app/ardor-math/id953832689?ls=1&mt=8">

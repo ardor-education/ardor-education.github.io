@@ -116,12 +116,77 @@ curriculum:
         equations with one solution, infinietely many solutions, or no solutions.
         Use algebra tiles to solve equations. Use distributive property to solve equations. Write and solve equations for real-life problems.
 
+    - title: Angles
+      standards: 8.G.A.5
+      image: './../assets/images/curriculum/grade8/transversal.png'
+      description: >
+        to solve for missing angles in triangles parallelograms and transversals. Use
+        facts about angle sum and exterior angles of triangles to solve problems. Know how to
+        apply properties of coorisponding and supplemental angles to solve angle expression problems.
+
+    - title: Exponents and Scientific Notation
+      standards: 8.EE.A.4
+      image: './../assets/images/curriculum/grade8/scientific-notation.jpeg'
+      description: >
+        to perform operations with numbers expressed in scientific notation. Simplify expressions
+        with exponents.
+
+    - title: Pythagorean Theorem
+      standards: 8.G.B.7 | 8.G.B.6
+      image: './../assets/images/curriculum/grade8/ladder.jpeg'
+      description: >
+        apply the Pythagorean Theorem to determine side lengths in right triangles.
+        Solve real-world problems. Apply the Pythagorean Theorem to find the distnace between
+        two points in a coordinate system.
+
     - title: Volume
       standards: 8.G.C.9
-      image: './../assets/images/curriculum/grade8/cone.png'
+      image: './../assets/images/curriculum/grade8/ice-cream-cone.jpeg'
       description: >
         to solve volumes of cylinders, cones, and spheres. Solve volumes of mixed shapes
         such as ice-cream cones, pills, and pencils.
+
+    - title: Transformations
+      standards: 8.G.A.3
+      image: './../assets/images/curriculum/grade8/rotation.jpeg'
+      description: >
+        to describe the effect of rotations, reflections, translations and dilations.
+        Use transformation rules to perform transformations.
+
+    - title: Slope Tables and Graphs
+      standards: 8.EE.B.5 | 8.F.B.4
+      image: './../assets/images/curriculum/grade8/slope.jpeg'
+      description: >
+        to determine the rate of change from graphs and tables. Identify the slope
+        from graphs and tables as part of a linear model.
+
+    - title: Slopes From Points
+      standards: 8.F.B.4
+      image: './../assets/images/curriculum/grade8/bamboo.jpeg'
+      description: >
+        to construct linear models. Use graphs and tables to make predictions.
+        Solve real-world problems that compare the rate of change between two quantities.
+
+    - title: Linear Equations
+      standards: 8.F.B.4
+      image: './../assets/images/curriculum/grade8/linear-equations.jpeg'
+      description: >
+        to write linear equations given points or table of values. Indentify slope,
+        y-intercepts. Change between standard and y-intercept forms.
+
+    - title: Linear Grahps
+      standards: 8.F.B.4
+      image: './../assets/images/curriculum/grade8/linear-graph.jpeg'
+      description: >
+        to write linear equations that describe graphs. Write equations that fit
+        points. Identify points that create a linear relationship.
+
+    - title: Linear Systems
+      standards: 8.EE.C.8.B | 8.EE.C.8.C
+      image: './../assets/images/curriculum/grade8/substitution.jpeg'
+      description: >
+        to solve linear systems algebraicly using the substitution method. Estimate solutions
+        using graphs. Solve real-world problems modeled using linear systems.
 
   algebra:
     - title: One Variable Equations
