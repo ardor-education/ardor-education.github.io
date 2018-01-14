@@ -21,6 +21,7 @@ permalink: /curriculum/
     <label for="tab4">Geometry</label>
 
     <section class="tabs" id="content1">
+
     <!-- Grade 7 -->
       {% for grade7 in site.curriculum.grade7 %}
         <div class="concepts">
@@ -28,9 +29,15 @@ permalink: /curriculum/
             <img src="{{ site.baseurl }}/{{grade7.image}}"/>
           </div>
           <div class="prod-description">
-            <h2>{{grade7.title}}</h2>
+            <h2 class="prod-title">{{grade7.title}}</h2>
             <span class="standard-id">{{grade7.standards}}</span>
-            <p>{{grade7.description}}</p>
+            <p>
+              Students will learn ...
+            </p>
+            <p>
+              {{grade7.description}}
+            </p>
+            {{site.curriculum.links}}
           </div>
         </div>
       {% endfor %}
@@ -38,16 +45,68 @@ permalink: /curriculum/
 
     <section id="content2">
     <!-- Grade 8 -->
-
+    {% for grade8 in site.curriculum.grade8 %}
+      <div class="concepts">
+        <div class="prod-image">
+          <img src="{{ site.baseurl }}/{{grade8.image}}"/>
+        </div>
+        <div class="prod-description">
+          <h2 class="prod-title">{{grade8.title}}</h2>
+          <span class="standard-id">{{grade8.standards}}</span>
+          <p>
+            Students will learn ...
+          </p>
+          <p>
+            {{grade8.description}}
+          </p>
+          {{site.curriculum.links}}
+        </div>
+      </div>
+    {% endfor %}
     </section>
 
     <section  class="tabs" id="content3">
     <!-- Algebra 1 -->
+    {% for algebra in site.curriculum.algebra %}
+      <div class="concepts">
+        <div class="prod-image">
+          <img src="{{ site.baseurl }}/{{algebra.image}}"/>
+        </div>
+        <div class="prod-description">
+          <h2 class="prod-title">{{algebra.title}}</h2>
+          <span class="standard-id">{{algebra.standards}}</span>
+          <p>
+            Students will learn ...
+          </p>
+          <p>
+            {{algebra.description}}
+          </p>
+          {{site.curriculum.links}}
+        </div>
+      </div>
+    {% endfor %}
     </section>
 
     <section class="tabs" id="content4">
     <!-- Geometry -->
-
+    {% for geometry in site.curriculum.geometry %}
+      <div class="concepts">
+        <div class="prod-image">
+          <img src="{{ site.baseurl }}/{{geometry.image}}"/>
+        </div>
+        <div class="prod-description">
+          <h2 class="prod-title">{{geometry.title}}</h2>
+          <span class="standard-id">{{geometry.standards}}</span>
+          <p>
+            Students will learn ...
+          </p>
+          <p>
+            {{geometry.description}}
+          </p>
+          {{site.curriculum.links}}
+        </div>
+      </div>
+    {% endfor %}
     </section>
 
   </main>

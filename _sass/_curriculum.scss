@@ -1,5 +1,5 @@
 .c-iphone {
-  width: 200px;
+  max-width: 100px;
   padding: 2em;
   align: left;
 }
@@ -13,13 +13,14 @@
 }
 
 .prod-image {
-  min-width: 200px;
+  min-width: 300px;
   padding: 2em;
 }
 
 .prod-description p {
   font-size: 1.2em;
   margin-bottom: 1.5em;
+  color: black;
 }
 
 .prod-title {
@@ -29,4 +30,9 @@
 .standard-id {
   color: #2C3E50;
   font-size: 0.8em;
+}
+
+.prod-description .app-store-badge {
+  width: 100px;
+  align: left;
 }

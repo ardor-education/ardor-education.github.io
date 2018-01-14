@@ -28,17 +28,84 @@ contactus:
 
 curriculum:
   title: curriculum
+  links: >
+    <a
+      href="https://itunes.apple.com/us/app/ardor-math/id953832689?ls=1&mt=8">
+      <img class="app-store-badge" src="./../assets/images/logo/App_Store_Badge.svg">
+    </a>
+    <a
+      href="https://play.google.com/store/apps/details?id=com.ardor.algebradojo">
+      <img class="app-store-badge" src="./../assets/images/logo/play-store-badge.png">
+    </a>
+    <br>
+    Download the free app. Learn more about
+    <a
+      href="https://support.google.com/chromebook/answer/7021273?hl=en">Android for Chromebooks.
+    </a> Request or ask about a
+    <a
+      href="mailto:contact@ardoreducation.com?Subject=Request%Problem%Type" target="_top"
+    >
+     specific problem type.
+    </a>
   grade7:
     - title: Number Line
-      standards: 7.NS.A.1 | 7.NS.A.1.A
+      standards: 7.NS.A.1 | 7.NS.A.1.A | 7.NSA.A.1.C
       image: './../assets/images/curriculum/grade7/number-line.png'
       description: >
-        <p>
-          Students will learn ...<br>
-          to use number lines for addition and subtraction.  Find distances between quantities. Combine opposite quantities to make 0.
-          Combine quantities to make negatives. Add and subtract positive and negative integers. Use absolute value to find distances.
-        </p>
+        to use number lines for addition and subtraction.  Find distances between quantities. Combine opposite quantities to make 0.
+        Combine quantities to make negatives. Add and subtract positive and negative integers. Use absolute value to find distances.
+        Subtract rational numbers as the additive invers. p -  q = p + (-q).
 
+    - title: Rational Numbers
+      standards: 7.NS.A.1 | 7.NS.A.1.B
+      image: './../assets/images/curriculum/grade7/integers.png'
+      description: >
+        to multiply and divide positive and negative rational numbers.
+        Use the order of operations to simplfy expressions that include both
+        positive and negative integers.
+
+    - title: One Variable Equations
+      standards: 7.EE.A.1
+      image: './../assets/images/curriculum/grade7/one-variable-equations.png'
+      description: >
+        to solve one step and two step one variable equations.
+        Model equations using tiles.
+        Use tiles to solve equations. Solve equations to find missing angles in triangles
+        and parallelograms. Write and solve equations for real-life problems.
+
+  grade8:
+    - title: One Variable Equations
+      standards: 8.EE.C.7 | 8.EE.C.7.A |  8.EE.C.7.B
+      image: './../assets/images/curriculum/grade7/one-variable-equations.png'
+      description: >
+        to solve one step, two stpe and multiple step one variable equations. Identify
+        equations with one solution, infinietely many solutions, or no solutions.
+        Use algebra tiles to solve equations. Write and solve equations for real-life problems.
+
+    - title: Volume
+      standards: 8.G.C.9
+      image: './../assets/images/curriculum/grade8/cone.png'
+      description: >
+        to solve volumes of cylinders, cones, and spheres. Solve volumes of mixed shapes
+        such as ice-cream cones, pills, and pencils.
+
+  algebra:
+    - title: One Variable Equations
+      standards: HSA.SSE.A.1.A | HSA.REI.A.2
+      image: './../assets/images/curriculum/grade7/one-variable-equations.png'
+      description: >
+        to solve one step, two stpe and multiple step one variable equations. Identify
+        equations with one solution, infinietely many solutions, or no solutions.
+        Use tiles to model and interpret parts of an equation.
+        Use algebra tiles to solve equations. Write and solve equations for real-life problems.
+
+  geometry:
+    - title: Volume
+      standards: HSG.GMD.A.3
+      image: './../assets/images/curriculum/grade8/cone.png'
+      description: >
+        to solve volumes of pyramids, prisms, cylinders, cones, and spheres. Solve volumes of mixed shapes
+        such as ice-cream cones, pills, and pencils.
 
 
 team:
