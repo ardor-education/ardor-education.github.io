@@ -11,7 +11,7 @@ task :default => :server
 
 desc 'Build site with Jekyll'
 task :build do
-  system 'bundle exec jekyll build --config _config.yml,_production.yml'
+  system 'bundle exec jekyll build --config _config.yml'
 end
 
 desc 'Build and start local server'
