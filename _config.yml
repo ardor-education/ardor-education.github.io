@@ -3,7 +3,19 @@ title: Ardor Education
 description: Ardor Education
 baseurl: ''
 url: https://www.ardoreducation.com
-exclude: [vendor]
+plugins:
+  - jekyll-compress-images
+exclude:
+  - vendor
+  - buildspec.yml
+  - s3_website.yml
+  - scripts
+  - Rakefile
+  - Vagrantfile
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
 frontPage:
   title:
   summary:
