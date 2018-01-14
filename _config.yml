@@ -275,13 +275,47 @@ curriculum:
         Solve real-world problems. Solve for vertex, axis of symmetrty and x-intercepts.
 
   geometry:
-    - title: Volume
-      standards: HSG.GMD.A.3
-      image: './../assets/images/curriculum/grade8/cone.png'
+    - title: Lines and Measures
+      standards: HSG.CO.A.1 | HSG.SRT.C.8
+      image: './../assets/images/curriculum/geometry/pyth-cone.jpeg'
       description: >
-        to solve volumes of pyramids, prisms, cylinders, cones, and spheres. Solve volumes of mixed shapes
-        such as ice-cream cones, pills, and pencils.
+        to find distances between points on a number line and a coordinate system.
+        Use Pythagorean Theorem to solve for distances. Use Pythagorean Theorem to solve
+        problems.
 
+    - title: Area and Perimeter
+      standards: HSG.GMD.A.1
+      image: './../assets/images/curriculum/geometry/area.jpeg'
+      description: >
+        to solve for the area and perimeter of various shapes. Including rectangles, triangles,
+        and mixed shapes.
+
+    - title: Circles
+      standards: HSG.GMD.A.1
+      image: './../assets/images/curriculum/grade7/circle.jpeg'
+      description: >
+        to solve for the area and circumference of circles. Including mixed shapes.
+
+    - title: Angles and Measures
+      standards: HSG.CO.C.9
+      image: './../assets/images/curriculum/geometry/parallelogram.jpeg'
+      description: >
+        to solve angles in triangles, parallelograms, and transversals. Understand and apply
+        angle relationships such as coorisponding and supplemental to solve problems.
+
+    - title: Transformations
+      standards: HSG.CO.A.3 | HSG.CO.A.4
+      image: './../assets/images/curriculum/geometry/reflection.jpeg'
+      description: >
+        to describe the effect of rotations, reflections, translations and dilations.
+        Use transformation rules to perform transformations.
+
+    - title: Surface Area
+      standards: HSG.MG.A.2
+      image: './../assets/images/curriculum/geometry/surface-area.jpeg'
+      description: >
+        to solve for the surface area of various shapes. Including prisms, pyramids,
+        cones, cylinders, spheres and mixed shapes.
 
 team:
   title:
