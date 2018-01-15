@@ -1,10 +1,21 @@
 # Site settings
-
 title: Ardor Education
 description: Ardor Education
 baseurl: ''
 url: https://www.ardoreducation.com
-exclude: [vendor]
+plugins:
+  - jekyll-compress-images
+exclude:
+  - vendor
+  - buildspec.yml
+  - s3_website.yml
+  - scripts
+  - Rakefile
+  - Vagrantfile
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
 frontPage:
   title:
   summary:
@@ -14,17 +25,296 @@ about:
   title:
   summary:
 
-contactus:
-  educators: >
-    Do you want to be an advocate for improving math education? We’d love to talk to you. Please send us an <a href="mailto:contact@ardoreducation.com">email</a>
-    so we can begin the conversation.
+curriculum:
+  title: curriculum
+  links: >
+    <a
+      href="https://itunes.apple.com/us/app/ardor-math/id953832689?ls=1&mt=8">
+      <img class="app-store-badge" src="./../assets/images/logo/App_Store_Badge.svg">
+    </a>
+    <a
+      href="https://play.google.com/store/apps/details?id=com.ardor.algebradojo">
+      <img class="app-store-badge" src="./../assets/images/logo/play-store-badge.png">
+    </a>
+    <br>
+    Download the free app. Learn more about
+    <a
+      href="https://support.google.com/chromebook/answer/7021273?hl=en">Android for Chromebooks.
+    </a> Request or ask about a
+    <a
+      href="mailto:contact@ardoreducation.com?Subject=Request%Problem%Type" target="_top"
+    >
+     specific problem type.
+    </a>
+  grade7:
+    - title: Number Line
+      standards: 7.NS.A.1 | 7.NS.A.1.A | 7.NSA.A.1.C
+      image: './../assets/images/curriculum/grade7/number-line.jpeg'
+      description: >
+        to use number lines for addition and subtraction.  Find distances between quantities. Combine opposite quantities to make 0.
+        Combine quantities to make negatives. Add and subtract positive and negative integers. Use absolute value to find distances.
+        Subtract rational numbers as the additive invers. p -  q = p + (-q).
 
-  support: >
-    We are sorry you are having trouble with Ardor Math. Please let us know how we can help you.
-  investors: >
-    Are you interested in investment opportunities with Ardor Education? We'd love to hear from you.
-    <a href="https://gust.com/companies/ardor-education-inc">Visit Gust</a>
-    to read our business plan and learn more about us.
+    - title: Rational Numbers
+      standards: 7.NS.A.1 | 7.NS.A.1.B
+      image: './../assets/images/curriculum/grade7/integers.jpeg'
+      description: >
+        to multiply and divide positive and negative rational numbers.
+        Use the order of operations to simplfy expressions that include both
+        positive and negative integers.
+
+    - title: Expressions
+      standards: 7.EE.A.1
+      image: './../assets/images/curriculum/grade7/expressions.jpeg'
+      description: >
+        apply properties of operations to add, subtract, factor and expand linear expresssions. Evaulate expressions by replacing variables.
+        Simplify expressions, combine like terms, distribute and write sums as a product of two factors.
+
+    - title: One Variable Equations
+      standards: 7.EE.A.1
+      image: './../assets/images/curriculum/grade7/one-variable-equations.jpeg'
+      description: >
+        to solve one step and two step one variable equations.
+        Model equations using tiles.
+        Use tiles to solve equations. Solve equations to find missing angles in triangles
+        and parallelograms. Use distributive property to solve equations. Write and solve equations for real-life problems.
+
+    - title: Area and Perimeter
+      standards: 7.G.B.6
+      image: './../assets/images/curriculum/grade7/area.png'
+      description: >
+        to solve problems involving area and perimeter of rectangles, triangles, quadralaterals, and mixed shapes.
+        Solve for missing sides area and perimeter.
+
+    - title: Volume and Surface Area
+      standards: 7.G.B.6
+      image: './../assets/images/curriculum/grade7/pyramid.jpeg'
+      description: >
+        to solve problems involving volume and surface area of pyramids, prisms, cubes and mixed three dimensional objects.
+
+    - title: Fractions and Decimals
+      standards: 7.NS.2.D
+      image: './../assets/images/curriculum/grade7/fraction.jpeg'
+      description: >
+        to convert fractions to a decimals using long divsion. Understand when a decimal number
+        terminates, repeats, or is irrational.
+
+    - title: Percents
+      standards: 7.RP.A.3
+      image: './../assets/images/curriculum/grade7/percent.jpeg'
+      description: >
+        to solve percent problems. Problems involving part, whole or percents of numbers.
+        Percent of increase and decrese. Simple interest, tax, discounts and percent of error.
+
+  grade8:
+    - title: One Variable Equations
+      standards: 8.EE.C.7 | 8.EE.C.7.A |  8.EE.C.7.B
+      image: './../assets/images/curriculum/grade7/one-variable-equations.jpeg'
+      description: >
+        to solve one step, two step and multiple step one variable equations. Identify
+        equations with one solution, infinitely many solutions, or no solutions.
+        Use algebra tiles to solve equations. Use distributive property to solve equations. Write and solve equations for real-life problems.
+
+    - title: Angles
+      standards: 8.G.A.5
+      image: './../assets/images/curriculum/grade8/transversal.png'
+      description: >
+        to solve for missing angles in triangles parallelograms and transversals. Use
+        facts about angle sum and exterior angles of triangles to solve problems. Know how to
+        apply properties of coorisponding and supplemental angles to solve angle expression problems.
+
+    - title: Exponents and Scientific Notation
+      standards: 8.EE.A.4
+      image: './../assets/images/curriculum/grade8/scientific-notation.jpeg'
+      description: >
+        to perform operations with numbers expressed in scientific notation. Simplify expressions
+        with exponents.
+
+    - title: Pythagorean Theorem
+      standards: 8.G.B.7 | 8.G.B.6
+      image: './../assets/images/curriculum/grade8/ladder.jpeg'
+      description: >
+        apply the Pythagorean Theorem to determine side lengths in right triangles.
+        Solve real-world problems. Apply the Pythagorean Theorem to find the distnace between
+        two points in a coordinate system.
+
+    - title: Volume
+      standards: 8.G.C.9
+      image: './../assets/images/curriculum/grade8/ice-cream-cone.jpeg'
+      description: >
+        to solve volumes of cylinders, cones, and spheres. Solve volumes of mixed shapes
+        such as ice-cream cones, pills, and pencils.
+
+    - title: Transformations
+      standards: 8.G.A.3
+      image: './../assets/images/curriculum/grade8/rotation.jpeg'
+      description: >
+        to describe the effect of rotations, reflections, translations and dilations.
+        Use transformation rules to perform transformations.
+
+    - title: Slope Tables and Graphs
+      standards: 8.EE.B.5 | 8.F.B.4
+      image: './../assets/images/curriculum/grade8/slope.jpeg'
+      description: >
+        to determine the rate of change from graphs and tables. Identify the slope
+        from graphs and tables as part of a linear model.
+
+    - title: Slopes From Points
+      standards: 8.F.B.4
+      image: './../assets/images/curriculum/grade8/bamboo.jpeg'
+      description: >
+        to construct linear models. Use graphs and tables to make predictions.
+        Solve real-world problems that compare the rate of change between two quantities.
+
+    - title: Linear Equations
+      standards: 8.F.B.4
+      image: './../assets/images/curriculum/grade8/linear-equations.jpeg'
+      description: >
+        to write linear equations given points or table of values. Indentify slope,
+        y-intercepts. Change between standard and y-intercept forms.
+
+    - title: Linear Grahps
+      standards: 8.F.B.4
+      image: './../assets/images/curriculum/grade8/linear-graph.jpeg'
+      description: >
+        to write linear equations that describe graphs. Write equations that fit
+        points. Identify points that create a linear relationship.
+
+    - title: Linear Systems
+      standards: 8.EE.C.8.B | 8.EE.C.8.C
+      image: './../assets/images/curriculum/grade8/substitution.jpeg'
+      description: >
+        to solve linear systems algebraicly using the substitution method. Estimate solutions
+        using graphs. Solve real-world problems modeled using linear systems.
+
+  algebra:
+    - title: One Variable Equations
+      standards: HSA.SSE.A.1.A | HSA.REI.A.2
+      image: './../assets/images/curriculum/grade7/one-variable-equations.jpeg'
+      description: >
+        to solve one step, two step and multiple step one variable equations. Identify
+        equations with one solution, infinitely many solutions, or no solutions.
+        Use tiles to model and interpret parts of an equation.
+        Use algebra tiles to solve equations.  Use distributive property to solve equations. Write and solve equations for real-life problems.
+
+    - title: Variables and Functions
+      standards: HSA.SSE.A.1
+      image: './../assets/images/curriculum/algebra/expressions.png'
+      description: >
+        to replace variables with values to simplify expressions. Use function notation.
+
+    - title: Slope Tables and Graphs
+      standards: HSA.CED.A.2
+      image: './../assets/images/curriculum/grade8/slope.jpeg'
+      description: >
+        to determine the rate of change from graphs and tables. Identify the slope
+        from graphs and tables as part of a linear model.
+
+    - title: Slopes From Points
+      standards: HSA.CED.A.2
+      image: './../assets/images/curriculum/grade8/bamboo.jpeg'
+      description: >
+        to construct linear models. Use graphs and tables to make predictions.
+        Solve real-world problems that compare the rate of change between two quantities.
+
+    - title: Linear Equations
+      standards: HSA.CED.A.2
+      image: './../assets/images/curriculum/grade8/linear-equations.jpeg'
+      description: >
+        to write linear equations given points or table of values. Indentify slope,
+        y-intercepts. Change between standard and y-intercept forms.
+
+    - title: Linear Grahps
+      standards: HSA.CED.A.2
+      image: './../assets/images/curriculum/grade8/linear-graph.jpeg'
+      description: >
+        to write linear equations that describe graphs. Write equations that fit
+        points. Identify points that create a linear relationship.
+
+    - title: Linear Systems Substitution
+      standards: HSA.REI.C.6
+      image: './../assets/images/curriculum/grade8/substitution.jpeg'
+      description: >
+        to solve linear systems algebraicly using the substitution method. Estimate solutions
+        using graphs. Solve real-world problems modeled using linear systems.
+
+    - title: Linear Systems
+      standards: HSA.REI.C.6
+      image: './../assets/images/curriculum/algebra/elimination.jpeg'
+      description: >
+        to solve linear systems algebraicly using the a variety of methods including
+        substitution, elimination by addition and subtraction and elimination using multiplication.
+        Solve real-world problems modeled using linear systems.
+
+    - title: Polynomials
+      standards: HSA.SSE.B.3 | HSA.SSE.B.3.A
+      image: './../assets/images/curriculum/algebra/factor.jpeg'
+      description: >
+        to factor quadratic expressions. Product equivalent forms of quadratic expressions.
+        Multiply binomial and trinomial expressions.
+
+    - title: Quadratics
+      standards: HSA.REI.B.4.B
+      image: './../assets/images/curriculum/algebra/solve-quadratic-square-root.jpeg'
+      description: >
+        to solve quadratic equations by taking the squre root. Solve quadratics by factoring and complete the square methods.
+
+    - title: Quadratic Graphs
+      standards: HSA.APR.B.3 | HSA.REI.B.4.B
+      image: './../assets/images/curriculum/algebra/axis.jpeg'
+      description: >
+        to identify and solve for the axis of symmetry, vertex, and x-intercepts from a quadratic equation and graph.
+        Model quadratics using standard form, factored form and vertex form.
+
+    - title: Quadratic Formula and Methods
+      standards: HSA.APR.B.3 | HSA.REI.B.4.B
+      image: './../assets/images/curriculum/algebra/quadratic-word-problem.jpeg'
+      description: >
+        to use the quadratic formula and complete the square methods to solve quadratics.
+        Solve real-world problems. Solve for vertex, axis of symmetrty and x-intercepts.
+
+  geometry:
+    - title: Lines and Measures
+      standards: HSG.CO.A.1 | HSG.SRT.C.8
+      image: './../assets/images/curriculum/geometry/pyth-cone.jpeg'
+      description: >
+        to find distances between points on a number line and a coordinate system.
+        Use Pythagorean Theorem to solve for distances. Use Pythagorean Theorem to solve
+        problems.
+
+    - title: Area and Perimeter
+      standards: HSG.GMD.A.1
+      image: './../assets/images/curriculum/geometry/area.jpeg'
+      description: >
+        to solve for the area and perimeter of various shapes. Including rectangles, triangles,
+        and mixed shapes.
+
+    - title: Circles
+      standards: HSG.GMD.A.1
+      image: './../assets/images/curriculum/grade7/circle.jpeg'
+      description: >
+        to solve for the area and circumference of circles. Including mixed shapes.
+
+    - title: Angles and Measures
+      standards: HSG.CO.C.9
+      image: './../assets/images/curriculum/geometry/parallelogram.jpeg'
+      description: >
+        to solve angles in triangles, parallelograms, and transversals. Understand and apply
+        angle relationships such as coorisponding and supplemental to solve problems.
+
+    - title: Transformations
+      standards: HSG.CO.A.3 | HSG.CO.A.4
+      image: './../assets/images/curriculum/geometry/reflection.jpeg'
+      description: >
+        to describe the effect of rotations, reflections, translations and dilations.
+        Use transformation rules to perform transformations.
+
+    - title: Surface Area
+      standards: HSG.MG.A.2
+      image: './../assets/images/curriculum/geometry/surface-area.jpeg'
+      description: >
+        to solve for the surface area of various shapes. Including prisms, pyramids,
+        cones, cylinders, spheres and mixed shapes.
 
 team:
   title:
@@ -90,6 +380,23 @@ team:
         I am very excited to be working on products that will help students learn and help teachers teach. Knowing I am
         part of a group that will change the world, and help change education for the better is as rewarding as it gets.
         </p>
+
+contactus:
+  title: Are You Ready?
+  summary: >
+    Whether you'd like to know more about our education products, you'd like to stay in the loop on our efforts, or you
+    just want to say hi, <strong>we'd love to hear from you!</strong>
+
+  educators: >
+    Do you want to be an advocate for improving math education? We’d love to talk to you. Please send us an <a href="mailto:contact@ardoreducation.com">email</a>
+    so we can begin the conversation.
+
+  support: >
+    Please let us know how we can help you.
+  investors: >
+    Are you interested in investment opportunities with Ardor Education? We'd love to hear from you.
+    <a href="https://gust.com/companies/ardor-education-inc">Visit Gust</a>
+    to read our business plan and learn more about us.
 
 company:
   name: Ardor Education

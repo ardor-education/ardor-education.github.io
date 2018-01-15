@@ -1,9 +1,14 @@
 #!/bin/bash
-if [[ $TRAVIS_BRANCH == 'master' ]] ; then
+export BRANCH=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo $TRAVIS_BRANCH; else echo $TRAVIS_PULL_REQUEST_BRANCH; fi)
+echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH"
+
+if [[ $BRANCH == 'master' ]] ; then
+    echo 'Build and publish for staging'    
     bundle exec rake stage
-elif [[ $TRAVIS_BRANCH == 'live' ]] ; then
+elif [[ $BRANCH == 'live' ]] ; then
+    echo 'Build and publish for production'    
     bundle exec rake publish
 else
-    echo 'Invalid branch! You can only publish from master and live'
-    exit 1
+    echo 'Building site, not on a publishing branch'
+    bundle exec rake build
 fi
