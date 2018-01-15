@@ -70,6 +70,14 @@ input:checked + label {
 
 
 @include media(">real-big") {
+
+}
+
+@include media(">large", "<=real-big") {
+
+}
+
+@include media(">small", "<=large")  {
   label {
     font-size: 0;
   }
@@ -79,16 +87,12 @@ input:checked + label {
   }
 }
 
-@include media(">large", "<=real-big") {
-  label {
-    padding: 15px;
-  }
-}
-
-@include media(">small", "<=large")  {
-
-}
-
 @include media("<=small")  {
-
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
 }
