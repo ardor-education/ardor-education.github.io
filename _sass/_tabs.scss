@@ -1,3 +1,5 @@
+$breakpoints: (small: 480px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
+
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -59,8 +61,15 @@ input:checked + label {
   padding: 2em 2em 0 2em;
 }
 
+.prod-image .device.iphone {
+  margin: 0px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
 
-@media screen and (max-width: 650px) {
+
+@include media(">real-big") {
   label {
     font-size: 0;
   }
@@ -70,8 +79,16 @@ input:checked + label {
   }
 }
 
-@media screen and (max-width: 400px) {
+@include media(">large", "<=real-big") {
   label {
     padding: 15px;
   }
+}
+
+@include media(">small", "<=large")  {
+
+}
+
+@include media("<=small")  {
+
 }
