@@ -25,7 +25,7 @@ permalink: /curriculum/
       {% for grade7 in site.curriculum.grade7 %}
         <div class="concepts">
           <div class="prod-image">
-            <div class="device iphone">
+            <div class=" device iphone">
                 <img src="./../assets/images/product_features/iphone.png">
                 <div class="screen" >
                   <img src="{{ site.baseurl }}/{{grade7.image}}"/>
@@ -137,7 +137,7 @@ permalink: /curriculum/
     <div class="hero__content">
       <h3>Download the Free Ardor Math App!</h3>
       <p>
-        The problems shown above are only a sample. Download the free app to see what Ardor has to offer. 
+        The problems shown above are only a sample. Download the free app to see what Ardor has to offer.
       </p>
       <div id="sub-area">
           <div class="badge-area">
