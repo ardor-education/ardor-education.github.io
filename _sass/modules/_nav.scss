@@ -84,7 +84,7 @@
 
         // mobile view
         @include media($mobile) {
-            margin-left: 1em;
+
         }
     }
 
@@ -242,4 +242,13 @@
         padding: $mobile-padding-large;
         width: 30px;
     }
+}
+
+// Reduce the margin between nav items on larger tablets.
+// Do this to save space before the nav turns full mobile.
+@media only screen and (max-width: 900px) {
+  .page_nav .nav__link {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
 }

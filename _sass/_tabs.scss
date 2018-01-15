@@ -1,4 +1,3 @@
-$breakpoints: (small: 480px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
 
 *, *:before, *:after {
   margin: 0;
@@ -66,33 +65,4 @@ input:checked + label {
   position: relative;
   top: 0px;
   left: 0px;
-}
-
-
-@include media(">real-big") {
-
-}
-
-@include media(">large", "<=real-big") {
-
-}
-
-@include media(">small", "<=large")  {
-  label {
-    font-size: 0;
-  }
-  label:before {
-    margin: 0;
-    font-size: 18px;
-  }
-}
-
-@include media("<=small")  {
-  label {
-    font-size: 0;
-  }
-  label:before {
-    margin: 0;
-    font-size: 18px;
-  }
 }
