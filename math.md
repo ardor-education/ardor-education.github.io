@@ -3,7 +3,7 @@ layout: default
 title: Ardor Math
 permalink: /math/
 ---
-<a name="explainer"></a>
+
 <article class="hero hero--home">
   <div class="hero__content">
     <h2>Eliminate learning lag with real time monitoring, correction and support</h2>

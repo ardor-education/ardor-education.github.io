@@ -4,17 +4,19 @@ title: Contact
 permalink: /contact/
 byline: Help us change the world
 ---
-<section id="help" class="convo" >
+<!-- Contact Us
+================================================== -->
+<article id="help" class="convo" >
         <div class="convo__content">
               <h2>Need Help?</h2>
-              <p>{{ site.contactus.support }} </p>
-              <a href="{{ site.support.zendesk }}" class="button button--outline">Support Site</a>
-              <a href="mailto:{{ site.support.email }}" class="button button--outline">Email</a>
+              <a href="{{ site.support.zendesk}}" class="button button--outline">Support Site</a>
+              <a href="{{site.support.email}}" class="button button--outline">Email</a>
         </div>
         <a name="newsletter"></a>
-</section>
+</article>
 
 <article class="type-system-sans">
+
     <!-- Begin MailChimp Signup Form -->
     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     <div class="contact-information">
@@ -44,7 +46,7 @@ byline: Help us change the world
     <!--End mc_embed_signup-->
 </article>
 
-<section class="contact-container">
+<article class="contact-container">
     <!-- contact us email link -->
       <div class="contact-information">
         <div class="mail-link">
@@ -67,4 +69,4 @@ byline: Help us change the world
             <p> {{ site.contactus.investors }} </p>
         </div>
     </article>
-</section>
+</article>
