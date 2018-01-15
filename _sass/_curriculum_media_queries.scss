@@ -4,11 +4,11 @@ $breakpoints: (small: 480px, medium: 768px, large: 1024px, big: 1198px, real-big
 
 }
 
-@include media(">large", "<=real-big") {
+@include media(">medium", "<=real-big") {
 
 }
 
-@include media(">small", "<=large")  {
+@include media(">small", "<=medium")  {
   .concepts {
     flex-direction: column;
     width: 100%;
@@ -20,7 +20,8 @@ $breakpoints: (small: 480px, medium: 768px, large: 1024px, big: 1198px, real-big
     width: 100%;
   }
   label {
-    font-size: 18;
+    font-size: 16px;
+    padding: 4px 10px;
     margin-top: 40px;
   }
   label:before {
