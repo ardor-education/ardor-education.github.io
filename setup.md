@@ -13,7 +13,7 @@ permalink: /setup/
       Create courses from the dashboard; courses contain enrollment codes you will share with your students.
     </p>
     <a href="http://accounts.ardoreducation.com" class="button button--outline">Sign Up</a>
-    <a href="http://us11.campaign-archive1.com/?u=e0d8362a03edb98f9391ddcd5&id=70b25c4272" class="button button--outline">Quick Start Guide</a>
+    <a href="https://ardor.zendesk.com/hc/en-us/articles/213429366-Quick-Start-Guide" class="button button--outline">Quick Start Guide</a>
 </div>
 </article>
 <article class="explainer2">

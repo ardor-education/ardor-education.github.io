@@ -50,9 +50,6 @@
 .convo {
 
     $convo-background: $blue;
-    $convo-image: '../assets/images/bg-conversation.png';
-
-    @include background(url($convo-image) no-repeat center center scroll);
 
     background-position: 0 35%;
     background-repeat: no-repeat;
