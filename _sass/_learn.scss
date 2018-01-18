@@ -1,0 +1,36 @@
+.large-image {
+  min-width: 500px;
+  margin: 1em;
+  max-width: 500px;
+  // align-self: flex-start;
+
+}
+
+.large-image img {
+  vertical-align: top;
+}
+
+.medium-image {
+  min-width: 250px;
+  margin: 1em;
+  max-width: 250px;
+}
+
+.snmall-image {
+  min-width: 100px;
+  margin: 1em;
+  max-width: 100px;
+}
+
+.learn-explainer {
+  font-size: 1.2em;
+  padding: 1em;
+}
+
+.learn-explainer p {
+  vertical-align: top;
+}
+
+.list {
+  margin-left: 2em;
+}
