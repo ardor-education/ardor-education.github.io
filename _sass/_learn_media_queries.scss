@@ -1,0 +1,54 @@
+$breakpoints: (small: 480px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
+
+// TODO make some of these reusable mixins global.
+@mixin scale-width($width, $percent) {
+  width: ($width * $percent) + px;
+}
+@mixin scale-height($height, $percent) {
+  height: ($height * $percent) + px;
+}
+
+@include media(">real-big") {
+
+}
+$youtube-frame-w: 500;
+$youtube-frame-h: 281;
+$large-percent: 0.8;
+@include media(">medium", "<=real-big") {
+  .large-image {
+      min-width: 400px;
+      max-width: 400px;
+  }
+  .youtube-frame {
+    @include scale-width($youtube-frame-w, $large-percent);
+    @include scale-height($youtube-frame-h, $large-percent);
+  }
+}
+$medium-percent: 0.6;
+@include media(">small", "<=medium")  {
+  .youtube-frame {
+    @include scale-width($youtube-frame-w, $medium-percent);
+    @include scale-height($youtube-frame-h, $medium-percent);
+  }
+  .large-image {
+    min-width: 400px;
+    max-width: 400px;
+  }
+  .learn-explainer {
+    width: 100%;
+  }
+}
+$small-percent: 0.5;
+@include media("<=small")  {
+  .youtube-frame {
+    @include scale-width($youtube-frame-w, $small-percent);
+    @include scale-height($youtube-frame-h, $small-percent);
+  }
+  .large-image {
+    min-width: 300px;
+    max-width: 300px;
+  }
+  .learn-explainer {
+    width: 100%;
+  }
+}

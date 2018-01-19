@@ -128,7 +128,9 @@ permalink: /learn/
       </div>
       <div class="concepts">
         <div class="large-image">
-          <img src ="./../assets/images/differentiation/problem-levels.png">
+          <img
+            class="learn-border"
+            src ="./../assets/images/differentiation/problem-levels.png">
         </div>
         <div class="learn-explainer">
           <h2 class="prod-title">Unlimited Differentiated Practice</h2>
@@ -141,13 +143,8 @@ permalink: /learn/
         <div class="learn-explainer">
           <h2 class="prod-title">Ardor Math Makes Differentiation Possible!</h2>
           <p>
-            “The biggest reason differentiation doesn’t work… is the way students are deployed in most of our nation’s classrooms. Toss together students who struggle to learn, along with gifted kids, while adding a few English-language learners and a bunch of academically average students and expect a single teacher to differentiate for each of them. That is a recipe for academic disaster… Such an admixture of students with varying abilities in one classroom causes even the most experienced and conscientious teachers to flinch, as they know the task for reaching each child is an impossible one.” ~ Petrilli
+            “The biggest reason differentiation doesn’t work… is the way students are deployed in most of our nation’s classrooms. Toss together students who struggle to learn, along with gifted kids, while adding a few English-language learners and a bunch of academically average students and expect a single teacher to differentiate for each of them. That is a recipe for academic disaster… Such an admixture of students with varying abilities in one classroom causes even the most experienced and conscientious teachers to flinch, as they know the task for reaching each child is an impossible one.” <span class="standard-id"> ~ Petrilli </span>
           </p>
-          <span class="standard-id" >Petrilli, Michael. &quot; Why Academic diversity is the biggest challenge facing our schools.&quot; <u>Education Next</u> (2010).
-          </span>
-          <br>
-          <br>
-          <span class="standard-id">Farkas, Duffett, Loveless. &quot;High-Acieving Students in the Era of NCLB.&quot; Thomas B. Fordham , 2008</span>
 
         </div>
         <div class="large-image">
@@ -157,12 +154,16 @@ permalink: /learn/
       </div>
       <div class="concepts">
         <div class="learn-explainer">
-          <h2 class="prod-title">
-            Ardor Math can fulfill the vision of a true differentiated classroom.
-          </h2>
           <p>
+            <strong>
+              Ardor Math can fulfill the vision of a true differentiated classroom.
+            </strong>
             True differentiated instruction is only possible when the teacher has time to actually sit down and look at how students are progressing. It is only possible when a teacher’s time is not monopolized with daily workflow priorities such as grading papers, photocopying and gathering daily materials. It is only possible when a teacher does not actually have to find or create the actual differentiated practice.
           </p>
+          <span class="standard-id" >Petrilli, Michael. &quot; Why Academic diversity is the biggest challenge facing our schools.&quot; <u>Education Next</u> (2010).
+          </span>
+          <br>
+          <span class="standard-id">Farkas, Duffett, Loveless. &quot;High-Acieving Students in the Era of NCLB.&quot; Thomas B. Fordham , 2008</span>
       </div>
       </div>
     </section>
@@ -183,7 +184,7 @@ permalink: /learn/
           <p>
             Ardor eliminates learning lag by providing real time corrective feedback.
             Individualized feedback adapts to a students readiness level. For example at level 1 the feedback includes strong scaffolding such as pictures, and explanatory text. However, at level 4
-            the feedback is much more concise and algebraic. Individualized feedback alleviates student frustration and reinforces good practice habits.
+            the feedback is much more concise and mathematical. Individualized feedback alleviates student frustration and reinforces good practice habits.
           </p>
 
         </div>
@@ -314,7 +315,7 @@ permalink: /learn/
       </div>
       <div class="concepts">
         <div class="large-image">
-          <img class="learn-report" src="./../assets/images/differentiation/student-report.png">
+          <img class="learn-border" src="./../assets/images/differentiation/student-report.png">
           <span class="standard-id">Figure A</span>
         </div>
         <div class="learn-explainer">
@@ -338,7 +339,7 @@ permalink: /learn/
           </p>
         </div>
         <div class="large-image">
-          <iframe  src="https://www.youtube.com/embed/Kkv9O8wazKs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe class="youtube-frame" src="https://www.youtube.com/embed/Kkv9O8wazKs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           <br>
           <span class="standard-id">
             <a href="https://www.youtube.com/channel/UCJRpeGCvBKif52pl7omL5XA?view_as=subscriber">See more sample videos</a>
@@ -366,8 +367,9 @@ permalink: /learn/
                   <a href="https://support.google.com/chromebook/answer/7021273?hl=en">Android for Chromebooks</a>
               </p>
           </div>
+          <p>Teacher Dashboard</p>
           <div class="sign-up">
-              <a href="http://accounts.ardoreducation.com" class="button button">Teacher Dashboard 30-day free trial</a><br>
+              <a href="http://accounts.ardoreducation.com" class="button button"> 30-day free trial</a><br>
               <p>Change or cancel at anytime.</p>
           </div>
       </div>
