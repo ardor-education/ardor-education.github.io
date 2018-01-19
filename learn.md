@@ -278,8 +278,13 @@ permalink: /learn/
         </div>
       </div>
       <div class="concepts">
-        <div class="large-image">
-          <img src="./../assets/images/differentiation/view-standard.png">
+        <div class="prod-image">
+          <div class="device iphone">
+              <img src="./../assets/images/product_features/iphone.png">
+              <div class="screen" >
+                <img src="./../assets/images/differentiation/cone-standard.jpeg"/>
+              </div>
+          </div>
         </div>
         <div class="learn-explainer">
           <h2 class="prod-title">Learning Targets Aligned to Standards</h2>
@@ -287,6 +292,7 @@ permalink: /learn/
             Every problem type supports a standard. Standards are easily viewable from
             both the teacher dashboard and the Ardor Math practice app.
           </p>
+          <img class="learn-image" src="./../assets/images/differentiation/view-standard.png">
         </div>
       </div>
       <div class="concepts">
@@ -295,6 +301,12 @@ permalink: /learn/
           <p>
             Student progress is reported by level. Levels follow the <a href="http://www.smarterbalanced.org/wp-content/uploads/2015/08/Interpretation-and-Use-of-Scores.pdf" target="_blank" title="Smarter Balanced Assessment Cosortium">Smarter Balanced Assessment Consortium</a>. Sort students by levels to quickly identify students who are struggling.
           </p>
+          <p>
+            Students earn badges when they demonstrate proficiency (Level 3).
+          </p>
+          <img class="learn-image-small"
+            src="./../assets/images/differentiation/badge.png">
+
         </div>
         <div class="large-image">
           <img src="./../assets/images/differentiation/level-progress.png">
@@ -302,7 +314,7 @@ permalink: /learn/
       </div>
       <div class="concepts">
         <div class="large-image">
-          <img src="./../assets/images/differentiation/student-report.png">
+          <img class="learn-report" src="./../assets/images/differentiation/student-report.png">
           <span class="standard-id">Figure A</span>
         </div>
         <div class="learn-explainer">
