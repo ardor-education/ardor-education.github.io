@@ -155,6 +155,6 @@ permalink: /curriculum/
               <a href="http://accounts.ardoreducation.com" class="button button">Teacher Dashboard 30-day free trial</a><br>
               <p>Change or cancel at anytime.</p>
           </div>
-      </div>
-  </div>
+        </div>
+     </div>
 </article>

@@ -7,21 +7,77 @@ permalink: /learn/
 ================================================== -->
 <article class="explainer hero hero--home">
   <main>
+    <input id="tab1" type="radio" name="tabs">
+    <label for="tab1">Devices</label>
 
-    <input id="tab1" type="radio" name="tabs" checked>
-    <label for="tab1">Differentiation</label>
-
-    <input id="tab2" type="radio" name="tabs">
-    <label for="tab2">Learning Lag</label>
+    <input id="tab2" type="radio" name="tabs" checked>
+    <label for="tab2">Differentiation</label>
 
     <input id="tab3" type="radio" name="tabs">
-    <label for="tab3">Intervention</label>
+    <label for="tab3">Learning Lag</label>
 
     <input id="tab4" type="radio" name="tabs">
-    <label for="tab4">Devices</label>
+    <label for="tab4">Intervention</label>
+
+    <!-- Devices -->
+    <section class="tabs" id="content1">
+      <div class="concepts">
+        <div class="large-image">
+         <img src ="./../assets/images/differentiation/boy-with-ipad-computer.png">
+       </div>
+       <div class="learn-explainer">
+          <h2 class="prod-title">Bring Your Own Device</h2>
+          <p>
+            Ardor is an adaptive mathematics software built for the mobile devices found in the bring your own device classroom. Have a few classroom iPads but not enough for every student? Don't worry. Ardor Math runs on mobile phones,
+            Chromebooks, and Android tablets.
+          </p>
+            <div id="sub-area">
+                <div class="badge-area">
+                    <a href="https://itunes.apple.com/us/app/ardor-math/id953832689?ls=1&mt=8">
+                        <img class="app-store-badge" src="./../assets/images/logo/App_Store_Badge.svg">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.ardor.algebradojo">
+                        <img class="app-store-badge" src="./../assets/images/logo/play-store-badge.png">
+                    </a>
+                    <p>
+                        <a href="https://support.google.com/chromebook/answer/7021273?hl=en">Android for Chromebooks</a>
+                    </p>
+                </div>
+              </div>
+           </div>
+
+    </div>
+    <div class="concepts">
+      <div class="learn-explainer">
+        <h2 class="prod-title">Chromebooks</h2>
+        <p>
+          Ardor Math is optimized for Chromebooks. Ardor Math works with both Chromebooks with touch screens and with Chromebooks using a track pad.
+        </p>
+        <p>
+          The process of installing Android apps from the Play Store on a Chromebook is similar to doing so on an Android device. <a href="https://www.digitaltrends.com/computing/how-to-get-android-apps-on-a-chromebook/">Learn more</a>.
+        </p>
+      </div>
+      <div class="large-image">
+        <img src="./../assets/images/differentiation/chrome-book.png">
+      </div>
+    </div>
+    <div class="concepts">
+      <div class="large-image">
+        <img src="./../assets/images/differentiation/device-sync.png">
+      </div>
+      <div class="learn-explainer">
+        <h2 class="prod-title">Sync Between Devices</h2>
+        <p>
+          You can mix and match devices. For example a
+          student might start doing math on a school Chromebook or iPad and then later switches to their personal mobile device. Progress data is synced between the devices. The student continues where they left off. All data from every device is synced to the teacher dashboard.
+        </p>
+      </div>
+    </div>
+
+    </section>
 
     <!-- Differentiation -->
-    <section class="tabs" id="content1">
+    <section class="tabs" id="content2">
       <div class="concepts">
         <div class="learn-explainer">
           <h2 class="prod-title">dif·fer·en·ti·a·tion</h2>
@@ -108,7 +164,7 @@ permalink: /learn/
     </section>
 
     <!-- Learning Lag -->
-    <section  class="tabs" id="content2">
+    <section  class="tabs" id="content3">
       <div class="concepts">
         <div class="learn-explainer">
           <h2 class="prod-title">Eliminate Learning Lag</h2>
@@ -194,17 +250,10 @@ permalink: /learn/
     </section>
 
     <!-- Intervention 1 -->
-    <section class="tabs" id="content3">
-
-      <h2>Intervention</h2>
-      <img src ="./../assets/images/differentiation/levels-description.png">
-    </section>
-
-    <!-- Devices -->
     <section class="tabs" id="content4">
 
-      <h2>Bring Your Own Device</h2>
-      <img src ="./../assets/images/differentiation/boy-with-ipad-computer.png">
+      <h2>Intervention</h2>
+
     </section>
 
   </main>
