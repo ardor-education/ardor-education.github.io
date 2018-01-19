@@ -148,7 +148,9 @@ permalink: /curriculum/
                   <img class="app-store-badge" src="./../assets/images/logo/play-store-badge.png">
               </a>
               <p>
-                  <a href="https://support.google.com/chromebook/answer/7021273?hl=en">Android for Chromebooks</a>
+                  <a href="https://support.google.com/chromebook/answer/7021273?hl=en">
+                    Android for Chromebooks
+                  </a>
               </p>
           </div>
           <div class="sign-up">
