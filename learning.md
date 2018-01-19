@@ -28,7 +28,7 @@ permalink: /learn/
           <span class="standard-id">/difəˌren(t)SHēˈāSH(ə)n/</span>
 
           <p>
-            <strong>Differentiation</strong> is the process of "ensuring that what a student learns, and how the student demonstrates what he or she has learned is a match for that student's readiness level. There are <a href="https://www.youtube.com/watch?v=A50e6E5bvLM&t=2s"> four ways to differentiate</a>.
+            <strong>Differentiation</strong> is the process of ensuring that what a student learns, and how the student demonstrates what he or she has learned is a match for that student's readiness level. There are <a href="https://www.youtube.com/watch?v=A50e6E5bvLM&t=2s"> four ways to differentiate</a>:
           </p>
           <p>
             <ol class="list">
@@ -48,12 +48,17 @@ permalink: /learn/
             <img src ="./../assets/images/differentiation/levels-description.png">
         </div>
         <div class="learn-explainer">
-          <strong>Ardor differentiates by content.</strong> Ardor Math adapts the practice and feedback to match a student&#39;s readiness level. More challenging content only &quot;unlocks&quot; once a student has demonstrated proficiency. Levels follow the standards set by <a href="http://www.smarterbalanced.org/wp-content/uploads/2015/08/Interpretation-and-Use-of-Scores.pdf" target="_blank" title="Smarter Balanced Assessment Cosortium">Smarter Balanced Assessment Consortium</a>.
+          <h2 class="prod-title">Ardor differentiates by content</h2>
+          <p>
+          Ardor Math adapts the practice and feedback to match a student's readiness level. More challenging content only &quot;unlocks&quot; once a student has demonstrated proficiency. Levels follow the standards set by <a href="http://www.smarterbalanced.org/wp-content/uploads/2015/08/Interpretation-and-Use-of-Scores.pdf" target="_blank" title="Smarter Balanced Assessment Cosortium">Smarter Balanced Assessment Consortium</a>.
+        </p>
         </div>
       </div>
       <div class="concepts">
         <div class="learn-explainer">
-          <p><strong>Unlimited differentiated practice</strong>. Unique, tailored, adaptive, progressive practice. Unique problem sets and support generated based on students progress and needs every time in real time. Adjusts to students’ knowledge, skills, from remedial to “bored” advanced students. Students can practice anytime on their own mobile device. Endless individual practice sets.
+          <h2 class="prod-title">Unlimited differentiated practice</h2>
+          <p>
+             Unique, tailored, adaptive, progressive practice. Unique problem sets and support generated based on students' progress and needs every time in real time. Adjusts to students’ knowledge, skills, from remedial to “bored” advanced students. Students can practice anytime on their own mobile device. Endless individual practice sets.
           </p>
         </div>
         <div class="large-image">
@@ -62,7 +67,7 @@ permalink: /learn/
       </div>
       <div class="concepts">
         <div class="large-image">
-          <iframe width="500" height="281" src="https://www.youtube.com/embed/uG281EkG-Fg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+          <iframe class="youtube-frame" src="https://www.youtube.com/embed/uG281EkG-Fg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
           </iframe>
         </div>
         <div class="learn-explainer">
@@ -76,9 +81,9 @@ permalink: /learn/
         <div class="learn-explainer">
           <h2 class="prod-title">Ardor Math Makes Differentiation Possible!</h2>
           <p>
-            “The biggest reason differentiation doesn’t work… is the way students are deployed in most of our nation’s classrooms. Toss together students who struggle to learn, along with gifted kids, while adding a few English-language learners and a bunch of academically average students and expect a single teacher to differentiate for each of them. That is a recipe for academic disaster… Such an admixture of students with varying abilities in one classroom causes even the most experienced and conscientious teachers to flinch, as they know the task for reaching each child is an impossible one.”
+            “The biggest reason differentiation doesn’t work… is the way students are deployed in most of our nation’s classrooms. Toss together students who struggle to learn, along with gifted kids, while adding a few English-language learners and a bunch of academically average students and expect a single teacher to differentiate for each of them. That is a recipe for academic disaster… Such an admixture of students with varying abilities in one classroom causes even the most experienced and conscientious teachers to flinch, as they know the task for reaching each child is an impossible one.” ~ Petrilli
           </p>
-          <span class="standard-id" >Petrilli, Michael. &quot; Why ?Academic diversity? is the biggest challenge facing our schools.&quot;&nbsp;<u>Education Next</u>&nbsp;(2010).
+          <span class="standard-id" >Petrilli, Michael. &quot; Why Academic diversity is the biggest challenge facing our schools.&quot;&nbsp;<u>Education Next</u>&nbsp;(2010).
           </span>
           <br>
           <br>
@@ -87,12 +92,13 @@ permalink: /learn/
         </div>
         <div class="large-image">
           <img src ="./../assets/images/differentiation/differentiation-graph.png">
+          <span class="standard-id">Farkas</span>
         </div>
       </div>
       <div class="concepts">
         <div class="learn-explainer">
           <h2 class="prod-title">
-            Mobile software technology can fulfill the vision of a true differentiated classroom.
+            Ardor Math can fulfill the vision of a true differentiated classroom.
           </h2>
           <p>
             True differentiated instruction is only possible when the teacher has time to actually sit down and look at how students are progressing. It is only possible when a teacher’s time is not monopolized with daily workflow priorities such as grading papers, photocopying and gathering daily materials. It is only possible when a teacher does not actually have to find or create the actual differentiated practice.
@@ -103,7 +109,88 @@ permalink: /learn/
 
     <!-- Learning Lag -->
     <section  class="tabs" id="content2">
-      <h2> Learning Lag </h2>
+      <div class="concepts">
+        <div class="learn-explainer">
+          <h2 class="prod-title">Eliminate Learning Lag</h2>
+          <p>
+            Learning lag happens when the pace of the classroom moves too fast or too slow. It happens when a teacher skips a concept that needs review or covers a concept doesn’t need review. It happens when the depth of learning is complex and overwhelming or overly simple. It happens when a teacher fails to detect that a student has an incorrect understanding and now that student must unlearn what they have learned. These are common problems found in every classroom. The culprit is often a broken learning cycle. To eliminate learning lag we must improve the learning cycle.
+            <a href="https://medium.com/@matthew_thornton/eliminate-learning-lag-9d660414e3d">Read more</a>.
+          </p>
+        </div>
+        <div class="large-image">
+          <iframe class="youtube-frame" src="https://www.youtube.com/embed/03mho_f5gpc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="concepts">
+        <div class="prod-image">
+          <div class="device iphone">
+              <img src="./../assets/images/product_features/iphone.png">
+              <div class="screen" >
+                <img src="./../assets/images/curriculum/grade7/one-variable-equations.jpeg"/>
+              </div>
+          </div>
+        </div>
+        <div class="prod-description">
+          <h2 class="prod-title">Personalized Real-Time Feedback</h2>
+          <p>
+            Ardor eliminates learning lag by providing real time corrective feedback
+            Feedback adapts to a students readiness level. For example at level 1 the feedback include pictures, text, and strong scaffolding. However, at level 4
+            the feedback is much more concise and algebraic. This alleviates student frustration and reinforces good practice habits.
+          </p>
+
+        </div>
+      </div>
+      <div class="concepts">
+        <div class="learn-explainer">
+          <h2 class="prod-title"> Personalized Learning Pathways </h2>
+          <p>
+             <a href="http://www.powells.com/book/the-end-of-average-9781504645713/61-0" target="_blank">Todd Rose argues</a> that many of our grading practices are a &quot;19th century idea of an average person using 20th century statistics&quot;.&nbsp;&nbsp;Worse yet textbooks are designed for the average person which is a pretty bad fit for most kids.
+            Technology can help teachers create true&nbsp;<a href="http://www.npr.org/sections/ed/2016/02/16/465753501/standards-grades-and-tests-are-wildly-outdated-argues-end-of-average" target="_blank">personalized learning pathways</a>.
+          </p>
+          <p>
+            When student learning becomes more individualized engagement and depth of learning both increase. When a student practices at their own skill level there is less boredom and frustration. A teacher will see the results immediately which gives them time and flexibility to adjust lesson plans to help both struggling and advanced students equally. Ardor makes is possible to Eliminate learning lag.
+          </p>
+        </div>
+        <div class="large-image">
+          <img src="./../assets/images/differentiation/depth-of-learning.png">
+        </div>
+      </div>
+      <div class="concepts">
+        <div class="large-image">
+          <img src="./../assets/images/differentiation/learning-cycle-monitor.png">
+        </div>
+        <div class="learn-explainer">
+          <h2 class="prod-title">Improve the Learning Cycle</h2>
+          <p>
+            The Ardor teacher dashboard gives teachers real time progress data to help keep the learning cycle running smooth.
+          </p>
+          <ol class="list">
+            <li><strong>Do something.</strong> The teacher gives students an Ardor Math  assignment. Students practice math.
+            </li>
+            <li><strong>Analyze what happened. </strong> Ardor Math spools problems at each student readiness level and reports student progress to the teacher in real time. The teacher looks for common patterns and identifies individual student needs. For example, the teacher identifies a student who has fallen behind the rest of the class.
+            </li>
+            <li><strong>Decide next steps.</strong> Lesson plan decisions are made based on an analysis of student data. Students get feedback on how they are performing and make adjustments to their own learning.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="concepts">
+        <div class="learn-explainer">
+          <h2 class="prod-title">Do More. Work Less</h2>
+          <p>
+            Spend less time at the copy machine,  less time grading papers, and less time curating worksheets.
+            Consider the following finding by the Bill & Melinda Gates Foundation. Teachers work an average of
+            <a href="https://medium.com/@matthew_thornton/teachers-work-too-much-and-why-you-should-care-a1211c13a850">
+            10 hours and 40 minutes per day
+            </a>.
+            But it doesn't have to be that way. Let Ardor Math take care of the math practice so you, the teacher, can spend more time doing the things that matter most.
+        </p>
+        </div>
+        <div class="large-image">
+          <img src="./../assets/images/differentiation/teacher-work-hours.png">
+          <span class="standard-id">Bill & Melinda Gates Foundation</span>
+        </div>
+      </div>
     </section>
 
     <!-- Intervention 1 -->
@@ -125,7 +212,6 @@ permalink: /learn/
 
 <!-- Download the app  -->
 <article class="hero">
-
     <div class="hero__content">
       <h3>Download the Free Ardor Math App!</h3>
       <div id="sub-area">

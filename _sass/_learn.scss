@@ -11,9 +11,9 @@
 }
 
 .medium-image {
-  min-width: 250px;
+  min-width: 400px;
   margin: 1em;
-  max-width: 250px;
+  max-width: 400px;
 }
 
 .snmall-image {
@@ -33,4 +33,9 @@
 
 .list {
   margin-left: 2em;
+}
+
+.youtube-frame {
+  width: 500px;
+  height: 281px;
 }
