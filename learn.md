@@ -28,7 +28,7 @@ permalink: /learn/
        <div class="learn-explainer">
           <h2 class="prod-title">Bring Your Own Device</h2>
           <p>
-            Ardor is an adaptive mathematics software built for the mobile devices found in the bring your own device classroom. Have a few classroom iPads but not enough for every student? Don't worry. Ardor Math runs on <strong>mobile phones</strong>,
+            Ardor is an adaptive mathematics software built for the mobile devices found in the bring your own device classroom (BYOD). Have a few classroom iPads but not enough for every student? Don't worry. Ardor Math runs on <strong>mobile phones</strong>,
             <strong>Chromebooks</strong>, <strong>iPads</strong>, and <strong>Android tablets</strong>.
           </p>
             <div id="sub-area">
@@ -259,9 +259,80 @@ permalink: /learn/
 
     <!-- Intervention 1 -->
     <section class="tabs" id="content4">
-
-      <h2>Intervention</h2>
-
+      <div class="concepts">
+        <div class="learn-explainer">
+          <h2 class="prod-title">Teacher Dashboard</h2>
+          <p>
+            Using the Ardor Math app students can enroll in a teacher classroom.
+            The teacher dashboard gives a real-time view of student progress.
+          </p>
+          <p>
+            <a href="https://ardoreducation.com/setup/">
+              Learn more
+            </a>
+               about how to setup a classroom.
+          </p>
+        </div>
+        <div class="large-image">
+          <img src="./../assets/images/differentiation/dashboard.png">
+        </div>
+      </div>
+      <div class="concepts">
+        <div class="large-image">
+          <img src="./../assets/images/differentiation/view-standard.png">
+        </div>
+        <div class="learn-explainer">
+          <h2 class="prod-title">Learning Targets Aligned to Standards</h2>
+          <p>
+            Every problem type supports a standard. Standards are easily viewable from
+            both the teacher dashboard and the Ardor Math practice app.
+          </p>
+        </div>
+      </div>
+      <div class="concepts">
+        <div class="learn-explainer">
+          <h2 class="prod-title">Intervention</h2>
+          <p>
+            Student progress is reported by level. Levels follow the <a href="http://www.smarterbalanced.org/wp-content/uploads/2015/08/Interpretation-and-Use-of-Scores.pdf" target="_blank" title="Smarter Balanced Assessment Cosortium">Smarter Balanced Assessment Consortium</a>. Sort students by levels to quickly identify students who are struggling.
+          </p>
+        </div>
+        <div class="large-image">
+          <img src="./../assets/images/differentiation/level-progress.png">
+        </div>
+      </div>
+      <div class="concepts">
+        <div class="large-image">
+          <img src="./../assets/images/differentiation/student-report.png">
+          <span class="standard-id">Figure A</span>
+        </div>
+        <div class="learn-explainer">
+          <h2 class="prod-title">Student Reports</h2>
+          <p>
+            Quickly view individual student reports. Each
+            learning target is reported by the standard that it supports.
+            In <i>Figure A</i>, you can see that the student is struggling with
+            multiple step equations but seems to be grasping the other related learning targets. While this student is doing well in two step equations, this student has not yet demonstrated overall proficiency
+            for the standard <i>8.EE.C.7.B</i>.
+          </p>
+        </div>
+      </div>
+      <div class="concepts">
+        <div class="learn-explainer">
+          <h2 class="prod-title">Videos, Help Cards, and Personalized Feedback</h2>
+          <p>
+            The classroom is full of many challenges. That is why Ardor Math
+            has help cards, videos and a sophisticated personalized feedback system.
+            Ardor Math gives you more tools to help you reach those absent or struggling students.
+          </p>
+        </div>
+        <div class="large-image">
+          <iframe  src="https://www.youtube.com/embed/Kkv9O8wazKs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <br>
+          <span class="standard-id">
+            <a href="https://www.youtube.com/channel/UCJRpeGCvBKif52pl7omL5XA?view_as=subscriber">See more sample videos</a>
+          </span>
+        </div>
+      </div>
     </section>
 
   </main>
