@@ -148,13 +148,16 @@ permalink: /curriculum/
                   <img class="app-store-badge" src="./../assets/images/logo/play-store-badge.png">
               </a>
               <p>
-                  <a href="https://support.google.com/chromebook/answer/7021273?hl=en">Android for Chromebooks</a>
+                  <a href="https://support.google.com/chromebook/answer/7021273?hl=en">
+                    Android for Chromebooks
+                  </a>
               </p>
           </div>
+          <p>Teacher Dashboard </p>
           <div class="sign-up">
-              <a href="http://accounts.ardoreducation.com" class="button button">Teacher Dashboard 30-day free trial</a><br>
+              <a href="http://accounts.ardoreducation.com" class="button button">30-day free trial</a><br>
               <p>Change or cancel at anytime.</p>
           </div>
-      </div>
-  </div>
+        </div>
+     </div>
 </article>
