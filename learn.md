@@ -67,8 +67,8 @@ permalink: /learn/
         <div class="learn-explainer">
           <h2 class="prod-title">Sync Between Devices</h2>
           <p>
-            You can mix and match devices. For example a
-            student might start doing math on a school Chromebook or iPad and then later switches to their personal mobile device. Progress data is synced between the devices. The student continues where they left off. All data from every device is synced to the teacher dashboard.
+            You can mix and match devices. For example, a
+            student might start doing math on a school Chromebook or iPad and then later switch to their personal mobile device. Progress data is synced between the devices. The student continues where they left off. All data from every device is synced to the teacher dashboard.
           </p>
         </div>
       </div>
@@ -83,8 +83,8 @@ permalink: /learn/
           <p>
             <strong>Differentiation</strong> is the process of ensuring that what a student learns, and how the student demonstrates what he or she has learned is a match for that student's readiness level. There are
             <a href="https://www.youtube.com/watch?v=A50e6E5bvLM&t=2s">
-              four ways to differentiate
-            </a>:
+              four ways to differentiate:
+            </a>
           </p>
           <p>
             <ol class="list">
@@ -135,7 +135,7 @@ permalink: /learn/
         <div class="learn-explainer">
           <h2 class="prod-title">Unlimited Differentiated Practice</h2>
           <p>
-             Procedurally generated problem sets match every student readiness level. Problem difficulty automatically adapts to a students’ knowledge, and skills, from remedial to “bored” advanced students. Endless individual practice.
+             Procedurally generated problem sets match every readiness level. Problem difficulty automatically adapts to a student's knowledge, and skills, from remedial to “bored” advanced students. Endless individual practice.
           </p>
         </div>
       </div>
@@ -183,7 +183,7 @@ permalink: /learn/
           <h2 class="prod-title">Personalized Real-Time Feedback</h2>
           <p>
             Ardor eliminates learning lag by providing real time corrective feedback.
-            Individualized feedback adapts to a students readiness level. For example at level 1 the feedback includes strong scaffolding such as pictures, and explanatory text. However, at level 4
+            Individualized feedback adapts to a student's readiness level. For example, at level 1 the feedback includes strong scaffolding such as pictures, and explanatory text. However, at level 4
             the feedback is much more concise and mathematical. Individualized feedback alleviates student frustration and reinforces good practice habits.
           </p>
 
@@ -208,7 +208,7 @@ permalink: /learn/
         <div class="learn-explainer">
           <h2 class="prod-title">Eliminate Learning Lag</h2>
           <p>
-            Learning lag happens when the pace of the classroom moves too fast or too slow. It happens when a concept that needs review is skipped or when a concept doesn’t need review is taught. It happens when the depth of learning is overwhelmingly complex or overly simple. It happens a student has an incorrect understanding and now must unlearn what they have learned. These are common problems found in almost every classroom. The culprit is often a broken learning cycle. Ardor Math can help you improve the learning cycle.
+            Learning lag happens when the pace of the classroom moves too fast or too slow. It happens when a concept that needs review is skipped or when a concept doesn’t need review is taught. It happens when the depth of learning is overwhelmingly complex or overly simple. It happens when a student has an incorrect understanding and now must unlearn what they have learned. These are common problems found in almost every classroom. The culprit is often a broken learning cycle. Ardor Math can help you improve the learning cycle.
             <a
               href="https://medium.com/@matthew_thornton/eliminate-learning-lag-9d660414e3d">
               Read more
