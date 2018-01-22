@@ -248,7 +248,7 @@ $small-iphone-percent: 0.8;
 
     .features-images {
       position: absolute;
-      top: 1000px; // NOTE This is a work-arround-due to the limitations with CSS selector. Text can't be in a flex-box.
+      top: 910px; // NOTE This is a work-arround-due to the limitations with CSS selector. Text can't be in a flex-box.
       display: block;
       float: left;
       width: 690px;
