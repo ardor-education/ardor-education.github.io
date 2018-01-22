@@ -41,6 +41,7 @@ permalink: /learn/
                     </a>
                     <p>
                         <a href="https://support.google.com/chromebook/answer/7021273?hl=en">Android for Chromebooks</a>
+
                     </p>
                 </div>
               </div>
@@ -268,7 +269,7 @@ permalink: /learn/
             The teacher dashboard gives a real-time view of student progress.
           </p>
           <p>
-            <a href="https://ardoreducation.com/setup/">
+            <a href="{{ site.baseurl }}/setup/">
               Learn more
             </a>
                about how to setup a classroom.
