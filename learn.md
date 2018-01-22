@@ -28,7 +28,7 @@ permalink: /learn/
        <div class="learn-explainer">
           <h2 class="prod-title">Bring Your Own Device</h2>
           <p>
-            Ardor is adaptive mathematics application built for the mobile devices found in the bring your own device classroom (BYOD). Have a few classroom iPads but not enough for every student? Don't worry. Ardor Math runs on <strong>mobile phones</strong>,
+            Ardor is an adaptive mathematics application built for the mobile devices found in the bring your own device classroom (BYOD). Have a few classroom iPads but not enough for every student? Don't worry. Ardor Math runs on <strong>mobile phones</strong>,
             <strong>Chromebooks</strong>, <strong>iPads</strong>, and <strong>Android tablets</strong>.
           </p>
             <div id="sub-area">
