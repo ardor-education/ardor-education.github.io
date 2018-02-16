@@ -67,7 +67,7 @@ curriculum:
       standards: 7.EE.A.1
       image: './../assets/images/curriculum/grade7/expressions.jpeg'
       description: >
-        apply properties of operations to add, subtract, factor and expand linear expresssions. Evaulate expressions by replacing variables.
+        to apply properties of operations to add, subtract, factor and expand linear expresssions. Evaulate expressions by replacing variables.
         Simplify expressions, combine like terms, distribute and write sums as a product of two factors.
 
     - title: One Variable Equations
