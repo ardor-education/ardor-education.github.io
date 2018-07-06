@@ -29,6 +29,16 @@
   margin: 0;
   list-style: none;
 
+
+}
+
+#first-title-area {
+  padding: auto;
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+
+
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -37,14 +47,6 @@
 
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
-}
-
-#first-title-area {
-  padding: auto;
-  width: 50%;
-  height: auto;
-  margin-top: 10px;
-  min-width: 400px;
 }
 
 #second-title-area {

@@ -1,0 +1,60 @@
+// hero logo layout styles 
+.logo-container {
+    display: flex;
+}
+
+.logo-divider {
+    display: flex;
+}
+
+.logo-text-heading {
+    margin-top: 75px;
+}
+
+.hero__content h1 {
+    display: flex;
+    font-size: 5em;
+    color: black;
+}
+.hero__content {
+   mix-blend-mode: hard-light;
+}
+
+// svg specific styles 
+.hero--home #Logo {
+    // TODO: make responsive
+    width: 200px;
+
+}
+
+.logo-background {
+    fill: none;
+    
+}
+
+.logo-compass-2 {
+    isolation: isolate;
+}
+
+.logo-compass-3 {
+    clip-path: url(#clip-path);
+}
+
+.logo-compass-head {
+    fill: #15699e;
+  
+}
+
+.logo-compass-5 { 
+    // stroke: black;
+    // fill: black;
+    fill: black;
+    stroke: black;
+    
+}
+
+.logo-trademark-text {
+    color: black;
+    font-size: 52.7px;
+    font-family: Palatino-Roman, Palatino;
+}
