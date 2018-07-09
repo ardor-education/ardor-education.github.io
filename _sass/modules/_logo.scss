@@ -12,12 +12,13 @@
 }
 
 .hero__content h1 {
+    font-weight: 300;
     display: flex;
     font-size: 5em;
-    color: black;
+    color: white;
 }
 .hero__content {
-   mix-blend-mode: hard-light;
+    
 }
 
 // svg specific styles 
@@ -41,20 +42,16 @@
 }
 
 .logo-compass-head {
-    fill: #15699e;
-  
+    fill: rgba(52, 152, 219, 0.8);
 }
 
 .logo-compass-5 { 
-    // stroke: black;
-    // fill: black;
-    fill: black;
-    stroke: black;
-    
+    fill: $soft-gray;
+    stroke: $soft-gray;
 }
 
 .logo-trademark-text {
-    color: black;
+    color: $soft-gray;
     font-size: 52.7px;
     font-family: Palatino-Roman, Palatino;
 }

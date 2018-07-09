@@ -34,32 +34,25 @@
 
 #first-title-area {
   padding: auto;
-  width: 50%;
+  width: 100%;
   height: auto;
   margin-top: 10px;
+  font-weight: lighter;
 
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-
+  align-items: stretch;
+  justify-content: left;
+  justify-items: left;
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
 }
 
 #second-title-area {
   padding: 5px;
-  width: 50%;
   height: auto;
   min-width: 200px;
   margin-top: 30px;
 
-  line-height: 150px;
   color: white;
-  font-weight: bold;
-  font-size: 3em;
   text-align: center;
 }
 
@@ -84,14 +77,23 @@
   margin-top: 0px;
   min-width: 400px;
 }
+.line-through{ 
+  text-decoration: line-through;
+  font-style: italic;
+  color: gray;
+}
+.free {
+  font-weight: bolder;
+}
 
 .price {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 0em;
 }
 
 .sign-up{
     align-items: center;
+    font-size: 0.8em;
 }
 
 .courses-available{

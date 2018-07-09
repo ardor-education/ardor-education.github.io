@@ -31,7 +31,6 @@
     }
     .hero__content p {
       color: white;
-      mix-blend-mode: difference;
     }
 
     .hero__content--short {
@@ -276,21 +275,13 @@
 
     // homepage
     &.hero--home {
-        // $hero-image: '../assets/images/bg/home-landing-page.png';
-        // @include background(url($hero-image) no-repeat center center scroll);
-        background: url(./../assets/images/hero/kids-hanging-out.png) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('./../assets/images/hero/classroom.png');
         background-size: cover;
-
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         width: 100vw;
         height: 100vh;
-        // max-width: 100%;
-        // background-color:  $hero-background;
-        // background-position: top;
-        // background-repeat: no-repeat;
-        // background-size: cover;
     }
 
     // about
