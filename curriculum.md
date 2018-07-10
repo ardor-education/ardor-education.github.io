@@ -5,7 +5,7 @@ permalink: /curriculum/
 ---
 <!-- curriculum
 ================================================== -->
-<article class="explainer hero hero--home">
+<article class="explainer heros">
   <main>
 
     <input id="tab1" type="radio" name="tabs" checked>

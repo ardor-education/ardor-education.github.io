@@ -39,6 +39,7 @@ $red:        #E74C3C;
 $green:      #30B41D;
 $purple:     #731aa7;
 $brown:      #996633;
+$blue-gray: rgb(44, 62, 80);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -90,6 +91,10 @@ $mobile-line-height: 1.8em;
   background-color: $soft-gray;
 }
 
+.blue-gray-background {
+  background-color: $blue-gray;
+}
+
 .blue {
     color: $blue;
 }
@@ -104,4 +109,8 @@ $mobile-line-height: 1.8em;
 
 .soft-gray {
     color: $soft-gray;
+}
+
+.blue-gray {
+    color: $blue-gray;
 }

@@ -1,0 +1,31 @@
+.quick-pitch-wrapper {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.quick-pitch-container {
+    border-style: solid;
+    border-color: $soft-gray;
+    border-width: 3px;
+    padding: 15px;
+    margin: 10px;
+    max-width: 400px;
+    min-height: 400px;
+}
+
+.quick-pitch-container h1 {
+    color: $soft-gray;
+    align: center;
+    font-weight: 300;
+}
+
+.quick-pitch-container p {
+    color: $soft-gray;
+}

@@ -101,11 +101,11 @@
 // - - Explainer
 .explainer {
 
-    $convo-background: $blue;
+    $convo-background: white;
     background-position: 0 35%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: $blue;
+    background-color: white;
     color: white;
     padding: 5em 0;
     text-align: left;
@@ -158,9 +158,55 @@
 
 // - - - - - - - - - - - - - - - - - - -
 // - - Explainer Continued
-.explainer2 {
+.explainer1 {
+    background-position: 0 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $blue;
+    color: white;
+    padding: 5em 0;
+    text-align: right;
 
-    $convo-background: $dark-gray;
+    .button {
+        color: white;
+        border-color: white;
+
+        &:hover {
+            color: $blue;
+        }
+    }
+
+    .explainer__content1 {
+        @include outer-container;
+
+        max-width: 50em;
+
+        > h2 {
+            color: white;
+            margin-bottom: 0.6em;
+
+             @include media($mobile) {
+                font-size: $mobile-title-size;
+            }
+        }
+
+        > p {
+            font-size: 1.3em;
+            margin-bottom: 1.5em;
+
+            @include media($mobile) {
+                font-size: $mobile-subtitle-size;
+            }
+        }
+    }
+    // .convo - mobile view
+    @include media($mobile) {
+        padding: $mobile-padding;
+    }
+}
+// - - - - - - - - - - - - - - - - - - -
+// - - Explainer Continued
+.explainer2 {
     background-position: 0 35%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,7 +220,6 @@
         border-color: white;
 
         &:hover {
-            background-color: white;
             color: $blue;
         }
     }

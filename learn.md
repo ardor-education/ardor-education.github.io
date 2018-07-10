@@ -5,7 +5,7 @@ permalink: /learn/
 ---
 <!-- learning
 ================================================== -->
-<article class="explainer hero hero--home">
+<article class="explainer hero white-background">
   <main>
     <input id="tab1" type="radio" name="tabs" checked>
     <label for="tab1">Devices</label>
