@@ -11,21 +11,44 @@
 }
 
 .quick-pitch-container {
+    align-self: flex-start;
     border-style: solid;
     border-color: $soft-gray;
     border-width: 3px;
     padding: 15px;
     margin: 10px;
+    height: 100%;
     max-width: 400px;
-    min-height: 400px;
+    min-height: 480px;
 }
 
-.quick-pitch-container h1 {
-    color: $soft-gray;
-    align: center;
-    font-weight: 300;
+.quick-pitch-container {
+    height: 100%;
+    h2 {
+        color: $soft-gray;
+        align: center;
+        font-weight: 300;
+    }
+    ul {
+        padding-left: 20px;
+        color: $soft-gray;
+    }
 }
 
-.quick-pitch-container p {
-    color: $soft-gray;
+.quick-pitch-footer {
+    padding: 15px;
+     p {
+        color: $soft-gray;
+        font-size: 0.8em;
+    }
+    a {
+        color: $soft-gray;
+        text-decoration: underline;
+    }
+}
+
+.pitch-image {
+    height: 200px;
+    overflow: hidden; 
+    margin-bottom: 10px;
 }
