@@ -26,74 +26,106 @@ $iphone-pos-left: 19;
 }
 
 @include media(">real-big") {
-    .wrapper-content {
-        max-height: 800px;
-    }
-    .features-text {
-        position: relative;
-        top: 0px;
-        left: 790px;
-        width: 500px;
-    }
-    .features-images {
-        top: -490px;
-    }
+  .wrapper-content {
+      max-height: 800px;
+  }
+  // Features explainer section 
+  .feature-wrapper {
+    min-height: 800px;
+  }
+  .features-text {
+      position: relative;
+      top: 0px;
+      left: 790px;
+      width: 500px;
+  }
+  .features-images {
+      top: -490px;
+  }
+  #ardorVideo {
+    width: 1280px;
+    height: 720px;
+  }
 }
 
 @include media(">big", "<=real-big") {
-    .wrapper-content {
-        max-height: 800px;
-    }
-    .features-images {
-        top: -480px;
-        width: 480px;
-    }
-    .features-text {
-        position: relative;
-        top: 0px;
-        left: 560px;
-        width: 400px;
-    }
-    .device.macbook {
-        width: 528px;
-        margin: 0 -425px 0 -50px;
-    }
+  #ardorVideo {
+    width: 1280px;
+    height: 720px;
+  }
+    // Features explainer section 
+  .feature-wrapper {
+    padding-top: 40px;
+    min-height: 750px;
+  }
+  .features-images {
+      top: -480px;
+      width: 480px;
+  }
+  .features-text {
+      position: relative;
+      top: 0px;
+      left: 560px;
+      width: 400px;
+  }
+  .device.macbook {
+      width: 528px;
+      margin: 0 -425px 0 -50px;
+  }
 
-    .device.macbook .screen {
-        left: 63.36px;
-        top: 20px;
-        width: 398.72px;
-        height: 254.72px;
-    }
-    .device.iphone {
-        margin: 50px 0 0 175px;
-    }
+  .device.macbook .screen {
+      left: 63.36px;
+      top: 20px;
+      width: 398.72px;
+      height: 254.72px;
+  }
+  .device.iphone {
+      margin: 50px 0 0 175px;
+  }
 }
 
 @include media(">large", "<=big") {
-    .features-images {
-        top: -290px;
-    }
-    .features-text {
-        position: relative;
-        top: 540px;
-        left: 0px;
-        float: left;
-        width: 500px; // 2x must be smaller than big 1198px;
-        padding: 0 0 0 50px;
-    }
-    .device.macbook {
-        margin: 0 -425px 0 -90px;
-    }
-    .device.iphone {
-        margin: 90px 0 0 77px;
-    }
+  #ardorVideo {
+    width: 1280px;
+    height: 720px;
+  }
+
+  // Features explainer section 
+  .feature-wrapper {
+    min-height: 1000px;
+  }
+  .features-images {
+      top: -290px;
+  }
+  .features-text {
+      position: relative;
+      top: 540px;
+      left: 0px;
+      float: left;
+      width: 500px; // 2x must be smaller than big 1198px;
+      padding: 0 0 0 50px;
+  }
+  .device.macbook {
+      margin: 0 -425px 0 -90px;
+  }
+  .device.iphone {
+      margin: 90px 0 0 77px;
+  }
 }
 
 // Scalar variables for images
 $medium-percent: 0.7;
 $medium-iphone-percent: 0.9;
-@include media(">small", "<=large") {  //TODO change this to medium.
+@include media(">small", "<=large") {  
+      // Hero: Logo and title
+    .hero--home #Logo {
+        margin-top: 30px;
+        width: 100px;
+    }
+
+    .hero__content h1 {
+      font-size: 3em;
+    }
     // NOTE these are lead page styles.
     // TODO move to another stylesheet reflective of this page.
     #first-title-area {
@@ -106,10 +138,37 @@ $medium-iphone-percent: 0.9;
       width: 450px;
     }
     // Features
+    .feature-wrapper {
+      height: 500px;
+    }
     .wrapper-content {
       padding: 2.5em 0 3.4em 0;
       overflow-y: hidden;
-      height: 660px;
+    }
+    // testimonial 
+    .testimonial-wrapper {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+
+    // Pitch Area 
+    .pitch-image {
+      height: 200px;
+    }
+
+    .quick-pitch-wrapper {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+
+    .quick-pitch-container {
+      min-height: 0px;
+      width: 100%;
+    }
+
+    // Features explainer section 
+    .feature-wrapper {
+      min-height: 800px;
     }
     .features-images {
       position: relative;
@@ -210,6 +269,16 @@ $small-iphone-percent: 0.8;
 
 // TODO can I use @content to reuse media-query code blocks?
 @include media("<=small") {
+    // Hero: Logo and title
+    .hero--home #Logo {
+        margin-top: 40px;
+        width: 100px;
+    }
+
+    .hero__content h1 {
+      font-size: 2.5em;
+    }
+
     // NOTE these are lead page styles.
     // TODO move to another stylesheet reflective of this page.
     #first-title-area {
@@ -224,12 +293,11 @@ $small-iphone-percent: 0.8;
     // Features Styels
     .wrapper-content {
       padding: 2.5em 0 3.4em 0;
-      height: 800px;
     }
-    // NOTE: this is hacky. Hiding the title on small screens
-    // The title color matches the background color.
-    .wrapper-content h2 {
-      color:  #3498DB;
+
+    // Features explainer section 
+    .feature-wrapper {
+      min-height: 800px;
     }
     .features-text {
         position: relative;
@@ -247,11 +315,11 @@ $small-iphone-percent: 0.8;
     }
 
     .features-images {
-      position: absolute;
-      top: 910px; // NOTE This is a work-arround-due to the limitations with CSS selector. Text can't be in a flex-box.
-      display: block;
-      float: left;
-      width: 690px;
+        position: relative;
+        top: -280px; // NOTE: This is a bit of a hack Due to limitations of a CSS selector restricting the order of of the page elements.
+        display: block;
+        float: left;
+        width: 690px;
     }
     .device.macbook {
       margin: 0 -425px 0 -100px;
@@ -324,6 +392,26 @@ $small-iphone-percent: 0.8;
     // when the videos are moved from the main page.
     iframe {
       width: 80%;
+    }
+
+    // Pitch Area 
+    .pitch-image {
+      height: 200px;
+    }
+
+    .quick-pitch-wrapper {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+
+    .quick-pitch-container {
+      min-height: 0px;
+    }
+
+    // testimonial 
+    .testimonial-wrapper {
+      -webkit-flex-direction: column;
+      flex-direction: column;
     }
 
 }
