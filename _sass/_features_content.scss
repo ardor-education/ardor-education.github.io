@@ -10,7 +10,9 @@
 
 // Text Featueres
 .features-text {
-    z-index: 9;
+  position: relative;
+  left: 40px;
+  z-index: 9;
 }
 
 .features-text h3 {

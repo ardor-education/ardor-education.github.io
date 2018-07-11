@@ -25,6 +25,7 @@ $iphone-pos-left: 19;
   left: ($left * $percent) + px;
 }
 
+// NOTE: something in this file is causing a weird "right-side" white issue that is messing up wrapper-content positioning. 
 @include media(">real-big") {
   .wrapper-content {
       max-height: 800px;
@@ -34,56 +35,66 @@ $iphone-pos-left: 19;
     min-height: 800px;
   }
   .features-text {
-      position: relative;
-      top: 0px;
-      left: 790px;
-      width: 500px;
+    width: 500px;
   }
+
+  // NOTE: Positioning has to be done relative to screen size. Flex-boxes are not possible due to the CSS selector
   .features-images {
-      top: -490px;
+    position: relative;
+    top: -500px;
+    left: 550px;
   }
+
+  .device.iphone {
+    top: -350px;
+    left: 450px;
+  }
+
   #ardorVideo {
     width: 1280px;
     height: 720px;
   }
 }
 
+$big-percent: 0.8;
 @include media(">big", "<=real-big") {
   #ardorVideo {
     width: 1280px;
     height: 720px;
   }
-    // Features explainer section 
+  
+  // Features explainer section 
   .feature-wrapper {
     padding-top: 40px;
     min-height: 750px;
   }
+
   .features-images {
-      top: -480px;
-      width: 480px;
+    width: 480px;
+    max-height: 500px;
   }
+   
   .features-text {
-      position: relative;
-      top: 0px;
-      left: 560px;
-      width: 400px;
+    position: relative;
+    left: 40px;
   }
+
   .device.macbook {
-      width: 528px;
-      margin: 0 -425px 0 -50px;
+      @include scale-width($macbook-width, $big-percent);
+      overflow: hidden;
   }
 
   .device.macbook .screen {
-      left: 63.36px;
-      top: 20px;
-      width: 398.72px;
-      height: 254.72px;
+      @include scale-width($macbook-screen-width, $big-percent);
+      @include scale-height($macbook-screen-height, $big-percent);
+      @include align-pos($macbook-pos-top, $macbook-pos-left, $big-percent);
   }
   .device.iphone {
-      margin: 50px 0 0 175px;
+
   }
 }
 
+/**
 @include media(">large", "<=big") {
   #ardorVideo {
     width: 1280px;
@@ -112,6 +123,7 @@ $iphone-pos-left: 19;
       margin: 90px 0 0 77px;
   }
 }
+*/
 
 // Scalar variables for images
 $medium-percent: 0.7;

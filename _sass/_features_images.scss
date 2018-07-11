@@ -1,15 +1,10 @@
 // Devices and screens.
 .features-images {
-  position: relative;
-  top: -400px; // NOTE This is a work-arround-due to the limitations with CSS selector. Text can't be in a flex-box.
-  display: block;
-  float: left;
-  width: 690px;
+  position: absolute;
 }
 
 .device {
-  float: left;
-  position: relative;
+
 }
 
 .device>img {
@@ -41,7 +36,6 @@ img {
 .device.macbook {
   z-index: 1;
   width: 825px;
-  margin: 0 -425px 0 -100px;
 }
 
 .device.macbook .screen {
@@ -54,7 +48,7 @@ img {
 .device.iphone {
   z-index: 2;
   width: 212px;
-  margin: 90px 0 0 178px;
+  position: relative;
 }
 
 .device.iphone .screen {
