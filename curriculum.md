@@ -4,8 +4,8 @@ title: curriculum
 permalink: /curriculum/
 ---
 <!-- curriculum
-================================================== -->
-<article class="explainer heros">
+===========================================s======= -->
+<article class="explainer hero">
   <main>
 
     <input id="tab1" type="radio" name="tabs" checked>

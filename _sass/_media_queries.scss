@@ -1,6 +1,5 @@
 $breakpoints: (small: 480px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
 
-// NOTE: should these variables be global for all features style pages?
 $macbook-width: 825;
 $macbook-screen-width: 623;
 $macbook-screen-height: 389;
@@ -25,20 +24,20 @@ $iphone-pos-left: 19;
   left: ($left * $percent) + px;
 }
 
-// NOTE: something in this file is causing a weird "right-side" white issue that is messing up wrapper-content positioning. 
 @include media(">real-big") {
   .wrapper-content {
-      max-height: 800px;
+    max-height: 800px;
   }
+
   // Features explainer section 
   .feature-wrapper {
     min-height: 800px;
   }
+
   .features-text {
     width: 500px;
   }
 
-  // NOTE: Positioning has to be done relative to screen size. Flex-boxes are not possible due to the CSS selector
   .features-images {
     position: relative;
     top: -500px;
@@ -66,15 +65,16 @@ $big-percent: 0.8;
   .wrapper-content {
     max-height: 800px;
   }
+
   // Features explainer section 
   .feature-wrapper {
     min-height: 800px;
   }
+
   .features-text {
     width: 500px;
   }
 
-  // NOTE: Positioning has to be done relative to screen size. Flex-boxes are not possible due to the CSS selector
   .features-images {
     position: relative;
     top: -500px;
@@ -91,6 +91,7 @@ $big-percent: 0.8;
       @include scale-height($macbook-screen-height, $big-percent);
       @include align-pos($macbook-pos-top, $macbook-pos-left, $big-percent);
   }
+
   .device.iphone {
     top: -350px;
     left: 350px;
@@ -117,8 +118,8 @@ $medium-iphone-percent: 0.9;
     position: relative;
     left: 455px;
     top: -575px;
-
   }
+
   .device.macbook .screen {
     @include scale-width($macbook-screen-width, $medium-percent);
     @include scale-height($macbook-screen-height, $medium-percent);
@@ -129,183 +130,199 @@ $medium-iphone-percent: 0.9;
     top: -750px;
     left: 650px;
   }
-
 }
 
-// Scalar variables for images
 $small-percent: 0.4;
 $small-iphone-percent: 0.7;
 @include media(">small", "<=large") {  
-      // Hero: Logo and title
-    .hero--home #Logo {
-        margin-top: 30px;
-        width: 100px;
-    }
+    // Hero: Logo and title
+  .hero--home #Logo {
+      margin-top: 30px;
+      width: 100px;
+  }
 
-    .hero__content h1 {
-      font-size: 3em;
-    }
-    // sign-up button 
-    .sign-up-button {
-      font-size: 1.1em;
-      padding: 15px;
-    }
+  .hero__content h1 {
+    font-size: 3em;
+  }
 
-    #first-title-area {
-      width: 100%;
-    }
-    #second-title-area {
-      width: 100%;
-    }
-    .phone-image, .title-image {
-      width: 450px;
-    }
+  // sign-up button 
+  .sign-up-button {
+    font-size: 1.1em;
+    padding: 15px;
+  }
 
-    .wrapper-content {
-      padding: 2.5em 0 3.4em 0;
-      overflow-y: hidden;
-    }
-    // testimonial 
-    .testimonial-wrapper {
-      -webkit-flex-direction: column;
-      flex-direction: column;
-    }
+  // testimonial 
+  .testimonial-wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
 
-    // Pitch Area 
-    .pitch-image {
-      height: 200px;
-    }
+  // Pitch Area 
+  .pitch-image {
+    height: 200px;
+  }
 
-    .quick-pitch-wrapper {
-      -webkit-flex-direction: column;
-      flex-direction: column;
-    }
+  .quick-pitch-wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
 
-    .quick-pitch-container {
-      min-height: 0px;
-      width: 100%;
-    }
+  .quick-pitch-container {
+    min-height: 0px;
+    width: 100%;
+  }
 
-    .device.macbook {
-      @include scale-width($macbook-width, $small-percent);
-      position: relative;
-      left: 255px;
-      top: -255px;
-      z-index: 0;
+  // Feature section
+  .phone-image, .title-image {
+    width: 450px;
+  }
 
-    }
+  .wrapper-content {
+    padding: 2.5em 0 3.4em 0;
+    overflow-y: hidden;
+  }
 
-    .device.macbook .screen {
-      @include scale-width($macbook-screen-width, $small-percent);
-      @include scale-height($macbook-screen-height, $small-percent);
-      @include align-pos($macbook-pos-top, $macbook-pos-left, $small-percent);
-    }
+  .device.macbook {
+    @include scale-width($macbook-width, $small-percent);
+    position: relative;
+    left: 255px;
+    top: -255px;
+    z-index: 0;
 
-    .device.iphone {
-      margin: 0px;
-      position: relative;
-      left: 420px;
-      top: -460px;
-      @include scale-width($iphone-width, $small-iphone-percent);
-    }
+  }
 
-    .device.iphone .screen {
-      @include scale-width($iphone-screen-width, $small-iphone-percent);
-      @include scale-height($iphone-screen-height, $small-iphone-percent);
-      @include align-pos($iphone-pos-top, $iphone-pos-left, $small-iphone-percent);
-    }
+  .device.macbook .screen {
+    @include scale-width($macbook-screen-width, $small-percent);
+    @include scale-height($macbook-screen-height, $small-percent);
+    @include align-pos($macbook-pos-top, $macbook-pos-left, $small-percent);
+  }
 
-    // Position Features Text over the images.
-    #personalized-text,
-    #badges-text,
-    #help-text,
-    #standards-text,
-    #reports-text,
-    #more-math-text {
-      display: none;
-    }
+  .device.iphone {
+    margin: 0px;
+    position: relative;
+    left: 420px;
+    top: -460px;
+    @include scale-width($iphone-width, $small-iphone-percent);
+  }
+
+  .device.iphone .screen {
+    @include scale-width($iphone-screen-width, $small-iphone-percent);
+    @include scale-height($iphone-screen-height, $small-iphone-percent);
+    @include align-pos($iphone-pos-top, $iphone-pos-left, $small-iphone-percent);
+  }
+
+  // Position Features Text over the images.
+  #personalized-text,
+  #badges-text,
+  #help-text,
+  #standards-text,
+  #reports-text,
+  #more-math-text {
+    display: none;
+  }
 }
 
-// Scalar Variables for images
 $small-percent: 0.4;
 $small-iphone-percent: 0.8;
-// TODO can I use @content to reuse media-query code blocks?
 @include media("<=small") {
-    // Hero: Logo and title
-    .hero--home #Logo {
-        margin-top: 40px;
-        width: 100px;
-    }
+  // Hero: Logo and title
+  .hero--home #Logo {
+    margin-top: 40px;
+    width: 100px;
+  }
 
-    .hero__content h1 {
-        font-size: 2em;
-    }
-    // sign-up button 
-    .sign-up-button {
-      font-size: 1.1em;
-      padding: 15px;
-    }
+  .hero__content h1 {
+    font-size: 2em;
+  }
 
-    // NOTE these are lead page styles.
-    // TODO move to another stylesheet reflective of this page.
-    #first-title-area {
-      width: 100%;
-    }
-    #second-title-area {
-      width: 100%;
-    }
-    .phone-image, .title-image {
-      width: 380px;
-    }
-    // Features Styels
-    .wrapper-content {
-      padding: 2.5em 0 3.4em 0;
-    }
+  #first-title-area {
+    width: 100%;
+  }
+  #second-title-area {
+    width: 100%;
+  }
 
-    .device.macbook {
-      @include scale-width($macbook-width, $small-percent);
-      position: relative;
-      left: 30px;
-      top: 20px;
-      z-index: 0;
-    }
+  // sign-up button 
+  .sign-up-button {
+    font-size: 1.1em;
+    padding: 15px;
+  }
 
-    .device.macbook .screen {
-      @include scale-width($macbook-screen-width, $small-percent);
-      @include scale-height($macbook-screen-height, $small-percent);
-      @include align-pos($macbook-pos-top, $macbook-pos-left, $small-percent);
-    }
+  .wrapper-content {
+    padding: 2.5em 0 3.4em 0;
+  }
 
-    .device.iphone {
-      margin: 0px;
-      position: relative;
-      left: 160px;
-      top: -170px;
-      @include scale-width($iphone-width, $small-iphone-percent);
-    }
+  // Pitch Area 
+  .pitch-image {
+    height: 200px;
+  }
 
-    .device.iphone .screen {
-      @include scale-width($iphone-screen-width, $small-iphone-percent);
-      @include scale-height($iphone-screen-height, $small-iphone-percent);
-      @include align-pos($iphone-pos-top, $iphone-pos-left, $small-iphone-percent);
-    }
+  .quick-pitch-wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
 
-    .feature-wrapper {
-      height: 500px;
-    }
-    .features-text h3 {
-      display: none; // hide text. Only icons are display on small screens.
-    }
+  .quick-pitch-container {
+    min-height: 0px;
+  }
 
-    // Position Features Text over the images.
-    #personalized-text,
-    #badges-text,
-    #help-text,
-    #standards-text,
-    #reports-text,
-    #more-math-text {
-      display: none;
-    }
+  // testimonial 
+  .testimonial-wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  // Feature sections
+  .phone-image, .title-image {
+    width: 380px;
+  }
+  
+  .device.macbook {
+    @include scale-width($macbook-width, $small-percent);
+    position: relative;
+    left: 30px;
+    top: 20px;
+    z-index: 0;
+  }
+
+  .device.macbook .screen {
+    @include scale-width($macbook-screen-width, $small-percent);
+    @include scale-height($macbook-screen-height, $small-percent);
+    @include align-pos($macbook-pos-top, $macbook-pos-left, $small-percent);
+  }
+
+  .device.iphone {
+    margin: 0px;
+    position: relative;
+    left: 160px;
+    top: -170px;
+    @include scale-width($iphone-width, $small-iphone-percent);
+  }
+
+  .device.iphone .screen {
+    @include scale-width($iphone-screen-width, $small-iphone-percent);
+    @include scale-height($iphone-screen-height, $small-iphone-percent);
+    @include align-pos($iphone-pos-top, $iphone-pos-left, $small-iphone-percent);
+  }
+
+  .feature-wrapper {
+    height: 500px;
+  }
+
+  // hide text. Only icons are display on small screens.
+  .features-text h3 {
+    display: none; 
+  }
+
+  // Hide extended feature text on phones.
+  #personalized-text,
+  #badges-text,
+  #help-text,
+  #standards-text,
+  #reports-text,
+  #more-math-text {
+    display: none;
+  }
 
   .feature-icon {
     margin: 0px 10px 5px 0px;
@@ -315,29 +332,7 @@ $small-iphone-percent: 0.8;
     width: 30px;
   }
 
-    // TODO move this to another stylesheet
-    // when the videos are moved from the main page.
-    iframe {
-      width: 80%;
-    }
-
-    // Pitch Area 
-    .pitch-image {
-      height: 200px;
-    }
-
-    .quick-pitch-wrapper {
-      -webkit-flex-direction: column;
-      flex-direction: column;
-    }
-
-    .quick-pitch-container {
-      min-height: 0px;
-    }
-
-    // testimonial 
-    .testimonial-wrapper {
-      -webkit-flex-direction: column;
-      flex-direction: column;
-    }
+  iframe {
+    width: 80%;
+  }
 }
