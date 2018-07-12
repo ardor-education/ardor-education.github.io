@@ -65,6 +65,6 @@ button, .button {
     // mobile view
     @include media($mobile) {
         padding-top: 1em;
-        width: 67.5px;
+        width: 120px;
     }
 }
