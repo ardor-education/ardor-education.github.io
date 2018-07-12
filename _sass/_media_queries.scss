@@ -82,14 +82,14 @@ $big-percent: 0.8;
   }
 
   .device.macbook {
-      @include scale-width($macbook-width, $big-percent);
-      overflow: hidden;
+    @include scale-width($macbook-width, $big-percent);
+    overflow: hidden;
   }
 
   .device.macbook .screen {
-      @include scale-width($macbook-screen-width, $big-percent);
-      @include scale-height($macbook-screen-height, $big-percent);
-      @include align-pos($macbook-pos-top, $macbook-pos-left, $big-percent);
+    @include scale-width($macbook-screen-width, $big-percent);
+    @include scale-height($macbook-screen-height, $big-percent);
+    @include align-pos($macbook-pos-top, $macbook-pos-left, $big-percent);
   }
 
   .device.iphone {

@@ -18,9 +18,6 @@
 
 .feature {
   @include outer-container;
-  // Padding removed for no image.
-  //padding-top: 0em;
-
 }
 
 // Title landing page elemements
@@ -81,30 +78,28 @@
 #sub-area a {
   color: white;
 }
-
+// Sign up button
 .line-through{ 
   text-decoration: line-through;
   font-style: italic;
   color: gray;
 }
+
 .free {
   font-weight: bolder;
 }
 
 .price {
-    font-size: 1em;
-    margin-bottom: 0em;
+  font-size: 1em;
+  margin-bottom: 0em;
 }
 
 .sign-up{
-    align-items: center;
-    font-size: 0.8em;
+  align-items: center;
+  font-size: 0.8em;
 }
 
-.courses-available{
-    margin: 0px;
-}
-
+// Feature Section
 .title-image {
   margin-top: 5em;
   margin-bottom: 1.5em;
@@ -112,6 +107,7 @@
   max-width: 600px;
   z-index: 100;
 }
+
 .phone-image {
   align-self: center;
   width: 100%;
