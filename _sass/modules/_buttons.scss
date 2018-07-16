@@ -32,6 +32,16 @@ button, .button {
     }
 }
 
+.sign-up-button {
+    font-size: 1.5em;
+    text-transform: none;
+    padding: 25px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(52, 152, 219, 0.8);
+}
+
 // Outline Button Style
 .button--outline, .button--outline {
     background-color: transparent;
@@ -55,6 +65,6 @@ button, .button {
     // mobile view
     @include media($mobile) {
         padding-top: 1em;
-        width: 67.5px;
+        width: 120px;
     }
 }

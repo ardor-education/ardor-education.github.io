@@ -1,0 +1,338 @@
+$breakpoints: (small: 480px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
+
+$macbook-width: 825;
+$macbook-screen-width: 623;
+$macbook-screen-height: 389;
+$macbook-pos-top: 28;
+$macbook-pos-left: 99;
+
+$iphone-width: 212;
+$iphone-screen-width: 175;
+$iphone-screen-height: 311;
+$iphone-pos-top: 51;
+$iphone-pos-left: 19;
+
+@mixin scale-width($width, $percent) {
+  width: ($width * $percent) + px;
+}
+@mixin scale-height($height, $percent) {
+  height: ($height * $percent) + px;
+}
+
+@mixin align-pos($top, $left, $percent) {
+  top: ($top * $percent) + px;
+  left: ($left * $percent) + px;
+}
+
+@include media(">real-big") {
+  .wrapper-content {
+    max-height: 800px;
+  }
+
+  // Features explainer section 
+  .feature-wrapper {
+    min-height: 800px;
+  }
+
+  .features-text {
+    width: 500px;
+  }
+
+  .features-images {
+    position: relative;
+    top: -500px;
+    left: 550px;
+  }
+
+  .device.iphone {
+    top: -350px;
+    left: 450px;
+  }
+
+  #ardorVideo {
+    width: 1280px;
+    height: 720px;
+  }
+}
+
+$big-percent: 0.8;
+@include media(">big", "<=real-big") {
+  #ardorVideo {
+    width: 1280px;
+    height: 720px;
+  }
+  
+  .wrapper-content {
+    max-height: 800px;
+  }
+
+  // Features explainer section 
+  .feature-wrapper {
+    min-height: 800px;
+  }
+
+  .features-text {
+    width: 500px;
+  }
+
+  .features-images {
+    position: relative;
+    top: -500px;
+    left: 550px;
+  }
+
+  .device.macbook {
+    @include scale-width($macbook-width, $big-percent);
+    overflow: hidden;
+  }
+
+  .device.macbook .screen {
+    @include scale-width($macbook-screen-width, $big-percent);
+    @include scale-height($macbook-screen-height, $big-percent);
+    @include align-pos($macbook-pos-top, $macbook-pos-left, $big-percent);
+  }
+
+  .device.iphone {
+    top: -350px;
+    left: 350px;
+  }
+}
+$medium-percent: 0.7;
+$medium-iphone-percent: 0.9;
+@include media(">large", "<=big") {
+  #ardorVideo {
+    width: 1280px;
+    height: 720px;
+  }
+
+  .quick-pitch-container {
+    min-height: 530px;
+  }
+
+ .features-text p {
+    max-width: 380px;
+  }
+
+  .device.macbook {
+    @include scale-width($macbook-width, $medium-percent);
+    position: relative;
+    left: 455px;
+    top: -575px;
+  }
+
+  .device.macbook .screen {
+    @include scale-width($macbook-screen-width, $medium-percent);
+    @include scale-height($macbook-screen-height, $medium-percent);
+    @include align-pos($macbook-pos-top, $macbook-pos-left, $medium-percent);
+  }
+
+  .device.iphone {
+    top: -750px;
+    left: 650px;
+  }
+}
+
+$small-percent: 0.4;
+$small-iphone-percent: 0.7;
+@include media(">small", "<=large") {  
+    // Hero: Logo and title
+  .hero--home #Logo {
+      margin-top: 30px;
+      width: 100px;
+  }
+
+  .hero__content h1 {
+    font-size: 3em;
+  }
+
+  // sign-up button 
+  .sign-up-button {
+    font-size: 1.1em;
+    padding: 15px;
+  }
+
+  // testimonial 
+  .testimonial-wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  // Pitch Area 
+  .pitch-image {
+    height: 200px;
+  }
+
+  .quick-pitch-wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .quick-pitch-container {
+    min-height: 0px;
+    width: 100%;
+  }
+
+  // Feature section
+  .phone-image, .title-image {
+    width: 450px;
+  }
+
+  .wrapper-content {
+    padding: 2.5em 0 3.4em 0;
+    overflow-y: hidden;
+  }
+
+  .device.macbook {
+    @include scale-width($macbook-width, $small-percent);
+    position: relative;
+    left: 255px;
+    top: -255px;
+    z-index: 0;
+
+  }
+
+  .device.macbook .screen {
+    @include scale-width($macbook-screen-width, $small-percent);
+    @include scale-height($macbook-screen-height, $small-percent);
+    @include align-pos($macbook-pos-top, $macbook-pos-left, $small-percent);
+  }
+
+  .device.iphone {
+    margin: 0px;
+    position: relative;
+    left: 420px;
+    top: -460px;
+    @include scale-width($iphone-width, $small-iphone-percent);
+  }
+
+  .device.iphone .screen {
+    @include scale-width($iphone-screen-width, $small-iphone-percent);
+    @include scale-height($iphone-screen-height, $small-iphone-percent);
+    @include align-pos($iphone-pos-top, $iphone-pos-left, $small-iphone-percent);
+  }
+
+  // Position Features Text over the images.
+  #personalized-text,
+  #badges-text,
+  #help-text,
+  #standards-text,
+  #reports-text,
+  #more-math-text {
+    display: none;
+  }
+}
+
+$small-percent: 0.4;
+$small-iphone-percent: 0.8;
+@include media("<=small") {
+  // Hero: Logo and title
+  .hero--home #Logo {
+    margin-top: 40px;
+    width: 100px;
+  }
+
+  .hero__content h1 {
+    font-size: 2em;
+  }
+
+  #first-title-area {
+    width: 100%;
+  }
+  #second-title-area {
+    width: 100%;
+  }
+
+  // sign-up button 
+  .sign-up-button {
+    font-size: 1.1em;
+    padding: 15px;
+  }
+
+  .wrapper-content {
+    padding: 2.5em 0 3.4em 0;
+  }
+
+  // Pitch Area 
+  .pitch-image {
+    height: 200px;
+  }
+
+  .quick-pitch-wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .quick-pitch-container {
+    min-height: 0px;
+  }
+
+  // testimonial 
+  .testimonial-wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  // Feature sections
+  .phone-image, .title-image {
+    width: 380px;
+  }
+  
+  .device.macbook {
+    @include scale-width($macbook-width, $small-percent);
+    position: relative;
+    left: 30px;
+    top: 20px;
+    z-index: 0;
+  }
+
+  .device.macbook .screen {
+    @include scale-width($macbook-screen-width, $small-percent);
+    @include scale-height($macbook-screen-height, $small-percent);
+    @include align-pos($macbook-pos-top, $macbook-pos-left, $small-percent);
+  }
+
+  .device.iphone {
+    margin: 0px;
+    position: relative;
+    left: 160px;
+    top: -170px;
+    @include scale-width($iphone-width, $small-iphone-percent);
+  }
+
+  .device.iphone .screen {
+    @include scale-width($iphone-screen-width, $small-iphone-percent);
+    @include scale-height($iphone-screen-height, $small-iphone-percent);
+    @include align-pos($iphone-pos-top, $iphone-pos-left, $small-iphone-percent);
+  }
+
+  .feature-wrapper {
+    height: 500px;
+  }
+
+  // hide text. Only icons are display on small screens.
+  .features-text h3 {
+    display: none; 
+  }
+
+  // Hide extended feature text on phones.
+  #personalized-text,
+  #badges-text,
+  #help-text,
+  #standards-text,
+  #reports-text,
+  #more-math-text {
+    display: none;
+  }
+
+  .feature-icon {
+    margin: 0px 10px 5px 0px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 30px;
+  }
+
+  iframe {
+    width: 80%;
+  }
+}

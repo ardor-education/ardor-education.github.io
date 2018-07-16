@@ -16,16 +16,32 @@ $normal-spacing: $base-spacing / 1;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
 // colors
-$blue: #0E6A99;
-$teal: #0E9954;
-$green: #0E9954;
-$red: #99200E;
-$brown: #996633;
 $dark-gray: #333;
 $medium-gray: #666;
+$soft-gray: #ECF0F1;
 $light-gray: #ddd;
-$chartreuse: #999933;
+$text-color:       #111;
+$background-color: #fdfdfd;
+$ardor-blue:      #0E6A99;
+$blue:       #3498DB;
+$red:        #E74C3C;
+$green:      #30B41D;
+$purple:     #731aa7;
+$brown:      #996633;
+$blue-gray: rgb(44, 62, 80);
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
 
 // font colors
 $base-background-color: #fff;
@@ -55,3 +71,44 @@ $mobile-byline-size: 1em;
 
 $mobile-title-line-height: 1.2em;
 $mobile-line-height: 1.8em;
+
+// color classes
+.blue-background {
+  background-color: $blue;
+}
+
+.red-background {
+  background-color: $red;
+}
+
+.green-background {
+  background-color: $red;
+}
+
+.soft-gray-background {
+  background-color: $soft-gray;
+}
+
+.blue-gray-background {
+  background-color: $blue-gray;
+}
+
+.blue {
+  color: $blue;
+}
+
+.red {
+  color: $red;
+}
+
+.green {
+  color: $green;
+}
+
+.soft-gray {
+  color: $soft-gray;
+}
+
+.blue-gray {
+  color: $blue-gray;
+}
