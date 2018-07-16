@@ -1,8 +1,8 @@
 // all heros start from somewhere...
 
 .hero {
-    $hero-background: white; //#e6f0f4; //$dark-gray;
-    $hero-color: black; // #333333; // This is the title subtext.
+    $hero-background: white; 
+    $hero-color: black; 
 
     background: $hero-background;
     color: $hero-color;
@@ -30,7 +30,7 @@
         }
     }
     .hero__content p {
-      color: #333333;
+      color: white;
     }
 
     .hero__content--short {
@@ -275,13 +275,13 @@
 
     // homepage
     &.hero--home {
-        // $hero-image: '../assets/images/bg/home-landing-page.png';
-        // @include background(url($hero-image) no-repeat center center scroll);
-        max-width: 100%;
-        background-color:  $hero-background;
-        background-position: top;
-        background-repeat: no-repeat;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('./../assets/images/hero/classroom.png');
         background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 100vw;
+        height: 100vh;
     }
 
     // about

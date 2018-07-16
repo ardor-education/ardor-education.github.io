@@ -5,8 +5,8 @@ permalink: /setup/
 ---
 <!-- Setup
 ================================================== -->
-<article class="explainer">
-<div class="explainer__content">
+<article class="explainer1">
+<div class="explainer__content1">
     <img class="explainer-computer" src="./../assets/images/explanar/computer_drawing.png" width="378" align="right">
     <h2>Step 1 <br> Setup your Dashboard</h2>
     <p>
