@@ -282,30 +282,15 @@
         background-attachment: fixed;
         width: 100vw;
         height: 100vh;
-    }
+        // tablet view
+        @include media($tablet) {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('./../assets/images/hero/classroom_1024.png');
+        }
 
-    // about
-    &.hero--about {
-        $hero-image: '../assets/images/bg/about.jpg';
-        @include background(url($hero-image) no-repeat center center scroll);
-        max-width: 100%;
-        background-color:  $hero-background;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    // team
-    &.hero--team {
-        $hero-image: '../assets/images/bg/HawthorneBridge-Pano.jpg';
-        @include background(url($hero-image) no-repeat center center scroll);
-        overflow: hidden;
-        max-width: 100%;
-        background-color:  $hero-background;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
-
+        // mobile view
+        @include media($mobile) {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('./../assets/images/hero/classroom_480.png');
+        }
     }
 
     // contact
@@ -317,44 +302,6 @@
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
-    }
-
-    // ardormath
-    &.hero--ardormath {
-        $hero-image: '../assets/images/bg/amath-landing-page.png';
-        @include background(url($hero-image) no-repeat scroll);
-        max-width: 100%;
-        background-color:  $hero-background;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    &.hero--ardormath-showcase-generation {
-        //$hero-image: '../assets/images/bg/amath-showcase-teacher.png';
-        //@include background(url($hero-image) no-repeat scroll);
-        background-color:  $hero-background;
-        //max-width: 100%;
-        //background-position: top;
-        //background-repeat: no-repeat;
-        //background-size: cover;
-    }
-    &.hero--ardormath-showcase-help {
-        //$hero-image: '../assets/images/bg/amath-showcase-student.png';
-        //@include background(url($hero-image) no-repeat scroll);
-        background-color:  $hero-background;
-        //max-width: 100%;
-        //background-position: top;
-        //background-repeat: no-repeat;
-        //background-size: cover;
-    }
-    &.hero--ardormath-showcase-tracking {
-        //$hero-image: '../assets/images/bg/amath-showcase-help.png';
-        //@include background(url($hero-image) no-repeat scroll);
-        background-color:  $hero-background;
-        //max-width: 100%;
-        //background-position: top;
-        //background-repeat: no-repeat;
-        //background-size: cover;
     }
 
     // not found

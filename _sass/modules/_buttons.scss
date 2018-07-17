@@ -43,6 +43,7 @@ button, .button {
 }
 
 .info-button {
+    z-index: 100;
     margin: 10px;
 }
 .red-button {
@@ -51,6 +52,14 @@ button, .button {
     &:hover,
     &:focus {
         background-color: $darkRed;
+    }
+}
+.blue-button {
+    background-color: $blue;
+    border-color: $blue;
+    &:hover,
+    &:focus {
+        background-color: $darkBlue;
     }
 }
 
