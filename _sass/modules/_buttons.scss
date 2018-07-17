@@ -42,6 +42,19 @@ button, .button {
     background-color: rgba(52, 152, 219, 0.8);
 }
 
+.info-button {
+    margin: 10px;
+}
+.red-button {
+    background-color: $red;
+    border-color: $red;
+    &:hover,
+    &:focus {
+        background-color: $darkRed;
+    }
+}
+
+
 // Outline Button Style
 .button--outline, .button--outline {
     background-color: transparent;

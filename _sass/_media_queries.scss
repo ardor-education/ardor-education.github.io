@@ -24,7 +24,7 @@ $iphone-pos-left: 19;
   left: ($left * $percent) + px;
 }
 
-@include media(">real-big") {
+@include media(">=real-big") {
   .wrapper-content {
     max-height: 800px;
   }
@@ -56,7 +56,7 @@ $iphone-pos-left: 19;
 }
 
 $big-percent: 0.8;
-@include media(">big", "<=real-big") {
+@include media(">=big", "<real-big") {
   #ardorVideo {
     width: 1280px;
     height: 720px;
@@ -99,7 +99,12 @@ $big-percent: 0.8;
 }
 $medium-percent: 0.7;
 $medium-iphone-percent: 0.9;
-@include media(">large", "<=big") {
+@include media(">=large", "<big") {
+  // Base style adjustments
+  h2 {
+    font-size: 1.5em;
+  }
+
   #ardorVideo {
     width: 1280px;
     height: 720px;
@@ -107,6 +112,10 @@ $medium-iphone-percent: 0.9;
 
   .quick-pitch-container {
     min-height: 530px;
+  }
+
+  .pitch-image {
+      max-height: 150px;
   }
 
  .features-text p {
@@ -134,7 +143,7 @@ $medium-iphone-percent: 0.9;
 
 $small-percent: 0.4;
 $small-iphone-percent: 0.7;
-@include media(">small", "<=large") {  
+@include media(">=small", "<large") {  
     // Hero: Logo and title
   .hero--home #Logo {
       margin-top: 30px;
@@ -143,6 +152,9 @@ $small-iphone-percent: 0.7;
 
   .hero__content h1 {
     font-size: 3em;
+  }
+  .hero--home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('./../assets/images/hero/classroom_1084.png');
   }
 
   // sign-up button 
@@ -224,7 +236,7 @@ $small-iphone-percent: 0.7;
 
 $small-percent: 0.4;
 $small-iphone-percent: 0.8;
-@include media("<=small") {
+@include media("<small") {
   // Hero: Logo and title
   .hero--home #Logo {
     margin-top: 40px;
@@ -233,6 +245,10 @@ $small-iphone-percent: 0.8;
 
   .hero__content h1 {
     font-size: 2em;
+  }
+
+  .hero--home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('./../assets/images/hero/classroom_480.png');
   }
 
   #first-title-area {
