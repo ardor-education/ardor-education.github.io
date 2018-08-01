@@ -153,10 +153,9 @@ permalink: /curriculum/
                   </a>
               </p>
           </div>
-          <p>Teacher Dashboard </p>
           <div class="sign-up">
-              <a href="http://accounts.ardoreducation.com" class="button button">30-day free trial</a><br>
-              <p>Change or cancel at anytime.</p>
+              <a href="http://accounts.ardoreducation.com" class="button button">Sign up for free</a><br>
+              <p>No credit card required. Not a trial.</p>
           </div>
         </div>
      </div>
