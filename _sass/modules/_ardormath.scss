@@ -75,17 +75,21 @@
   min-width: 400px;
 }
 
-#sub-area a {
+.hero-link {
   color: white;
+  font-weight: 600;
+  text-decoration: underline;
 }
+
 // Sign up button
-.line-through{ 
+.line-through { 
   text-decoration: line-through;
   font-style: italic;
   color: gray;
 }
 
 .free {
+  font-size: 1.2em;
   font-weight: bolder;
 }
 

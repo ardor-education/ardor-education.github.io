@@ -40,6 +40,8 @@ $green:      #30B41D;
 $purple:     #731aa7;
 $brown:      #996633;
 $blue-gray: rgb(44, 62, 80);
+$WHITE: #f9fafa;
+$BLACK: black;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -73,6 +75,14 @@ $mobile-byline-size: 1em;
 
 $mobile-title-line-height: 1.2em;
 $mobile-line-height: 1.8em;
+
+
+// Fonts
+$TEXT_FONT: Helvetica, Arial, "Lucida Grande", sans-serif;
+$MATH_FONT: "TeX, STIX-Web, Asana-Math, Neo-Euler, Gyre-Pagella, Gyre-Termes, Latin-Modern";
+
+// Font-styles
+$TEXT_SHADOW: rgba(80,80,80, 0.1);
 
 // color classes
 .blue-background {
@@ -113,4 +123,12 @@ $mobile-line-height: 1.8em;
 
 .blue-gray {
   color: $blue-gray;
+}
+
+.black {
+  color: $BLACK;
+}
+
+.black {
+  color: $WHITE;
 }
