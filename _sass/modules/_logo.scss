@@ -11,6 +11,15 @@
     margin-top: 75px;
 }
 
+.title-area-subtext {
+    align-content: right;
+    overflow: auto;
+    p {
+        font-weight: 600;
+        margin: 0px;
+    }
+}
+
 .hero__content h1 {
     font-weight: 300;
     display: flex;
