@@ -40,7 +40,7 @@ permalink: /learn/
                         <img class="app-store-badge" src="./../assets/images/logo/play-store-badge.png">
                     </a>
                     <p>
-                        <a href="https://support.google.com/chromebook/answer/7021273?hl=en">Android for Chromebooks</a>
+                        <a href="{{ site.baseurl }}/chromebooks/">Android for Chromebooks</a>
 
                     </p>
                 </div>
