@@ -5,7 +5,7 @@ button, .button {
     background-color: $action-color;
     border-radius: $base-border-radius;
     border: 2px solid $action-color;
-    color: #fff;
+    color: $WHITE;
     cursor: pointer;
     display: inline-block;
     font-family: $base-font-family;
@@ -23,7 +23,7 @@ button, .button {
     &:hover,
     &:focus {
         background-color: darken($action-color, 15%);
-        color: #fff;
+        color: $WHITE;
     }
 
     &:disabled {
@@ -32,13 +32,14 @@ button, .button {
     }
 }
 
-.sign-up-button {
+a.sign-up-button {
     font-size: 1.5em;
+    color: $WHITE;
     text-transform: none;
     padding: 25px;
     border-radius: 10px;
     border-style: solid;
-    border-color: white;
+    border-color: $WHITE;
     background-color: rgba(52, 152, 219, 0.8);
 }
 
@@ -46,23 +47,32 @@ button, .button {
     z-index: 100;
     margin: 10px;
 }
-.red-button {
+a.red-button {
+    color: $WHITE;
     background-color: $red;
     border-color: $red;
     &:hover,
     &:focus {
         background-color: $darkRed;
+        border-color: $darkRed;
+    }
+    &:visited {
+        color: $WHITE;
     }
 }
-.blue-button {
+a.blue-button {
+    color: $WHITE;
     background-color: $blue;
     border-color: $blue;
     &:hover,
     &:focus {
+        border-color: $darkBlue;
         background-color: $darkBlue;
     }
+    &:visited {
+        color: $WHITE;
+    }
 }
-
 
 // Outline Button Style
 .button--outline, .button--outline {
@@ -72,7 +82,7 @@ button, .button {
     &:hover,
     &:focus {
         background-color: $action-color;
-        color: #fff;
+        color: $WHITE;
     }
 }
 .app-store-badge{

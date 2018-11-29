@@ -41,6 +41,9 @@ a {
     &:focus {
         outline: none;
     }
+    &:visited {
+        color: $action-color;
+    }
 }
 
 hr {
