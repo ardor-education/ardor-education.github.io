@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Contact
+title: contact
 permalink: /contact/
-byline: Help us change the world
 ---
 <!-- Contact Us
 ================================================== -->

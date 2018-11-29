@@ -2,7 +2,6 @@
 layout: default
 title: FAQ
 permalink: /faq/
-byline: Help us change the world
 ---
 <!-- FAQ This list was made in MailChimp. It's ugly code. sorry. :( 
 ================================================== -->
