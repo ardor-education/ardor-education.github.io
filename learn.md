@@ -54,7 +54,7 @@ permalink: /learn/
             Ardor Math is optimized for Chromebooks. It works with both touch screens and track pads. Ardor Math has been designed to look great on screens small, large and everything in between.
           </p>
           <p>
-            The process of installing Android apps from the Play Store on a Chromebook is similar to doing so on an Android device. <a href="https://www.digitaltrends.com/computing/how-to-get-android-apps-on-a-chromebook/">Learn more</a>.
+            The process of installing Android apps from the Play Store on a Chromebook is similar to doing so on an Android device. <a href="{{ site.baseurl }}/chromebooks/">Learn more</a>.
           </p>
         </div>
         <div class="large-image">
