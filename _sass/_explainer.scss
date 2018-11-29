@@ -1,0 +1,48 @@
+
+// - - - - - - - - - - - - - - - - - - -
+// - - Explainer 
+.explainer_wrapper {
+    margin: 4em;
+}
+.explainer {
+    background-position: 0 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em 0;
+
+}
+
+.explainer__content {
+    padding: 5em;
+}
+.explainer__gray {
+    background-color: $dark-gray;
+    color: $WHITE;
+    .button {
+        color: $WHITE;
+        border-color: $WHITE;
+    }
+    h1, h2, h3, h4, h5, h6, p {
+        color: $WHITE;
+    }
+    a {
+        color: $red;
+    }
+}
+.explainer__blue {
+    background-color: $blue;
+    color: $WHITE;
+    .button {
+        color: $WHITE;
+        border-color: $WHITE;
+    }
+    h1, h2, h3, h4, h5, h6, p {
+        color: $WHITE;
+    }
+    a {
+        color: $blue;
+    }
+}
+.explainer__right {
+    text-align: right;
+}
