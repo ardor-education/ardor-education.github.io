@@ -1,7 +1,7 @@
 ---
 layout: default
 title: setup
-permalink: setup
+permalink: /setup/
 ---
 <!-- Setup
 ================================================== -->
