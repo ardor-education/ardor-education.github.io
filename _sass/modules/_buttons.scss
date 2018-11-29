@@ -22,6 +22,7 @@ button, .button {
 
     &:hover,
     &:focus {
+        border-color:  darken($action-color, 15%);
         background-color: darken($action-color, 15%);
         color: $WHITE;
     }
@@ -29,6 +30,9 @@ button, .button {
     &:disabled {
         cursor: not-allowed;
         opacity: 0.5;
+    }
+    &:visited {
+        color: $WHITE;
     }
 }
 

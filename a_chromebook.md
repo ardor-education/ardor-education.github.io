@@ -10,7 +10,8 @@ permalink: /chromebooks/
       <img class="explainer-iPad"  src="./../assets/images/differentiation/chrome-book.png" width="378" align="right">
       <h2>Before you begin using Chromebooks</h2>
       <p>
-        It is very likely that you will need to <b>first enable access to the Ardor Math app</b>.  If this is the case students will be unable to automatically install the Ardor Math app onto a school Chromebook. Send your school IT administrator an email asking for the Ardor Math app to be an approved app. 
+        It is very likely that you will need to <b>first enable access to the Ardor Math app</b>.  Using a student device 
+        <a href="https://play.google.com/store/apps/details?id=com.ardor.algebradojo" target="_blank">click here</a> to search for Ardor Math app. If you don't see the app then you will need to send an email to your school IT administrator asking for the Ardor Math app to be approved. 
       </p>
       <p> We wrote an 
       <!-- 
@@ -40,7 +41,7 @@ permalink: /chromebooks/
         <li>Search for <a href="https://play.google.com/store/apps/details?id=com.ardor.algebradojo" target="_blank">
         Ardor Math</a></li>
         <li>Click <b>Approve</b>.</li>
-        <li>CLick <b>Save</b>.</li>
+        <li>Click <b>Save</b>.</li>
     </ol>
     <br />
     <h2>Decide how apps are installed</h2>
@@ -54,14 +55,14 @@ permalink: /chromebooks/
     <br />
     <br />
     <h2>Enable Android apps for users in an organization</h2>
-    <p>Before you let Google Play store be installed on Chrome devices, make sure you’ve approved and configured apps for users. Otherwise, they might see an empty Google Play store on their device.</p>
+    <p>Your IT Administrator needs to make sure students are approved to use the Ardor Math app. Otherwise, students might see an empty Google Play store on their device.</p>
     <ol>
         <li>From the Admin console Home page, go to Device management and then <b>Chrome management</b>.</li>
         <li>Click <b>User Settings</b>.</li>
         <li>On the left, select the organization where you want to apply the settings. <a href="https://support.google.com/a/answer/4352075" target="_blank">Learn more </a></li>
         <li>Go to the <b>Android applications</b> section.</li>
         <li>From the Android applications on Chrome Devices menu, select <b>Allow</b>.</li>
-        <li>CLick <b>Save</b>.</li>
+        <li>Click <b>Save</b>.</li>
     </ol>
     <a href="https://support.google.com/chrome/a/answer/7131624?hl=en" target="_blank">learn more </a>
 </div>
