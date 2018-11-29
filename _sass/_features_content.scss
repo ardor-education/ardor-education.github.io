@@ -4,8 +4,8 @@
 }
 
 .wrapper-content h2 {
-    text-align: center;
-    color: #ECF0F1;
+  text-align: center;
+  color: #ECF0F1;
 }
 
 // Text Featueres
@@ -14,14 +14,16 @@
   left: 40px;
   z-index: 9;
 }
-
+a.features-text {
+  text-decoration: none; // This is needed for anchor tag styles.
+}
 .features-text h3 {
   color: #0E6A99;
   font-size: 1.2em;
   line-height: 1.2em;
   font-weight: normal;
   text-transform: uppercase;
-  margin: 0px;  // NOTE: I don't know where this margin is comming from?
+  margin: 0px;  // NOTE: I don't know where this margin is coming from?
 }
 
 .features-text p {
@@ -29,7 +31,7 @@
   font-size: 1em;
   line-height: 1.2em;
   font-weight: normal;
-  margin: 0px;  // NOTE: I don't know where this margin is comming from?
+  margin: 0px;  // NOTE: I don't know where this margin is coming from?
   max-width: 500px;
 }
 

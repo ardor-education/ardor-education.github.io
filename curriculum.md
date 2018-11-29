@@ -7,7 +7,6 @@ permalink: /curriculum/
 ===========================================s======= -->
 <article class="explainer hero">
   <main>
-
     <input id="tab1" type="radio" name="tabs" checked>
     <label for="tab1">Grade 7 </label>
 

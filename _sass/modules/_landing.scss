@@ -75,8 +75,8 @@
   min-width: 400px;
 }
 
-.hero-link {
-  color: white;
+a.hero-link {
+  color: darken($WHITE, 15%);
   font-weight: 600;
   text-decoration: underline;
 }

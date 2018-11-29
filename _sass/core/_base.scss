@@ -41,6 +41,9 @@ a {
     &:focus {
         outline: none;
     }
+    &:visited {
+        color: $action-color;
+    }
 }
 
 hr {
@@ -83,7 +86,6 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
-
 
 // Mobile
 @include media($mobile) {
