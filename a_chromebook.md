@@ -6,28 +6,33 @@ permalink: /chromebooks/
 <!-- chromebook
 ===========================================s======= -->
 <article class="explainer">
-  <div class="explainer__content hero">
-      <img class="explainer-iPad"  src="./../assets/images/differentiation/chrome-book.png" width="378" align="right">
-      <h2>Before you begin using Chromebooks</h2>
-      <p>
+  <div class="explainer__content">
+    <img class="explainer-iPad"  src="./../assets/images/differentiation/chrome-book.png" width="378" align="right">
+    <h2>Before you begin using Chromebooks</h2>
+    <p>
         It is very likely that you will need to <b>first enable access to the Ardor Math app</b>.  Using a student device 
         <a href="https://play.google.com/store/apps/details?id=com.ardor.algebradojo" target="_blank">click here</a> to search for Ardor Math app. If you don't see the app then you will need to send an email to your school IT administrator asking for the Ardor Math app to be approved. 
-      </p>
-      <p> We wrote an 
-      <!-- 
+    </p>
+    <p> We wrote an 
+    <!-- 
         A pre-generated email to School IT. 
-      -->
-      <a 
+    -->
+    <a 
         href="mailto:?subject=Ardor%20Math%20on%20Chromebooks&amp;body=I%20would%20like%20students%20to%20be%20able%20to%20use%20the%20Ardor%20Math%20app%20on%20my%20classroom%20chromebooks.%0A%0ATo%20be%20able%20to%20use%20Ardor%20Math%20we%20will%20need%20to%20enable%20Android%20apps%20for%20Chrome%20devices%20and%20approve%20the%20Ardor%20Math%20app.%0A%0AHere%20is%20the%20a%20link%20to%20the%20app.%0A%20https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.ardor.algebradojo%0A%0AHere%20is%20a%20Google%20article%20explaining%20how%20to%20enable%20Android%20apps%20for%20Chromebooks.%20%0Ahttps%3A%2F%2Fsupport.google.com%2Fchrome%2Fa%2Fanswer%2F7131624%3Fhl%3Den%0A%0AThank%20you%2C%0A" target="_blank"
-      >email</a> for you that you can send to your IT administrator.
-      </p>
-      <a 
+    >email</a> for you that you can send to your IT administrator.
+    </p>
+    <a 
         href="mailto:?subject=Ardor%20Math%20on%20Chromebooks&amp;body=I%20would%20like%20students%20to%20be%20able%20to%20use%20the%20Ardor%20Math%20app%20on%20my%20classroom%20chromebooks.%0A%0ATo%20be%20able%20to%20use%20Ardor%20Math%20we%20will%20need%20to%20enable%20Android%20apps%20for%20Chrome%20devices%20and%20approve%20the%20Ardor%20Math%20app.%0A%0AHere%20is%20the%20a%20link%20to%20the%20app.%0A%20https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.ardor.algebradojo%0A%0AHere%20is%20a%20Google%20article%20explaining%20how%20to%20enable%20Android%20apps%20for%20Chromebooks.%20%0Ahttps%3A%2F%2Fsupport.google.com%2Fchrome%2Fa%2Fanswer%2F7131624%3Fhl%3Den%0A%0AThank%20you%2C%0A" target="_blank"
-      class="button info-button red-button">Send Email</a>
+    class="button info-button red-button">Send Email</a>
     <br />
     <a href="https://support.google.com/chrome/a/answer/7131624?hl=en" target="_blank">Read a detailed IT explanation </a>
     <br />
     <br />
+    <h2>IT Administrator Steps</h2>
+    <p>
+        IT Administrators can use the Google<a href="https://support.google.com/chrome/a/answer/7131624?hl=en" target="_blank" > admin console</a> to approve Android Apps for Chromebooks. 
+    </p>
+    
     <h2>Enable Android Apps</h2>
     <p>
         Your IT administrator will need to enable Android apps for Chrome devices in your domain. IE: <i>www.myschool.edu</i>
