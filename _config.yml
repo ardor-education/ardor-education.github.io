@@ -25,10 +25,6 @@ frontPage:
   summary:
   intro:
 
-about:
-  title:
-  summary:
-
 curriculum:
   title: curriculum
   links: >
@@ -319,71 +315,6 @@ curriculum:
       description: >
         to solve for the surface area of various shapes. Including prisms, pyramids,
         cones, cylinders, spheres and mixed shapes.
-
-team:
-  title:
-  summary:
-  profiles:
-    - name: Ardor Education, Inc
-      title: ''
-      image: 'assets/images/logo/ardor-logo A.png'
-      summary: >
-        <p>
-        We are a small team located in Portland OR. We are passionate about education
-        and the power of technology to improve it. Are you a teacher or an advocate
-        for improving math education? We’d love to talk to you.
-        Please send us an <a href="mailto:contact@ardoreducation.com">email</a>
-        so we can begin the conversation.
-        </p>
-    - name: Matt Thornton
-      title: Founder & CEO
-      image: 'assets/images/profile/matthew.jpg'
-      summary: >
-        <p>
-        I have taught math and science in middle and high school for 17 years.
-        I earned a BA in Music, a BA in Math Education, a graduate certification
-        in secondary Math and science education from Central Washington University.
-        I then continued my education earning an MBA with a concentration in international
-        business from Portland State University where I studied abroad in China, and U.AE.,
-        Qatar and Saudi Arabia.   I have worked in private schools, title 1 schools,
-         alternative Ed, and mainstream public schools. I have served as a math coach, and
-         first year teacher mentor.  I now serve as CEO of Ardor Education. While
-         I no longer work in the classroom I believe that once a teacher always a teacher. 
-        </p>
-
-    - name: Chris Trevino
-      title: Co-Founder & CTO
-      image: 'assets/images/profile/chris.jpg'
-      summary: >
-        <p>
-        I have been a professional software developer for over a decade. I earned my B.S in Computer Science at
-        Washington State University (Go Cougs!), and my M.S. in Computer Science at Washington University in St. Louis.
-        I have made software with a variety of software and organizational environments. I've worked in companies
-        large and small, and projects ranging from F/A-18 Mission Control software to high-scale web services with
-        millions of transactions a day.
-        </p>
-        <p>
-        I love mathematics and the clarity it brings to understanding the world. Newton > Liebnitz. When I'm not making
-        software, I enjoy cycling, homebrewing, playing guitar, and board-gaming.
-        </p>
-
-    - name: Isaac Flemming
-      title: Co-Founder & Senior Software Engineer
-      image: 'assets/images/profile/isaac.jpg'
-      summary: >
-        <p>
-        Formally educated in Computer Science I have been an IT professional for over a decade. In this field I am
-        challenged daily to do things better and quicker and in order to do this I have to always be learning. That is
-        one of the things I love the most about what I do, the chance to find out new and interesting things every day.
-        As enjoyable as it is to learn new things though, I get the biggest reward out of helping others learn. Whether
-        it is working with my mom to teach my son about gardening or volunteering to teach high school kids programming.
-        Helping people learn new things and overcome difficulties is an extremely rewarding experience.
-        </p>
-        <p>
-        Now that I am working with Ardor Education I feel like I am able to teach and learn with the rest of the world.
-        I am very excited to be working on products that will help students learn and help teachers teach. Knowing I am
-        part of a group that will change the world, and help change education for the better is as rewarding as it gets.
-        </p>
 
 contactus:
   title: Are You Ready?
