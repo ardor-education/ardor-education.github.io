@@ -34,7 +34,7 @@ permalink: /setup/
                 <a href="https://play.google.com/store/apps/details?id=com.ardor.algebradojo"><img class="app-store-badge" src="./../assets/images/logo/play-store-badge.png"></a>
             </p>
             <p>
-                <a href="https://support.google.com/chromebook/answer/7021273?hl=en">Learn more</a> about Andriod Apps for Chromebooks.
+                <a href="{{ site.baseurl }}/chromebooks/">Learn more</a> about Andriod Apps for Chromebooks.
             </p>
         </div>
     </main>
