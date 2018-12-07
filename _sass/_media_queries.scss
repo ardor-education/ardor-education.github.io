@@ -103,9 +103,16 @@ $medium-iphone-percent: 0.9;
   .logo-text-heading {
     margin-top: 0px;
   }
+
   // Base style adjustments
-  h2 {
-    font-size: 1.5em;
+  .hero__content {
+     h1 {
+      font-size: 3.5em;
+      margin: 0px;
+    }
+  }
+  .hero--home #Logo {
+      width: 150px;
   }
 
   #ardorVideo {
@@ -164,11 +171,10 @@ $small-iphone-percent: 0.7;
   }
 
   // sign-up button 
-  .sign-up-button {
-    font-size: 1.1em;
-    padding: 15px;
+  a.sign-up-button {
+    font-size: 1.2em;
+    padding: 20px;
   }
-
   // testimonial 
   .testimonial-wrapper {
     -webkit-flex-direction: column;
@@ -249,11 +255,12 @@ $small-iphone-percent: 0.8;
   // Hero: Logo and title
   .hero--home #Logo {
     margin-top: 40px;
-    width: 100px;
+    width: 80px;
   }
 
   .hero__content h1 {
-    font-size: 2em;
+    font-weight: 350;
+    font-size: 1.6em;
   }
 
   .hero--home {
@@ -268,9 +275,9 @@ $small-iphone-percent: 0.8;
   }
 
   // sign-up button 
-  .sign-up-button {
-    font-size: 1.8em;
-    padding: 15px;
+  a.sign-up-button {
+    font-size: 1.2em;
+    padding: 20px 10px;
   }
 
   .wrapper-content {
