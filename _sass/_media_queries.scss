@@ -1,4 +1,4 @@
-$breakpoints: (small: 480px, medium: 768px, large: 1024px, big: 1198px, real-big: 1400px);
+$breakpoints: (small: 700px, large: 1024px, big: 1198px, real-big: 1400px);
 
 $macbook-width: 825;
 $macbook-screen-width: 623;
@@ -38,15 +38,17 @@ $iphone-pos-left: 19;
     width: 500px;
   }
 
-  .features-images {
+  .device.macbook {
+    overflow: hidden;
     position: relative;
-    top: -500px;
-    left: 550px;
+    top: -565px;
+    left: 585px;
   }
 
   .device.iphone {
-    top: -350px;
-    left: 450px;
+    position: relative;
+    top: -960px;
+    left: 1112px;
   }
 
   #ardorVideo {
@@ -75,15 +77,12 @@ $big-percent: 0.8;
     width: 500px;
   }
 
-  .features-images {
-    position: relative;
-    top: -500px;
-    left: 550px;
-  }
-
   .device.macbook {
     @include scale-width($macbook-width, $big-percent);
     overflow: hidden;
+    position: relative;
+    top: -565px;
+    left: 555px;
   }
 
   .device.macbook .screen {
@@ -93,8 +92,9 @@ $big-percent: 0.8;
   }
 
   .device.iphone {
-    top: -350px;
-    left: 350px;
+    position: relative;
+    top: -860px;
+    left: 912px;
   }
 }
 $medium-percent: 0.7;
@@ -191,6 +191,9 @@ $small-iphone-percent: 0.7;
   }
 
   // Feature section
+  .features-images {
+    left: 100px;
+  }
   .phone-image, .title-image {
     width: 450px;
   }
