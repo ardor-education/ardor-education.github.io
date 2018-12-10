@@ -20,19 +20,18 @@
     }
 }
 
-.hero__content h1 {
-    font-weight: 300;
-    display: flex;
-    font-size: 5em;
-    color: white;
-}
 .hero__content {
-    
+    padding-top: 3em;
+    h1 {
+        font-weight: 300;
+        display: flex;
+        font-size: 4.5em;
+        color: white;
+    }
 }
 
 // svg specific styles 
 .hero--home #Logo {
-    // TODO: make responsive
     width: 200px;
 
 }
