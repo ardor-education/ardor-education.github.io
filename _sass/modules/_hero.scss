@@ -11,7 +11,7 @@
     .hero__content {
         color: $hero-color;
         text-align: center;
-        padding-top: 6em;
+        padding-top: 3em;
         padding-left: 2em;
         padding-right: 2em;
         padding-bottom: 2em;
@@ -21,7 +21,7 @@
 
         // tablet view
         @include media($tablet) {
-            padding: 5em 1em 5em 1em;
+            padding: 3em 1em 5em 1em;
         }
 
         // mobile view
