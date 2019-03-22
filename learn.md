@@ -28,7 +28,7 @@ permalink: /learn/
        <div class="learn-explainer">
           <h2 class="prod-title">Bring Your Own Device</h2>
           <p>
-            Ardor is an adaptive mathematics application built for the mobile devices found in the bring your own device classroom (BYOD). Have a few classroom iPads but not enough for every student? Don't worry. Ardor Math runs on <strong>mobile phones</strong>,
+            Ardor is an adaptive mathematics application built for the mobile devices found in the bring your own device classroom (BYOD). Have a few classroom iPads but not enough for every student? Don't worry. Ardor Math runs on in any <strong> web browser </strong>, <strong>mobile phones</strong>,
             <strong>Chromebooks</strong>, <strong>iPads</strong>, and <strong>Android tablets</strong>.
           </p>
             <div id="sub-area">
@@ -40,8 +40,10 @@ permalink: /learn/
                         <img class="app-store-badge" src="./../assets/images/logo/play-store-badge.png">
                     </a>
                     <p>
-                        <a href="{{ site.baseurl }}/chromebooks/">Android for Chromebooks</a>
-
+                      <a href="https://accounts.ardoreducation.com">
+                        Sign in 
+                      </a>
+                      to Practice Math in a Web Browser
                     </p>
                 </div>
               </div>
@@ -54,11 +56,11 @@ permalink: /learn/
             Ardor Math is optimized for Chromebooks. It works with both touch screens and track pads. Ardor Math has been designed to look great on screens small, large and everything in between.
           </p>
           <p>
-            The process of installing Android apps from the Play Store on a Chromebook is similar to doing so on an Android device. <a href="{{ site.baseurl }}/chromebooks/">Learn more</a>.
+            <a href="https://accounts.ardoreducation.com">Sign in </a> to practice math in a <strong> web browser </strong> 
           </p>
         </div>
         <div class="large-image">
-          <img src="./../assets/images/differentiation/chrome-book.png">
+          <img src="./../assets/images/landing/chrome-book-web-app.png">
         </div>
       </div>
       <div class="concepts">
@@ -356,7 +358,6 @@ permalink: /learn/
 <article class="hero">
 
     <div class="hero__content">
-      <h3>Download the Free Ardor Math App!</h3>
       <div id="sub-area">
           <div class="badge-area">
               <a href="https://itunes.apple.com/us/app/ardor-math/id953832689?ls=1&mt=8">
@@ -366,9 +367,10 @@ permalink: /learn/
                   <img class="app-store-badge" src="./../assets/images/logo/play-store-badge.png">
               </a>
               <p>
-                  <a href="{{ site.baseurl }}/chromebooks/">
-                    Android for Chromebooks
+                  <a href="https://accounts.ardoreducation.com">
+                    Sign in 
                   </a>
+                  to Practice Math in a Web Browser
               </p>
           </div>
           <div class="sign-up">
