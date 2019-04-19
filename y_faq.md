@@ -14,7 +14,7 @@ permalink: /faq/
     <strong>A:</strong> Grade 7, Grade 8, and Algebra. Other grades levels coming soon.<br />
     <br />
     <strong>Q:</strong> What devices are supported?&nbsp;<br />
-    <strong>A:</strong> iPads, iPhones (iOS), Android tablets and phones, and Chromebooks.<br />
+    <strong>A:</strong> Ardor Math can run in a web browser or be installed ont devices such as iPads, iPhones (iOS), Android tablets and phones, and Chromebooks.<br />
     <br />
     <strong>Q:</strong> Is Ardor Math really free?&nbsp;<br />
     <strong>A: </strong>Yes. We are giving teachers a free classroom.&nbsp;<br />
