@@ -35,10 +35,10 @@ permalink: /faq/
     <strong>A:</strong> We are giving teachers one free classroom with a max of 41 students. With Ardor Unlimited a teacher may create as many classrooms as they like with as many students as they like.&nbsp;<br />
     <br />
     <strong>Q:</strong> How much does Ardor Unlimited cost?&nbsp;<br />
-    <strong>A:</strong> Ardor Unlimited is $14.99 / month or $129.99 / year.&nbsp;<br />
+    <strong>A:</strong> Ardor Unlimited is $24.99 / month or $224.99 / year.&nbsp;<br />
     <br />
     <strong>Q:</strong> Is the Unlimited price per classroom?<br />
-    <strong>A:</strong> No. Ardor Unlimited is a flat $14.99 / month per teacher. That teacher can have as many classrooms as they need.<br />
+    <strong>A:</strong> No. Ardor Unlimited is a flat $24.99 / month per teacher. That teacher can have as many classrooms as they need.<br />
     <br />
     <strong>Q: </strong>Why is Ardor Unlimited so cheap?<br />
     <strong>A: </strong>Matt our founder was a math teacher for 17 years. He understands that teachers do not have much money to spend in their classrooms. So we wanted to make Ardor Math cheaper than printing worksheets. </span><a href="https://medium.com/@matthew_thornton/math-classrooms-deep-six-the-worksheet-96354979843" target="_blank">Here is the proof.</a><span style="color:#000000">&nbsp;</span></span>
