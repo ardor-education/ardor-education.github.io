@@ -167,7 +167,10 @@ $small-iphone-percent: 0.7;
     font-size: 3em;
   }
   .hero--home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('./../assets/images/hero/classroom_1084.png');
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+  ), url('./../assets/images/hero/classroom_1084.png');
   }
 
   // sign-up button 
