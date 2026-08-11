@@ -1,4 +1,4 @@
-# http://www.ardoreducation.com
+# Old Ardor Education Website
 
 ```
 git clone https://github.com/ardor-education/www.ardoreducation.com.git
